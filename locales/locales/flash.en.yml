@@ -1,0 +1,5 @@
+en:
+  flash:
+    create: '%{resource} was successfully created.'
+    update: '%{resource} was successfully updated.'
+    destroy: '%{resource} was successfully destroyed.'
