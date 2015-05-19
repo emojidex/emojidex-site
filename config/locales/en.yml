@@ -1,0 +1,127 @@
+en:
+  inline_install: Install Extension
+  sign_in: Sign In
+  sign_out: Sign Out
+  sign_up: Sign Up
+  submit: Submit
+  accept_terms_of_service: I agree to the terms of service
+  recaptcha:
+    errors:
+      incorrect: There was an error with the reCAPTCHA code below. Please re-enter the code.
+      incorrect_captcha_sol: Error with reCAPTCHA!
+      recaptcha_unavailable: reCAPTCHA unavailable, please reload!
+  auth_token:
+    generate: Generate auth token
+    generated: Token successfully generated!
+    clear: Clear auth token
+    cleared: Token successfully cleared!
+  created_at: Created
+  ago: '%{date} ago'
+  authentication:
+    alert: Authentication Error. Please try again.
+  copyright_purchase:
+    singular: Copyright Flag Purchase
+    plural: Copyright Flag Purchases
+    amount: Amount
+    date: Date
+    emoji_code: emoji code
+    purchase_type: Purchase type
+    card_last_4digits: Card last 4 digits
+    price_in_yen: Price in yen
+    price_in_yen_with_tax: Price in yen with tax
+    copyright: Copyright Flag
+    confirm: Confirm Purchase
+  customer:
+    singular: Customer
+    info: Customer info
+    edit: Edit customer info
+    create: Create customer
+    update: Update customer
+    created: Customer registration successfully created!
+    updated: Customer registration successfully updated!
+    failed: Customer registration failed!
+    card_declined: Card declined
+    incorrect_cvc: Incorrect cvc
+    incorrect_expiry: Incorrect expiry
+    processing_error: Procession error
+    incorrect_number: Incorrect number
+    invalid_expiry_date: Invalid expiry date
+    last_credit_card_numbers: Last digits of credit card number
+  emoji:
+    singular: emoji
+    new: New emoji
+    code: Code
+    list: emoji list
+    r18: R-18
+  favorite:
+    singular: Favorite
+    plural: Favorites
+    unfavorite: Unfavorite
+  tag:
+    singular: Tag
+    plural: Tags
+  category:
+    singular: Category
+    plural: Categories
+    list: Categories List
+  image:
+    singular: Image
+    plural: Images
+  user:
+    login: Username or email
+    not_authorized: You are not authorized to access this page
+    username: Username
+    avatar_not_found: Avatar code not found
+  role:
+    singular: Role
+  search: Search
+  code_not_found: code not found
+  privacy_policy: Privacy Policy
+  terms_of_service: Terms of Service
+  help: Help
+  lang: Language
+  errors:
+    attributes:
+      image:
+        blank: A valid image file must be attached
+  about:
+    emojidex: About emojidex
+    company_informaion: Company Information
+    prices: Prices
+    terms_of_service: Terms of Service
+    general_license_terms_and_conditions: General License Terms & Conditions
+    open_license: Open License
+    emojidex_emoji_license: emojidex™ emoji License
+    privacy_policy: Privacy Policy
+    services: Services
+    licenses: Licenses
+    developers: For Developers
+    sources: Source Code
+    api: API Docs
+  sidebar:
+    all: All
+  user_emoji: My emoji
+  registration_info:
+    singular: Registration Info
+    edit: Edit Registration Info
+    business_name: Business or Trade Name
+    name: Name
+    surname: Surname
+  registrations:
+    user_info:
+      title: User Info
+      email: Email
+      password: Password
+      help_password: (leave blank if you don't want to change it)
+      password_confirmation: Password confirmation
+      current_password: Current password
+      help_current_password: (we need your current password to confirm your changes)
+      avatar_code: Avatar code
+      view_r18: Enable R-18 [Adult] Content
+    connected_account: Connected Account
+  form:
+    update: Update
+    save_changes: Save changes
+  modal:
+    confirm_password: Confirm password
+    cancel: Cancel

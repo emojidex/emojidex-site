@@ -1,0 +1,31 @@
+en:
+  payment:
+    back: 'Back'
+    purchase: 'Purchase'
+    purchase_copyright: 'Purchase Copyright'
+    first_name: 'First Name'
+    last_name: 'Last Name'
+    phone: 'Phone Number'
+    name_help: 'Your name as it appears on the card'
+    card_type: 'Card Type'
+    card_number: 'Card Number'
+    card_number_help: 'Please enter without spaces'
+    card_verification: 'Card Verification'
+    card_verification_help: 'The three digit code to the right of the signature area on the back of your card'
+    card_expires_on:
+      month: 'Card Expiration Month'
+      year: 'Card Expiration Year'
+    address1: 'Address'
+    address2: 'Address Continued'
+    city: 'City'
+    state: 'State'
+    zip: 'Zip'
+    country: 'Country'
+    prompt:
+      card_type: 'Choose Card Type'
+      card_expires_on:
+        month: 'Month'
+        year: 'Year'
+    flash:
+      copyright_success: 'Copyright Purchase Successful'
+      copyright_failure: 'Copyright Purchase failed. Check your customer registration details.'
