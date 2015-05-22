@@ -1,127 +1,198 @@
 en:
-  inline_install: Install Extension
-  sign_in: Sign In
-  sign_out: Sign Out
-  sign_up: Sign Up
-  submit: Submit
+  about:
+    api: API Docs
+    company_information: Corporate Information
+    developers: For Developers
+    emojidex: About emojidex
+    emojidex_emoji_license: emojidex™ emoji License
+    general_license_terms_and_conditions: General License Terms & Conditions
+    licenses: Licenses
+    open_license: Open License
+    prices: Prices
+    privacy_policy: Privacy Policy
+    services: Services
+    sources: Source Code
+    terms_of_service: Terms of Service
   accept_terms_of_service: I agree to the terms of service
+  ago: "%{date} ago"
+  auth_token:
+    clear: Clear auth token
+    cleared: Token successfully cleared!
+    generate: Generate auth token
+    generated: Token successfully generated!
+  authentication:
+    alert: Authentication Error. Please try again.
+  category:
+    list: Categories List
+    plural: Categories
+    singular: Category
+  code_not_found: code not found
+  copyright_purchase:
+    amount: Amount
+    card_last_4digits: Card last 4 digits
+    confirm: Confirm Purchase
+    copyright: Copyright Flag
+    date: Date
+    emoji_code: emoji code
+    plural: Copyright Flag Purchases
+    price_in_yen: Price in yen
+    price_in_yen_with_tax: Price in yen with tax
+    purchase_type: Purchase type
+    singular: Copyright Flag Purchase
+  created_at: Created
+  customer:
+    card_declined: Card declined
+    create: Create customer
+    created: Customer registration successfully created!
+    edit: Edit customer info
+    failed: Customer registration failed!
+    incorrect_cvc: Incorrect cvc
+    incorrect_expiry: Incorrect expiry
+    incorrect_number: Incorrect number
+    info: Customer info
+    invalid_expiry_date: Invalid expiry date
+    last_credit_card_numbers: Last digits of credit card number
+    processing_error: Procession error
+    singular: Customer
+    update: Update customer
+    updated: Customer registration successfully updated!
+  emoji:
+    code: Code
+    homepage_link: Homepage Link
+    list: emoji list
+    new: New emoji
+    r18: R-18
+    singular: emoji
+  errors:
+    attributes:
+      image:
+        blank: A valid image file must be attached
+  favorite:
+    plural: Favorites
+    singular: Favorite
+    unfavorite: Unfavorite
+  flash:
+    create: "%{resource} was successfully created."
+    destroy: "%{resource} was successfully destroyed."
+    update: "%{resource} was successfully updated."
+  form:
+    save_changes: Save changes
+    update: Update
+  help: Help
+  image:
+    plural: Images
+    singular: Image
+  inline_install: Install Extension
+  lang: Language
+  modal:
+    cancel: Cancel
+    confirm_password: Confirm password
+  payment:
+    address1: Address
+    address2: Address Continued
+    back: Back
+    card_expires_on:
+      month: Card Expiration Month
+      year: Card Expiration Year
+    card_number: Card Number
+    card_number_help: Please enter without spaces
+    card_type: Card Type
+    card_verification: Card Verification
+    card_verification_help: The three digit code to the right of the signature area on the back of your card
+    city: City
+    country: Country
+    first_name: First Name
+    flash:
+      copyright_failure: Copyright Purchase failed. Check your customer registration details.
+      copyright_success: Copyright Purchase Successful
+    last_name: Last Name
+    name_help: Your name as it appears on the card
+    phone: Phone Number
+    prompt:
+      card_expires_on:
+        month: Month
+        year: Year
+      card_type: Choose Card Type
+    purchase: Purchase
+    purchase_copyright: Purchase Copyright
+    state: State
+    zip: Zip
+  privacy_policy: Privacy Policy
   recaptcha:
     errors:
       incorrect: There was an error with the reCAPTCHA code below. Please re-enter the code.
       incorrect_captcha_sol: Error with reCAPTCHA!
       recaptcha_unavailable: reCAPTCHA unavailable, please reload!
-  auth_token:
-    generate: Generate auth token
-    generated: Token successfully generated!
-    clear: Clear auth token
-    cleared: Token successfully cleared!
-  created_at: Created
-  ago: '%{date} ago'
-  authentication:
-    alert: Authentication Error. Please try again.
-  copyright_purchase:
-    singular: Copyright Flag Purchase
-    plural: Copyright Flag Purchases
-    amount: Amount
-    date: Date
-    emoji_code: emoji code
-    purchase_type: Purchase type
-    card_last_4digits: Card last 4 digits
-    price_in_yen: Price in yen
-    price_in_yen_with_tax: Price in yen with tax
-    copyright: Copyright Flag
-    confirm: Confirm Purchase
-  customer:
-    singular: Customer
-    info: Customer info
-    edit: Edit customer info
-    create: Create customer
-    update: Update customer
-    created: Customer registration successfully created!
-    updated: Customer registration successfully updated!
-    failed: Customer registration failed!
-    card_declined: Card declined
-    incorrect_cvc: Incorrect cvc
-    incorrect_expiry: Incorrect expiry
-    processing_error: Procession error
-    incorrect_number: Incorrect number
-    invalid_expiry_date: Invalid expiry date
-    last_credit_card_numbers: Last digits of credit card number
-  emoji:
-    singular: emoji
-    new: New emoji
-    code: Code
-    list: emoji list
-    r18: R-18
-  favorite:
-    singular: Favorite
-    plural: Favorites
-    unfavorite: Unfavorite
-  tag:
-    singular: Tag
-    plural: Tags
-  category:
-    singular: Category
-    plural: Categories
-    list: Categories List
-  image:
-    singular: Image
-    plural: Images
-  user:
-    login: Username or email
-    not_authorized: You are not authorized to access this page
-    username: Username
-    avatar_not_found: Avatar code not found
+  registration_info:
+    business_name: Business or Trade Name
+    edit: Edit Registration Info
+    name: Name
+    singular: Registration Info
+    surname: Surname
+  registrations:
+    connected_account: Connected Account
+    premium_subscription:
+      are_you_sure: Are you sure?
+      become_premium_user: Become a Premium User
+      change_premium_plan_to_monthly: Change Premium Plan to Monthly Billing
+      change_premium_plan_to_yearly: Change Premium Plan to Yearly Billing
+      change_your_customer_information: or change your customer information and create new subscription
+      delete_premium_subscription: Delete Premium Subscription
+      go_premium: Go Premium!
+      here: Here
+      monthly: Monthly
+      please_register_as_customer_before_become_premium: You must register your customer details before signing up for Premium service
+      renew: Renew
+      select_plan: Select Plan
+      there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
+      yearly: Yearly
+    user_info:
+      avatar_code: Avatar code
+      current_password: Current password
+      email: Email
+      help_current_password: "(we need your current password to confirm your changes)"
+      help_password: "(leave blank if you don't want to change it)"
+      password: Password
+      password_confirmation: Password confirmation
+      title: User Info
+      view_r18: Enable R-18 [Adult] Content
   role:
     singular: Role
   search: Search
-  code_not_found: code not found
-  privacy_policy: Privacy Policy
-  terms_of_service: Terms of Service
-  help: Help
-  lang: Language
-  errors:
-    attributes:
-      image:
-        blank: A valid image file must be attached
-  about:
-    emojidex: About emojidex
-    company_informaion: Company Information
-    prices: Prices
-    terms_of_service: Terms of Service
-    general_license_terms_and_conditions: General License Terms & Conditions
-    open_license: Open License
-    emojidex_emoji_license: emojidex™ emoji License
-    privacy_policy: Privacy Policy
-    services: Services
-    licenses: Licenses
-    developers: For Developers
-    sources: Source Code
-    api: API Docs
   sidebar:
     all: All
+  sign_in: Sign In
+  sign_out: Sign Out
+  sign_up: Sign Up
+  simple_form:
+    error_notification:
+      default_message: 'Please review the problems below:'
+    hints:
+      user:
+        edit:
+          current_password: Current Password
+          password: Password
+    labels:
+      user:
+        current_password: Current Password
+        name: Name
+        password: Password
+        password_confirmation: Password Confirmation
+        remember_me: Remember Login
+    'no': 'No'
+    required:
+      mark: "*"
+      message: Message
+      text: required
+    'yes': 'Yes'
+  submit: Submit
+  tag:
+    plural: Tags
+    singular: Tag
+  terms_of_service: Terms of Service
+  user:
+    avatar_not_found: Avatar code not found
+    login: Username or email
+    not_authorized: You are not authorized to access this page
+    username: Username
   user_emoji: My emoji
-  registration_info:
-    singular: Registration Info
-    edit: Edit Registration Info
-    business_name: Business or Trade Name
-    name: Name
-    surname: Surname
-  registrations:
-    user_info:
-      title: User Info
-      email: Email
-      password: Password
-      help_password: (leave blank if you don't want to change it)
-      password_confirmation: Password confirmation
-      current_password: Current password
-      help_current_password: (we need your current password to confirm your changes)
-      avatar_code: Avatar code
-      view_r18: Enable R-18 [Adult] Content
-    connected_account: Connected Account
-  form:
-    update: Update
-    save_changes: Save changes
-  modal:
-    confirm_password: Confirm password
-    cancel: Cancel

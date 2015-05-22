@@ -1,0 +1,198 @@
+he:
+  about:
+    api: 
+    company_information: 
+    developers: "למפתחים"
+    emojidex: "לגבי אמוג'ידקס"
+    emojidex_emoji_license: 
+    general_license_terms_and_conditions: 
+    licenses: "רשיון"
+    open_license: 
+    prices: "מחירים"
+    privacy_policy: 
+    services: "שירותים"
+    sources: 
+    terms_of_service: "תנאי שירות"
+  accept_terms_of_service: "אני מסכים לתנאי שירות"
+  ago: 
+  auth_token:
+    clear: 
+    cleared: 
+    generate: 
+    generated: 
+  authentication:
+    alert: 
+  category:
+    list: "רשימת קטגוריות"
+    plural: "קטגוריות"
+    singular: "קטגוריה"
+  code_not_found: "קוד לא נמצא"
+  copyright_purchase:
+    amount: "כמות"
+    card_last_4digits: 
+    confirm: "אישור רכישה"
+    copyright: 
+    date: "תאריך"
+    emoji_code: 
+    plural: 
+    price_in_yen: "מחיר ביין"
+    price_in_yen_with_tax: "מחיר ביין עם מס"
+    purchase_type: 
+    singular: 
+  created_at: "נוצר"
+  customer:
+    card_declined: 
+    create: 
+    created: "הרשמת לקוח נוצרה בהצלחה"
+    edit: 
+    failed: "הרשמת לקוח נכשלה!"
+    incorrect_cvc: 
+    incorrect_expiry: 
+    incorrect_number: 
+    info: "מידעת לקוח"
+    invalid_expiry_date: 
+    last_credit_card_numbers: 
+    processing_error: 
+    singular: 
+    update: 
+    updated: 
+  emoji:
+    code: 
+    homepage_link: 
+    list: 
+    new: 
+    r18: 
+    singular: 
+  errors:
+    attributes:
+      image:
+        blank: 
+  favorite:
+    plural: 
+    singular: 
+    unfavorite: 
+  flash:
+    create: 
+    destroy: 
+    update: 
+  form:
+    save_changes: 
+    update: 
+  help: 
+  image:
+    plural: 
+    singular: 
+  inline_install: 
+  lang: 
+  modal:
+    cancel: 
+    confirm_password: 
+  payment:
+    address1: 
+    address2: 
+    back: 
+    card_expires_on:
+      month: 
+      year: 
+    card_number: 
+    card_number_help: 
+    card_type: 
+    card_verification: 
+    card_verification_help: 
+    city: 
+    country: 
+    first_name: 
+    flash:
+      copyright_failure: 
+      copyright_success: 
+    last_name: 
+    name_help: 
+    phone: 
+    prompt:
+      card_expires_on:
+        month: 
+        year: 
+      card_type: 
+    purchase: 
+    purchase_copyright: 
+    state: 
+    zip: 
+  privacy_policy: 
+  recaptcha:
+    errors:
+      incorrect: 
+      incorrect_captcha_sol: 
+      recaptcha_unavailable: 
+  registration_info:
+    business_name: 
+    edit: 
+    name: 
+    singular: 
+    surname: 
+  registrations:
+    connected_account: 
+    premium_subscription:
+      are_you_sure: 
+      become_premium_user: 
+      change_premium_plan_to_monthly: 
+      change_premium_plan_to_yearly: 
+      change_your_customer_information: 
+      delete_premium_subscription: 
+      go_premium: 
+      here: 
+      monthly: 
+      please_register_as_customer_before_become_premium: 
+      renew: 
+      select_plan: 
+      there_are_problem_with_your_subscription: 
+      yearly: 
+    user_info:
+      avatar_code: 
+      current_password: 
+      email: 
+      help_current_password: 
+      help_password: 
+      password: 
+      password_confirmation: 
+      title: 
+      view_r18: 
+  role:
+    singular: 
+  search: 
+  sidebar:
+    all: 
+  sign_in: 
+  sign_out: 
+  sign_up: 
+  simple_form:
+    error_notification:
+      default_message: 
+    hints:
+      user:
+        edit:
+          current_password: 
+          password: 
+    labels:
+      user:
+        current_password: 
+        name: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    'no': 
+    required:
+      mark: 
+      message: 
+      text: 
+    'yes': 
+  submit: 
+  tag:
+    plural: 
+    singular: 
+  terms_of_service: 
+  user:
+    avatar_not_found: 
+    login: 
+    not_authorized: 
+    username: 
+  user_emoji: 

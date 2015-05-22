@@ -1,127 +1,200 @@
 ja:
-  inline_install: 拡張機能をインストール
-  sign_in: ログイン
-  sign_out: ログアウト
-  sign_up: サインアップ
-  submit: 送信
-  accept_terms_of_service: サービス利用規約に同意します。
-  recaptcha:
-    errors:
-      incorrect: reCAPTCHAコードが違いました。もう一度入力して下さい。
-      incorrect_captcha_sol: キャプチャにエラーが発生しました。
-      recaptcha_unavailable: reCAPTCHAに接続出来ませんでした。再読み込みして下さい。
+  about:
+    api: APIドキュメント
+    company_information: "特定商取引法に基づく表記"
+    developers: "開発資料"
+    emojidex: emojidexについて
+    emojidex_emoji_license: emojidex™ emoji ライセンス
+    general_license_terms_and_conditions: "一般使用許諾条件"
+    licenses: "ライセンス"
+    open_license: "オープンライセンス"
+    prices: "サービス・料金表"
+    privacy_policy: "プライバシーポリシー"
+    services: "サービス"
+    sources: "ソースコード"
+    terms_of_service: "利用規約"
+  accept_terms_of_service: "サービス利用規約に同意します。"
+  ago: "%{date}前"
   auth_token:
-    generate: 認証トークンを作成する
-    generated: 認証トークンを作成しました。
-    clear: 認証トークンを削除する
-    cleared: 認証トークンを削除しました。
-  created_at: 作成日時
-  ago: '%{date}前'
+    clear: "認証トークンを削除する"
+    cleared: "認証トークンを削除しました。"
+    generate: "認証トークンを作成する"
+    generated: "認証トークンを作成しました。"
   authentication:
-    alert: 認証が失敗しました。もう一度試して下さい。
-  copyright_purchase:
-    singular: 著作権フラグの購入履歴
-    plural: 著作権フラグの購入履歴
-    amount: 価格
-    date: 日付
-    emoji_code: 絵文字コード
-    purchase_type: 購入種目
-    card_last_4digits: カード下4桁
-    price_in_yen: 値段[日本円]
-    price_in_yen_with_tax: 税込み価格[日本円]
-    copyright: 著作権フラグ
-    confirm: 支払い確定
-  customer:
-    singular: 決済者
-    info: 決済者情報
-    edit: 決済者情報の編集
-    create: 決済者情報を登録
-    update: 決済者情報を更新
-    created: 決済者情報の登録に成功しました。
-    updated: 決済者情報の更新に成功しました。
-    failed: 決済者情報の登録に失敗しました。
-    card_declined: カードが拒否されました。
-    incorrect_cvc: 不正なセキュリティーコードです。
-    incorrect_expiry: 不正な有効期限です。
-    processing_error: 処理中にエラーが発生しました。
-    incorrect_number: 不正なカード番号です。
-    invalid_expiry_date: 無効な有効期限です。
-    last_credit_card_numbers: クレジットカードの最後の番号
-  emoji:
-    singular: 絵文字
-    new: 絵文字登録
-    code: コード
-    list: 絵文字表
-    r18: R-18
-  favorite:
-    singular: お気に入り
-    plural: お気に入り
-    unfavorite: お気に入り解除
-  tag:
-    singular: タグ
-    plural: タグ
+    alert: "認証が失敗しました。もう一度試して下さい。"
   category:
-    singular: カテゴリー
-    plural: カテゴリー
-    list: カテゴリー一覧
-  image:
-    singular: 画像
-    plural: 画像
-  user:
-    login: ユーザ名またはメールアドレス
-    not_authorized: このページにアクセスする権限がありません
-    username: ユーザ名
-    avatar_not_found: アバターコードが見付かりませんでした
-  role:
-    singular: 役割
-  search: 検索
-  code_not_found: コードが見付かりませんでした
-  privacy_policy: プライバシーポリシー
-  terms_of_service: サービス利用規約
-  help: ヘルプ
-  lang: 言語選択
+    list: "カテゴリー一覧"
+    plural: "カテゴリー"
+    singular: "カテゴリー"
+  code_not_found: "コードが見付かりませんでした"
+  copyright_purchase:
+    amount: "価格"
+    card_last_4digits: "カード下4桁"
+    confirm: "支払い確定"
+    copyright: "著作権フラグ"
+    date: "日付"
+    emoji_code: "絵文字コード"
+    plural: "著作権フラグの購入履歴"
+    price_in_yen: "値段[日本円]"
+    price_in_yen_with_tax: "税込み価格[日本円]"
+    purchase_type: "購入種目"
+    singular: "著作権フラグの購入履歴"
+  created_at: "作成日時"
+  customer:
+    card_declined: "カードが拒否されました。"
+    create: "決済者情報を登録"
+    created: "決済者情報の登録に成功しました。"
+    edit: "決済者情報の編集"
+    failed: "決済者情報の登録に失敗しました。"
+    incorrect_cvc: "不正なセキュリティーコードです。"
+    incorrect_expiry: "不正な有効期限です。"
+    incorrect_number: "不正なカード番号です。"
+    info: "決済者情報"
+    invalid_expiry_date: "無効な有効期限です。"
+    last_credit_card_numbers: "クレジットカードの最後の番号"
+    processing_error: "処理中にエラーが発生しました。"
+    singular: "決済者"
+    update: "決済者情報を更新"
+    updated: "決済者情報の更新に成功しました。"
+  emoji:
+    code: "コード"
+    homepage_link: "ホームページへのリンク"
+    list: "絵文字表"
+    new: "絵文字登録"
+    r18: R-18
+    singular: "絵文字"
   errors:
     attributes:
       image:
-        blank: 画像ファイルを添付する必要があります
-  about:
-    emojidex: emojidexについて
-    company_information: 特定商取引法に基づく表記
-    prices: サービス・料金表
-    terms_of_service: 利用規約
-    general_license_terms_and_conditions: 一般使用許諾条件
-    open_license: オープンライセンス
-    emojidex_emoji_license: emojidex™ emoji ライセンス
-    privacy_policy: プライバシーポリシー
-    services: サービス
-    licenses: ライセンス
-    developers: 開発資料
-    sources: ソースコード
-    api: APIドキュメント
-  sidebar:
-    all: 全て
-  user_emoji: My emoji
-  registration_info:
-    singular: 登記情報
-    edit: 登記情報の編集
-    business_name: 社号/商号
-    name: 名前
-    surname: 名字
-  registrations:
-    user_info:
-      title: ユーザー情報
-      email: メールアドレス
-      password: 新しいパスワード
-      help_password: （変更しない場合は空欄のままにして下さい）
-      password_confirmation: 新しいパスワード（確認用）
-      current_password: 現在のパスワード
-      help_current_password: （ユーザー情報を変更するには現在のパスワードが必要です）
-      avatar_code: アバターコード
-      view_r18: R-18コンテンツを有効にする
-    connected_account: 接続済みアカウント
+        blank: "画像ファイルを添付する必要があります"
+  favorite:
+    plural: "お気に入り"
+    singular: "お気に入り"
+    unfavorite: "お気に入り解除"
+  flash:
+    create: "%{resource}の作成に成功しました。"
+    destroy: "%{resource}の消去に成功しました。"
+    update: "%{resource}の更新に成功しました。"
   form:
-    update: 更新
-    save_changes: 変更を保存
+    save_changes: "変更を保存"
+    update: "更新"
+  help: "ヘルプ"
+  image:
+    plural: "画像"
+    singular: "画像"
+  inline_install: "拡張機能をインストール"
+  lang: "言語選択"
   modal:
-    confirm_password: パスワードの確認
-    cancel: キャンセル
+    cancel: "キャンセル"
+    confirm_password: "パスワードの確認"
+  payment:
+    address1: "住所"
+    address2: "住所 (マンション・アパート名・部屋番号)"
+    back: "前の画面に戻る"
+    card_expires_on:
+      month: "クレジットカード有効期限：月"
+      year: "クレジットカード有効期限：年"
+    card_number: "クレジットカード番号"
+    card_number_help: "スペース無しで入力して下さい。"
+    card_type: "クレジットカード種別"
+    card_verification: "クレジットカードセキュリティコード"
+    card_verification_help: "クレジットカード裏面の署名欄に記載されている、クレジットカード番号の後に記載された3桁の番号です。"
+    city: "市区"
+    country: "国"
+    first_name: "クレジットカード名義人：名"
+    flash:
+      copyright_failure: "著作権フラグの購入に失敗しました、決済者情報を確認して下さい。"
+      copyright_success: "著作権フラグの購入が成功しました。"
+    last_name: "クレジットカード名義人：姓"
+    name_help: "クレジットカードの表示通りに入力して下さい。"
+    phone: "電話番号"
+    prompt:
+      card_expires_on:
+        month: "月"
+        year: "年"
+      card_type: "クレジットカード種別を選択して下さい"
+    purchase: "著作権フラグを購入する"
+    purchase_copyright: "著作権フラグを購入"
+    state: "都道府県"
+    zip: "郵便番号"
+  privacy_policy: "プライバシーポリシー"
+  recaptcha:
+    errors:
+      incorrect: reCAPTCHAコードが違いました。もう一度入力して下さい。
+      incorrect_captcha_sol: "キャプチャにエラーが発生しました。"
+      recaptcha_unavailable: reCAPTCHAに接続出来ませんでした。再読み込みして下さい。
+  registration_info:
+    business_name: "社号/商号"
+    edit: "登記情報の編集"
+    name: "名前"
+    singular: "登記情報"
+    surname: "名字"
+  registrations:
+    connected_account: "接続済みアカウント"
+    premium_subscription:
+      are_you_sure: |-
+        プレミアムユーザーを解除しようとしています。
+        よろしいですか？
+      become_premium_user: "プレミアムユーザーの登録はこちらから"
+      change_premium_plan_to_monthly: "月額プランに変更"
+      change_premium_plan_to_yearly: "年額プランに変更"
+      change_your_customer_information: "または、決済者情報を更新し、新しく登録を行って下さい。"
+      delete_premium_subscription: "プレミアムユーザーを解除"
+      go_premium: "プレミアムユーザーになる"
+      here: "こちら"
+      monthly: "月額プラン"
+      please_register_as_customer_before_become_premium: "プレミアムユーザー登録を行うには利用者情報の登録が必要です。"
+      renew: "プレミアムユーザーになる"
+      select_plan: "プランを選択してください"
+      there_are_problem_with_your_subscription: "プレミアムユーザー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。"
+      yearly: "年額プラン"
+    user_info:
+      avatar_code: "アバターコード"
+      current_password: "現在のパスワード"
+      email: "メールアドレス"
+      help_current_password: "（ユーザー情報を変更するには現在のパスワードが必要です）"
+      help_password: "（変更しない場合は空欄のままにして下さい）"
+      password: "新しいパスワード"
+      password_confirmation: "新しいパスワード（確認用）"
+      title: "ユーザー情報"
+      view_r18: R-18コンテンツを有効にする
+  role:
+    singular: "役割"
+  search: "検索"
+  sidebar:
+    all: "全て"
+  sign_in: "ログイン"
+  sign_out: "ログアウト"
+  sign_up: "サインアップ"
+  simple_form:
+    error_notification:
+      default_message: "エラーがあります。確認してください。"
+    hints:
+      user:
+        edit:
+          current_password: "変更を反映するには現在のパスワードの入力が必要です。"
+          password: "変更しない場合は空白のままにしてください。"
+    labels:
+      user:
+        current_password: "現在のパスワード"
+        name: "ニックネーム"
+        password: "パスワード"
+        password_confirmation: "パスワード再入力"
+        remember_me: "保存"
+    'no': "いいえ"
+    required:
+      mark: "*"
+      message: "印のついている項目は入力が必須です。"
+      text: "必須"
+    'yes': "はい"
+  submit: "送信"
+  tag:
+    plural: "タグ"
+    singular: "タグ"
+  terms_of_service: "サービス利用規約"
+  user:
+    avatar_not_found: "アバターコードが見付かりませんでした"
+    login: "ユーザ名またはメールアドレス"
+    not_authorized: "このページにアクセスする権限がありません"
+    username: "ユーザ名"
+  user_emoji: My emoji
