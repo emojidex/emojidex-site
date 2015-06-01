@@ -1,5 +1,0 @@
-ja:
-  flash:
-    create: '%{resource}の作成に成功しました。'
-    update: '%{resource}の更新に成功しました。'
-    destroy: '%{resource}の消去に成功しました。'
