@@ -63,6 +63,9 @@ zh:
     new: 
     r18: 
     singular: 
+    edit_tags: 
+    tags_updated: 
+    update_tags: 
   errors:
     attributes:
       image:
@@ -146,6 +149,7 @@ zh:
       select_plan: 
       there_are_problem_with_your_subscription: 
       yearly: 
+      edit_to_premium_subscription: 
     user_info:
       avatar_code: 
       current_password: 
@@ -196,3 +200,4 @@ zh:
     not_authorized: 
     username: 
   user_emoji: 
+  edit: 

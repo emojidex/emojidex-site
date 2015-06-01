@@ -63,6 +63,9 @@ ja:
     new: "絵文字登録"
     r18: R-18
     singular: "絵文字"
+    edit_tags: 
+    tags_updated: 
+    update_tags: 
   errors:
     attributes:
       image:
@@ -148,6 +151,7 @@ ja:
       select_plan: "プランを選択してください"
       there_are_problem_with_your_subscription: "プレミアムユーザー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。"
       yearly: "年額プラン"
+      edit_to_premium_subscription: "プレミアムユーザー設定の編集"
     user_info:
       avatar_code: "アバターコード"
       current_password: "現在のパスワード"
@@ -198,3 +202,4 @@ ja:
     not_authorized: "このページにアクセスする権限がありません"
     username: "ユーザ名"
   user_emoji: My emoji
+  edit: 

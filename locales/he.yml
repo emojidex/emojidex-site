@@ -1,7 +1,7 @@
 he:
   about:
     api: 
-    company_information: 
+    company_information: "חברת מידע"
     developers: "למפתחים"
     emojidex: "לגבי אמוג'ידקס"
     emojidex_emoji_license: 
@@ -9,7 +9,7 @@ he:
     licenses: "רשיון"
     open_license: 
     prices: "מחירים"
-    privacy_policy: 
+    privacy_policy: "תקנון פרטיות"
     services: "שירותים"
     sources: 
     terms_of_service: "תנאי שירות"
@@ -29,19 +29,19 @@ he:
   code_not_found: "קוד לא נמצא"
   copyright_purchase:
     amount: "כמות"
-    card_last_4digits: 
+    card_last_4digits: 4 מספרים האחרונים של האשראי
     confirm: "אישור רכישה"
     copyright: 
     date: "תאריך"
-    emoji_code: 
+    emoji_code: "קוד אמוג'י"
     plural: 
     price_in_yen: "מחיר ביין"
     price_in_yen_with_tax: "מחיר ביין עם מס"
-    purchase_type: 
+    purchase_type: "סוג רכישה"
     singular: 
   created_at: "נוצר"
   customer:
-    card_declined: 
+    card_declined: "כרטיס לא אושר"
     create: 
     created: "הרשמת לקוח נוצרה בהצלחה"
     edit: 
@@ -51,54 +51,57 @@ he:
     incorrect_number: 
     info: "מידעת לקוח"
     invalid_expiry_date: 
-    last_credit_card_numbers: 
-    processing_error: 
-    singular: 
-    update: 
-    updated: 
+    last_credit_card_numbers: "מספרים האחרונים של האשראי"
+    processing_error: "שגיעת עיבוד"
+    singular: "לקוח"
+    update: "עידכון הלקוח"
+    updated: "הרשמת הלקוח עודכן בהצלחה!"
   emoji:
-    code: 
-    homepage_link: 
-    list: 
-    new: 
-    r18: 
-    singular: 
+    code: "קוד"
+    homepage_link: "קישור לעמוד הבית"
+    list: "רשימת אמוג'ים"
+    new: "אמוג'י חדש"
+    r18: R-18
+    singular: "אמוג'י"
+    edit_tags: 
+    tags_updated: 
+    update_tags: 
   errors:
     attributes:
       image:
-        blank: 
+        blank: "חייב להוסיף תמונה מעודכנת"
   favorite:
-    plural: 
-    singular: 
-    unfavorite: 
+    plural: "מעודפים"
+    singular: "מעודף"
+    unfavorite: "לא מועדף"
   flash:
     create: 
     destroy: 
     update: 
   form:
-    save_changes: 
-    update: 
-  help: 
+    save_changes: "שמור שינויים"
+    update: "עדכון"
+  help: "עזרה"
   image:
-    plural: 
-    singular: 
+    plural: "תמונות"
+    singular: "תמונה"
   inline_install: 
-  lang: 
+  lang: "שפה"
   modal:
-    cancel: 
-    confirm_password: 
+    cancel: "ביטול"
+    confirm_password: "תאשר את הסיסמא"
   payment:
-    address1: 
-    address2: 
-    back: 
+    address1: "כתובת"
+    address2: "המשך כתובת"
+    back: "חזור"
     card_expires_on:
-      month: 
-      year: 
-    card_number: 
-    card_number_help: 
-    card_type: 
-    card_verification: 
-    card_verification_help: 
+      month: "חודש תפוגת האשראי"
+      year: "שנת תפוגת האשראי"
+    card_number: "מספר האשראי"
+    card_number_help: "אנא להזין ללא רווחים"
+    card_type: "סוג האשראי"
+    card_verification: "אימות אשראי"
+    card_verification_help: "שלוש הספרות מימין האזור החתימה מאחורי האשראי"
     city: 
     country: 
     first_name: 
@@ -125,27 +128,28 @@ he:
       recaptcha_unavailable: 
   registration_info:
     business_name: 
-    edit: 
-    name: 
-    singular: 
-    surname: 
+    edit: "עדכן רישום מידע"
+    name: "שם"
+    singular: "רישום מידע"
+    surname: "שם משפחה"
   registrations:
-    connected_account: 
+    connected_account: "חשבון התחבר"
     premium_subscription:
-      are_you_sure: 
-      become_premium_user: 
-      change_premium_plan_to_monthly: 
-      change_premium_plan_to_yearly: 
-      change_your_customer_information: 
-      delete_premium_subscription: 
-      go_premium: 
-      here: 
-      monthly: 
-      please_register_as_customer_before_become_premium: 
-      renew: 
+      are_you_sure: "אתה בטוח?"
+      become_premium_user: "תהפוך למשתמש פרמיום"
+      change_premium_plan_to_monthly: "תשנה את התוכנית פרמיום לחיוב חודשי"
+      change_premium_plan_to_yearly: "תשנה את התוכנית פרמיום לחיוב שנתי"
+      change_your_customer_information: "או תשנה את מידת הלקוח שלך ותיצור המנוי חדש"
+      delete_premium_subscription: "להסיר את המנוי פרמיום"
+      go_premium: "התחל פרמיום!"
+      here: "כאן"
+      monthly: "חודשי"
+      please_register_as_customer_before_become_premium: "חייב להרשם לפרטי הלקוח לפני שאתה נרשם לשירות פרמיום."
+      renew: "לחדש"
       select_plan: 
       there_are_problem_with_your_subscription: 
       yearly: 
+      edit_to_premium_subscription: 
     user_info:
       avatar_code: 
       current_password: 
@@ -196,3 +200,4 @@ he:
     not_authorized: 
     username: 
   user_emoji: 
+  edit: 

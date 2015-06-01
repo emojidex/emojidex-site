@@ -63,6 +63,9 @@ en:
     new: New emoji
     r18: R-18
     singular: emoji
+    edit_tags: Edit %{emoji} tags
+    tags_updated: Emoji tags are successfully updated!
+    update_tags: Update tags
   errors:
     attributes:
       image:
@@ -146,6 +149,7 @@ en:
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
       yearly: Yearly
+      edit_to_premium_subscription: Edit to Premium Subscription
     user_info:
       avatar_code: Avatar code
       current_password: Current password
@@ -196,3 +200,4 @@ en:
     not_authorized: You are not authorized to access this page
     username: Username
   user_emoji: My emoji
+  edit: Edit
