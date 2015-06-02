@@ -56,17 +56,18 @@ en:
     singular: Customer
     update: Update customer
     updated: Customer registration successfully updated!
+  edit: Edit
   emoji:
     code: Code
+    edit_tags: Edit %{emoji} tags
+    edit_tags_help: You can add multiple tags by separating them with commas.
     homepage_link: Homepage Link
     list: emoji list
     new: New emoji
     r18: R-18
     singular: emoji
-    edit_tags: Edit %{emoji} tags
     tags_updated: Emoji tags are successfully updated!
     update_tags: Update tags
-    edit_tags_help: You can add multiple tags by separating them with commas.
   errors:
     attributes:
       image:
@@ -87,6 +88,9 @@ en:
     plural: Images
     singular: Image
   inline_install: Install Extension
+  interface:
+    login: Login
+    new_emoji_login_or_register: You must be signed in to register an emoji. Please sign in or register an account.
   lang: Language
   modal:
     cancel: Cancel
@@ -142,6 +146,7 @@ en:
       change_premium_plan_to_yearly: Change Premium Plan to Yearly Billing
       change_your_customer_information: or change your customer information and create new subscription
       delete_premium_subscription: Delete Premium Subscription
+      edit_to_premium_subscription: Edit to Premium Subscription
       go_premium: Go Premium!
       here: Here
       monthly: Monthly
@@ -150,7 +155,6 @@ en:
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
       yearly: Yearly
-      edit_to_premium_subscription: Edit to Premium Subscription
     user_info:
       avatar_code: Avatar code
       current_password: Current password
@@ -201,7 +205,3 @@ en:
     not_authorized: You are not authorized to access this page
     username: Username
   user_emoji: My emoji
-  edit: Edit
-  interface:
-    login: Login
-    new_emoji_login_or_register: To add new emoji please register or sign in

@@ -56,17 +56,18 @@ ja:
     singular: "決済者"
     update: "決済者情報を更新"
     updated: "決済者情報の更新に成功しました。"
+  edit: "編集"
   emoji:
     code: "コード"
+    edit_tags: "%{emoji}のタグを編集"
+    edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
     homepage_link: "ホームページへのリンク"
     list: "絵文字表"
     new: "絵文字登録"
     r18: R-18
     singular: "絵文字"
-    edit_tags: "%{emoji}のタグを編集"
     tags_updated: "絵文字のタグを更新しました。"
     update_tags: "タグを更新"
-    edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
   errors:
     attributes:
       image:
@@ -87,6 +88,9 @@ ja:
     plural: "画像"
     singular: "画像"
   inline_install: "拡張機能をインストール"
+  interface:
+    login: "ログイン"
+    new_emoji_login_or_register: "新しい絵文字を追加するには、ユーザー登録かログインを行って下さい。"
   lang: "言語選択"
   modal:
     cancel: "キャンセル"
@@ -144,6 +148,7 @@ ja:
       change_premium_plan_to_yearly: "年額プランに変更"
       change_your_customer_information: "または、決済者情報を更新し、新しく登録を行って下さい。"
       delete_premium_subscription: "プレミアムユーザーを解除"
+      edit_to_premium_subscription: "プレミアムユーザー設定の編集"
       go_premium: "プレミアムユーザーになる"
       here: "こちら"
       monthly: "月額プラン"
@@ -152,7 +157,6 @@ ja:
       select_plan: "プランを選択してください"
       there_are_problem_with_your_subscription: "プレミアムユーザー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。"
       yearly: "年額プラン"
-      edit_to_premium_subscription: "プレミアムユーザー設定の編集"
     user_info:
       avatar_code: "アバターコード"
       current_password: "現在のパスワード"
@@ -203,7 +207,3 @@ ja:
     not_authorized: "このページにアクセスする権限がありません"
     username: "ユーザ名"
   user_emoji: My emoji
-  edit: "編集"
-  interface:
-    login: "ログイン"
-    new_emoji_login_or_register: "新しい絵文字を追加するには、ユーザー登録かログインを行って下さい。"

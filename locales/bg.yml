@@ -56,17 +56,18 @@ bg:
     singular: 
     update: 
     updated: 
+  edit: 
   emoji:
     code: 
+    edit_tags: 
+    edit_tags_help: 
     homepage_link: 
     list: 
     new: 
     r18: 
     singular: 
-    edit_tags: 
     tags_updated: 
     update_tags: 
-    edit_tags_help: 
   errors:
     attributes:
       image:
@@ -87,6 +88,9 @@ bg:
     plural: 
     singular: 
   inline_install: 
+  interface:
+    login: "Вход"
+    new_emoji_login_or_register: 
   lang: 
   modal:
     cancel: 
@@ -142,6 +146,7 @@ bg:
       change_premium_plan_to_yearly: 
       change_your_customer_information: 
       delete_premium_subscription: 
+      edit_to_premium_subscription: 
       go_premium: 
       here: 
       monthly: 
@@ -150,7 +155,6 @@ bg:
       select_plan: 
       there_are_problem_with_your_subscription: 
       yearly: 
-      edit_to_premium_subscription: 
     user_info:
       avatar_code: 
       current_password: 
@@ -201,7 +205,3 @@ bg:
     not_authorized: 
     username: 
   user_emoji: 
-  edit: 
-  interface:
-    login: "Вход"
-    new_emoji_login_or_register: 

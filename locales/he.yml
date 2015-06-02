@@ -56,17 +56,18 @@ he:
     singular: "לקוח"
     update: "עידכון הלקוח"
     updated: "הרשמת הלקוח עודכן בהצלחה!"
+  edit: 
   emoji:
     code: "קוד"
+    edit_tags: 
+    edit_tags_help: 
     homepage_link: "קישור לעמוד הבית"
     list: "רשימת אמוג'ים"
     new: "אמוג'י חדש"
     r18: R-18
     singular: "אמוג'י"
-    edit_tags: 
     tags_updated: 
     update_tags: 
-    edit_tags_help: 
   errors:
     attributes:
       image:
@@ -87,6 +88,9 @@ he:
     plural: "תמונות"
     singular: "תמונה"
   inline_install: 
+  interface:
+    login: 
+    new_emoji_login_or_register: 
   lang: "שפה"
   modal:
     cancel: "ביטול"
@@ -142,6 +146,7 @@ he:
       change_premium_plan_to_yearly: "תשנה את התוכנית פרמיום לחיוב שנתי"
       change_your_customer_information: "או תשנה את מידת הלקוח שלך ותיצור המנוי חדש"
       delete_premium_subscription: "להסיר את המנוי פרמיום"
+      edit_to_premium_subscription: 
       go_premium: "התחל פרמיום!"
       here: "כאן"
       monthly: "חודשי"
@@ -150,7 +155,6 @@ he:
       select_plan: 
       there_are_problem_with_your_subscription: 
       yearly: 
-      edit_to_premium_subscription: 
     user_info:
       avatar_code: 
       current_password: 
@@ -201,7 +205,3 @@ he:
     not_authorized: 
     username: 
   user_emoji: 
-  edit: 
-  interface:
-    login: 
-    new_emoji_login_or_register: 
