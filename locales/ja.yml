@@ -63,9 +63,9 @@ ja:
     new: "絵文字登録"
     r18: R-18
     singular: "絵文字"
-    edit_tags: 
-    tags_updated: 
-    update_tags: 
+    edit_tags: "%{emoji}のタグを編集"
+    tags_updated: "絵文字のタグを更新しました。"
+    update_tags: "タグを更新"
   errors:
     attributes:
       image:
@@ -202,7 +202,7 @@ ja:
     not_authorized: "このページにアクセスする権限がありません"
     username: "ユーザ名"
   user_emoji: My emoji
-  edit: 
+  edit: "編集"
   interface:
-    login: 
-    new_emoji_login_or_register: 
+    login: "ログイン"
+    new_emoji_login_or_register: "新しい絵文字を追加するには、ユーザー登録かログインを行って下さい。"
