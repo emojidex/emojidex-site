@@ -66,6 +66,7 @@ bg:
     edit_tags: 
     tags_updated: 
     update_tags: 
+    edit_tags_help: 
   errors:
     attributes:
       image:

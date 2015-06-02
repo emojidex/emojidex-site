@@ -66,6 +66,7 @@ en:
     edit_tags: Edit %{emoji} tags
     tags_updated: Emoji tags are successfully updated!
     update_tags: Update tags
+    edit_tags_help: You can add multiple tags by separating them with commas.
   errors:
     attributes:
       image:

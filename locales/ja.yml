@@ -66,6 +66,7 @@ ja:
     edit_tags: "%{emoji}のタグを編集"
     tags_updated: "絵文字のタグを更新しました。"
     update_tags: "タグを更新"
+    edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
   errors:
     attributes:
       image:
