@@ -201,3 +201,6 @@ en:
     username: Username
   user_emoji: My emoji
   edit: Edit
+  interface:
+    login: Login
+    new_emoji_login_or_register: To add new emoji please register or sign in

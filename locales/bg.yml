@@ -201,3 +201,6 @@ bg:
     username: 
   user_emoji: 
   edit: 
+  interface:
+    login: "Вход"
+    new_emoji_login_or_register: 

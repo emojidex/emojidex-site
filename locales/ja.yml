@@ -203,3 +203,6 @@ ja:
     username: "ユーザ名"
   user_emoji: My emoji
   edit: 
+  interface:
+    login: 
+    new_emoji_login_or_register: 

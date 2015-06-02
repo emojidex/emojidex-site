@@ -201,3 +201,6 @@ de:
     username: 
   user_emoji: 
   edit: 
+  interface:
+    login: 
+    new_emoji_login_or_register: 
