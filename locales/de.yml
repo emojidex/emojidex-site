@@ -22,6 +22,20 @@ de:
     generated: 
   authentication:
     alert: 
+  categories:
+    abstract: 
+    all: 
+    cosmos: 
+    faces: 
+    food: 
+    gestures: 
+    nature: 
+    objects: 
+    people: 
+    places: 
+    symbols: 
+    tools: 
+    transportation: 
   category:
     list: 
     plural: 
@@ -168,6 +182,10 @@ de:
   role:
     singular: 
   search: 
+  seo:
+    description: 
+    tags: 
+    title: 
   sidebar:
     all: 
   sign_in: 

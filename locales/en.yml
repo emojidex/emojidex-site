@@ -22,6 +22,20 @@ en:
     generated: Token successfully generated!
   authentication:
     alert: Authentication Error. Please try again.
+  categories:
+    abstract: Abstract
+    all: All
+    cosmos: Cosmos
+    faces: Faces
+    food: Food
+    gestures: Gestures
+    nature: Nature
+    objects: Objects
+    people: People
+    places: Places
+    symbols: Symbols
+    tools: Tools
+    transportation: Transportation
   category:
     list: Categories List
     plural: Categories
@@ -168,6 +182,11 @@ en:
   role:
     singular: Role
   search: Search
+  seo:
+    description: Original emoji you can use anywhere! Register your own custom emoji or use emoji from other users online and in apps.
+    tags: |
+      emoji, free emoji, stamps, free stamps, UTF emoji, original emoji, Android emoji, emoji app, Chrome emoji, custom emoji, emoji registration
+    title: emojidex - custom emoji service and apps
   sidebar:
     all: All
   sign_in: Sign In

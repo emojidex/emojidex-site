@@ -22,6 +22,20 @@ ja:
     generated: "認証トークンを作成しました。"
   authentication:
     alert: "認証が失敗しました。もう一度試して下さい。"
+  categories:
+    abstract: "抽象物"
+    all: "全て"
+    cosmos: "宇宙"
+    faces: "顔"
+    food: "食べ物"
+    gestures: "ジェスチャー"
+    nature: "自然"
+    objects: "物"
+    people: "人"
+    places: "場所"
+    symbols: "記号"
+    tools: "道具"
+    transportation: "乗り物"
   category:
     list: "カテゴリー一覧"
     plural: "カテゴリー"
@@ -170,6 +184,11 @@ ja:
   role:
     singular: "役割"
   search: "検索"
+  seo:
+    description: "ユーザーの数だけ無限の絵文字！ emojidexは自分の絵文字を投稿可能な、カスタム絵文字サービスです。スマホやタブレット向けアプリ、PC向けにはブラウザの拡張機能も提供中。どこでもオリジナル絵文字を使おう!"
+    tags: |
+      絵文字, 無料絵文字, スタンプ, 無料スタンプ, UTF絵文字, オリジナル絵文字, Android絵文字, 世界共通絵文字, 絵文字アプリ, Chrome絵文字, カスタム絵文字, 絵文字投稿
+    title: emojidex - 絵文字デックス - カスタム絵文字サービスとアプリ
   sidebar:
     all: "全て"
   sign_in: "ログイン"

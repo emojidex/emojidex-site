@@ -22,6 +22,20 @@ bg:
     generated: 
   authentication:
     alert: 
+  categories:
+    abstract: "Абстрактни"
+    all: "Всички"
+    cosmos: "Космос"
+    faces: "Лица"
+    food: "Храна"
+    gestures: "Жестове"
+    nature: "Природа"
+    objects: "Обекти"
+    people: "Хора"
+    places: "Места"
+    symbols: "Символи"
+    tools: "Инструменти"
+    transportation: "Транспорт"
   category:
     list: 
     plural: 
@@ -168,6 +182,10 @@ bg:
   role:
     singular: 
   search: 
+  seo:
+    description: 
+    tags: 
+    title: 
   sidebar:
     all: 
   sign_in: 

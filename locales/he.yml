@@ -1,27 +1,41 @@
 he:
   about:
-    api: 
+    api: API Docs
     company_information: "חברת מידע"
     developers: "למפתחים"
     emojidex: "לגבי אמוג'ידקס"
-    emojidex_emoji_license: 
-    general_license_terms_and_conditions: 
+    emojidex_emoji_license: " זכויות רשיון שייכות לאמוג'י ™emojidex"
+    general_license_terms_and_conditions: "כללי רשיון ותנאים"
     licenses: "רשיון"
-    open_license: 
+    open_license: "רשיון פתוח"
     prices: "מחירים"
     privacy_policy: "תקנון פרטיות"
     services: "שירותים"
-    sources: 
+    sources: "קוד מקור"
     terms_of_service: "תנאי שירות"
   accept_terms_of_service: "אני מסכים לתנאי שירות"
   ago: 
   auth_token:
     clear: 
-    cleared: 
+    cleared: "אסימון הושלם בהצלחה"
     generate: 
-    generated: 
+    generated: "אסימון נוצר בהצלחה!"
   authentication:
-    alert: 
+    alert: "שגיאת אימות. בבקשה תנסה שוב."
+  categories:
+    abstract: "מופשט"
+    all: "הכל"
+    cosmos: "יקום"
+    faces: "פרצופים"
+    food: "אוכל"
+    gestures: "מחוות"
+    nature: "טבע"
+    objects: "אובייקטים"
+    people: "אנשים"
+    places: "מקומות"
+    symbols: "סמלים"
+    tools: "כילים"
+    transportation: "תחבורה"
   category:
     list: "רשימת קטגוריות"
     plural: "קטגוריות"
@@ -42,13 +56,13 @@ he:
   created_at: "נוצר"
   customer:
     card_declined: "כרטיס לא אושר"
-    create: 
+    create: "ייצירת לקוח"
     created: "הרשמת לקוח נוצרה בהצלחה"
     edit: 
     failed: "הרשמת לקוח נכשלה!"
     incorrect_cvc: 
     incorrect_expiry: 
-    incorrect_number: 
+    incorrect_number: "מספר שגוי"
     info: "מידעת לקוח"
     invalid_expiry_date: 
     last_credit_card_numbers: "מספרים האחרונים של האשראי"
@@ -56,7 +70,7 @@ he:
     singular: "לקוח"
     update: "עידכון הלקוח"
     updated: "הרשמת הלקוח עודכן בהצלחה!"
-  edit: 
+  edit: "ערוך"
   emoji:
     code: "קוד"
     edit_tags: 
@@ -67,7 +81,7 @@ he:
     r18: R-18
     singular: "אמוג'י"
     tags_updated: 
-    update_tags: 
+    update_tags: "עדכון טאג"
   errors:
     attributes:
       image:
@@ -87,10 +101,10 @@ he:
   image:
     plural: "תמונות"
     singular: "תמונה"
-  inline_install: 
+  inline_install: "התקנת הרווחה"
   interface:
-    login: 
-    new_emoji_login_or_register: 
+    login: "התחבר"
+    new_emoji_login_or_register: "חייב להיות רשום לאתר בשביל להוסיף אמוג'י. אנא כנס לחשבונך או הרשם לאתר."
   lang: "שפה"
   modal:
     cancel: "ביטול"
@@ -107,24 +121,24 @@ he:
     card_type: "סוג האשראי"
     card_verification: "אימות אשראי"
     card_verification_help: "שלוש הספרות מימין האזור החתימה מאחורי האשראי"
-    city: 
-    country: 
-    first_name: 
+    city: "עיר"
+    country: "מדינה"
+    first_name: "שם פרטי"
     flash:
-      copyright_failure: 
-      copyright_success: 
-    last_name: 
-    name_help: 
-    phone: 
+      copyright_failure: "רכישת זכיות יוצרים נכשלה. תבדוקו את פרטי הלקוח שלך."
+      copyright_success: "זכיות יוצרים נרכשה בהצלחה!"
+    last_name: "שם משפחה"
+    name_help: "השם שלך כפי שהוא רשום על הכרטיס."
+    phone: "מספר טלפון"
     prompt:
       card_expires_on:
-        month: 
-        year: 
-      card_type: 
-    purchase: 
-    purchase_copyright: 
-    state: 
-    zip: 
+        month: "חודש"
+        year: "שנה"
+      card_type: "תבחר סוג אשראי"
+    purchase: "רכישה"
+    purchase_copyright: "רכישת זכויות יוצרים"
+    state: "אזור מדינה"
+    zip: "מיקוד"
   privacy_policy: 
   recaptcha:
     errors:
@@ -152,56 +166,60 @@ he:
       monthly: "חודשי"
       please_register_as_customer_before_become_premium: "חייב להרשם לפרטי הלקוח לפני שאתה נרשם לשירות פרמיום."
       renew: "לחדש"
-      select_plan: 
+      select_plan: "תבחור תוכנית"
       there_are_problem_with_your_subscription: 
-      yearly: 
+      yearly: "שנתי"
     user_info:
       avatar_code: 
-      current_password: 
-      email: 
+      current_password: "סיסמא נוכחית"
+      email: "אימייל"
       help_current_password: 
       help_password: 
-      password: 
-      password_confirmation: 
-      title: 
+      password: "סיסמא"
+      password_confirmation: "אישור סיסמא"
+      title: "מידעת המשתמש"
       view_r18: 
   role:
-    singular: 
-  search: 
+    singular: "תפקיד"
+  search: "חיפוש"
+  seo:
+    description: 
+    tags: 
+    title: 
   sidebar:
-    all: 
-  sign_in: 
-  sign_out: 
-  sign_up: 
+    all: "הכל"
+  sign_in: "הרשם"
+  sign_out: "תצא"
+  sign_up: "תיצור חשבון"
   simple_form:
     error_notification:
       default_message: 
     hints:
       user:
         edit:
-          current_password: 
-          password: 
+          current_password: "סיסמא נוכחית"
+          password: "סיסמא"
     labels:
       user:
-        current_password: 
-        name: 
-        password: 
-        password_confirmation: 
+        current_password: "סיסמא נוכחית"
+        name: "שם"
+        password: "סיסמא"
+        password_confirmation: "אישור סיסמא"
         remember_me: 
-    'no': 
+    'no': "לא"
     required:
       mark: 
-      message: 
-      text: 
-    'yes': 
+      message: "הודעה"
+      text: "נדרש"
+    'yes': "כן"
   submit: 
   tag:
-    plural: 
-    singular: 
+    plural: "תגים"
+    singular: "תג"
   terms_of_service: 
   user:
     avatar_not_found: 
-    login: 
+    login: "שם משתמש או אימייל"
     not_authorized: 
-    username: 
+    username: "שם משתמש"
   user_emoji: 
