@@ -220,8 +220,9 @@ en:
   terms_of_service: Terms of Service
   user:
     avatar_not_found: Avatar code not found
+    display_language: Display language
     login: Username or email
     not_authorized: You are not authorized to access this page
+    select_display_language: Select display language
     username: Username
-    display_language: Display language
   user_emoji: My emoji

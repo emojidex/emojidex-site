@@ -219,8 +219,9 @@ de:
   terms_of_service: 
   user:
     avatar_not_found: 
+    display_language: 
     login: 
     not_authorized: 
+    select_display_language: 
     username: 
-    display_language: 
   user_emoji: 

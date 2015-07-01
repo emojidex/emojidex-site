@@ -219,8 +219,9 @@ bg:
   terms_of_service: 
   user:
     avatar_not_found: 
+    display_language: "Език"
     login: 
     not_authorized: 
+    select_display_language: 
     username: 
-    display_language: "Език"
   user_emoji: 

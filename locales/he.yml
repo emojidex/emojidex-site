@@ -219,8 +219,9 @@ he:
   terms_of_service: 
   user:
     avatar_not_found: 
+    display_language: 
     login: "שם משתמש או אימייל"
     not_authorized: 
+    select_display_language: 
     username: "שם משתמש"
-    display_language: 
   user_emoji: 
