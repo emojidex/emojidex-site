@@ -222,4 +222,5 @@ bg:
     login: 
     not_authorized: 
     username: 
+    display_language: "Език"
   user_emoji: 

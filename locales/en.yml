@@ -223,4 +223,5 @@ en:
     login: Username or email
     not_authorized: You are not authorized to access this page
     username: Username
+    display_language: Display language
   user_emoji: My emoji

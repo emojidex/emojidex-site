@@ -225,4 +225,5 @@ ja:
     login: "ユーザ名またはメールアドレス"
     not_authorized: "このページにアクセスする権限がありません"
     username: "ユーザ名"
+    display_language: "表示言語"
   user_emoji: My emoji

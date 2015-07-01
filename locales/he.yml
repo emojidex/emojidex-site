@@ -222,4 +222,5 @@ he:
     login: "שם משתמש או אימייל"
     not_authorized: 
     username: "שם משתמש"
+    display_language: 
   user_emoji: 
