@@ -106,6 +106,10 @@ zh:
     login: 
     new_emoji_login_or_register: 
   lang: 
+  mailer:
+    premium_subscription:
+      body: 
+      subject: 
   modal:
     cancel: 
     confirm_password: 

@@ -106,6 +106,10 @@ en:
     login: Login
     new_emoji_login_or_register: You must be signed in to register an emoji. Please sign in or register an account.
   lang: Language
+  mailer:
+    premium_subscription:
+      body: Your card has been charged for premium subscription with %{price} yen
+      subject: emojidex - Premium purchase receipt
   modal:
     cancel: Cancel
     confirm_password: Confirm password

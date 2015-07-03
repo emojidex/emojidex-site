@@ -106,6 +106,10 @@ ja:
     login: "ログイン"
     new_emoji_login_or_register: "新しい絵文字を追加するには、ユーザー登録かログインを行って下さい。"
   lang: "言語選択"
+  mailer:
+    premium_subscription:
+      body: "あなたが登録したカードから、プレミアムユーザーの料金「%{price}円」が支払われました。"
+      subject: emojidex - プレミアムユーザーのお支払いについて
   modal:
     cancel: "キャンセル"
     confirm_password: "パスワードの確認"

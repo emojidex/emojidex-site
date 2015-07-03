@@ -106,6 +106,10 @@ he:
     login: "התחבר"
     new_emoji_login_or_register: "חייב להיות רשום לאתר בשביל להוסיף אמוג'י. אנא כנס לחשבונך או הרשם לאתר."
   lang: "שפה"
+  mailer:
+    premium_subscription:
+      body: 
+      subject: 
   modal:
     cancel: "ביטול"
     confirm_password: "תאשר את הסיסמא"
