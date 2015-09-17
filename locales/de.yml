@@ -75,10 +75,12 @@ de:
     code: 
     edit_tags: 
     edit_tags_help: 
+    enable_link: 
     homepage_link: 
     list: 
     new: 
     r18: 
+    score: 
     singular: 
     tags_updated: 
     update_tags: 
@@ -107,6 +109,12 @@ de:
     new_emoji_login_or_register: 
   lang: 
   mailer:
+    copyright_purchase:
+      body: 
+      subject: 
+    link_purchase:
+      body: 
+      subject: 
     premium_subscription:
       body: 
       subject: 
@@ -131,6 +139,8 @@ de:
     flash:
       copyright_failure: 
       copyright_success: 
+      link_purchase_failure: 
+      link_purchase_success: 
     last_name: 
     name_help: 
     phone: 
@@ -169,6 +179,22 @@ de:
       here: 
       monthly: 
       please_register_as_customer_before_become_premium: 
+      renew: 
+      select_plan: 
+      there_are_problem_with_your_subscription: 
+      yearly: 
+    pro_subscription:
+      are_you_sure: 
+      become_pro_user: 
+      change_pro_plan_to_monthly: 
+      change_pro_plan_to_yearly: 
+      change_your_customer_information: 
+      delete_pro_subscription: 
+      edit_to_pro_subscription: 
+      go_pro: 
+      here: 
+      monthly: 
+      please_register_as_customer_before_become_pro: 
       renew: 
       select_plan: 
       there_are_problem_with_your_subscription: 

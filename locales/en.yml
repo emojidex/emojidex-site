@@ -75,10 +75,12 @@ en:
     code: Code
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
+    enable_link: Enable link
     homepage_link: Homepage Link
     list: emoji list
     new: New emoji
     r18: R-18
+    score: Score
     singular: emoji
     tags_updated: Emoji tags are successfully updated!
     update_tags: Update tags
@@ -107,6 +109,12 @@ en:
     new_emoji_login_or_register: You must be signed in to register an emoji. Please sign in or register an account.
   lang: Language
   mailer:
+    copyright_purchase:
+      body: Your card has been charged for copyright purchase for %{emoji} emoji with %{price} yen
+      subject: emojidex - Copyright purchase receipt
+    link_purchase:
+      body: Your card has been charged for link purchase for %{emoji} emoji with %{price} yen
+      subject: emojidex - Link purchase receipt
     premium_subscription:
       body: Your card has been charged for premium subscription with %{price} yen
       subject: emojidex - Premium purchase receipt
@@ -131,6 +139,8 @@ en:
     flash:
       copyright_failure: Copyright Purchase failed. Check your customer registration details.
       copyright_success: Copyright Purchase Successful
+      link_purchase_failure: Link purchase failed. Check your customer registration details.
+      link_purchase_success: Link purchase successful
     last_name: Last Name
     name_help: Your name as it appears on the card
     phone: Phone Number
@@ -172,6 +182,22 @@ en:
       renew: Renew
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
+      yearly: Yearly
+    pro_subscription:
+      are_you_sure: Are you sure?
+      become_pro_user: Become a Professional User
+      change_pro_plan_to_monthly: Change Professional Plan to Monthly Billing
+      change_pro_plan_to_yearly: Change Professional Plan to Yearly Billing
+      change_your_customer_information: or change your customer information and create new subscription
+      delete_pro_subscription: Delete Professional Subscription
+      edit_to_pro_subscription: Edit Professional Subscription
+      go_pro: Go Professional!
+      here: Click Here
+      monthly: Monthly
+      please_register_as_customer_before_become_pro: You must register your customer details before signing up for Professional service
+      renew: Renew
+      select_plan: Select Plan
+      there_are_problem_with_your_subscription: There has been a problem with your subscription. Please check your card details and make sure your card can be billed.
       yearly: Yearly
     user_info:
       avatar_code: Avatar code

@@ -75,10 +75,12 @@ ja:
     code: "コード"
     edit_tags: "%{emoji}のタグを編集"
     edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
+    enable_link: "有効化"
     homepage_link: "ホームページへのリンク"
     list: "絵文字表"
     new: "絵文字登録"
     r18: R-18
+    score: "スコア"
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"
     update_tags: "タグを更新"
@@ -107,9 +109,15 @@ ja:
     new_emoji_login_or_register: "新しい絵文字を追加するには、ユーザー登録かログインを行って下さい。"
   lang: "言語選択"
   mailer:
+    copyright_purchase:
+      body: "絵文字「%{emoji}」の著作権購入費用として、「%{price}円」が、あなたのカードから支払われました。"
+      subject: emojidex - 著作権購入のお支払いについて
+    link_purchase:
+      body: "絵文字「%{emoji}」のリンク購入費用として、「%{price}円」が、あなたのカードから支払われました。"
+      subject: emojidex - リンク購入のお支払いについて
     premium_subscription:
-      body: "あなたが登録したカードから、プレミアムユーザーの料金「%{price}円」が支払われました。"
-      subject: emojidex - プレミアムユーザーのお支払いについて
+      body: "あなたのカードから、プレミアムユーザーの料金「%{price}円」が支払われました。"
+      subject: emojidex - プレミアムユーザー登録のお支払いについて
   modal:
     cancel: "キャンセル"
     confirm_password: "パスワードの確認"
@@ -131,6 +139,8 @@ ja:
     flash:
       copyright_failure: "著作権フラグの購入に失敗しました、決済者情報を確認して下さい。"
       copyright_success: "著作権フラグの購入が成功しました。"
+      link_purchase_failure: "リンクのご購入に失敗しました。決済者情報の登録内容を一度ご確認ください。"
+      link_purchase_success: "リンクの購入に成功しました"
     last_name: "クレジットカード名義人：姓"
     name_help: "クレジットカードの表示通りに入力して下さい。"
     phone: "電話番号"
@@ -175,6 +185,22 @@ ja:
       select_plan: "プランを選択してください"
       there_are_problem_with_your_subscription: "プレミアムユーザー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。"
       yearly: "年額プラン"
+    pro_subscription:
+      are_you_sure: "本当によろしいですか？"
+      become_pro_user: "プロユーザーになるにはこちらから"
+      change_pro_plan_to_monthly: "プロユーザー月額プランに変更"
+      change_pro_plan_to_yearly: "プロユーザー年額プランに変更"
+      change_your_customer_information: "または、決済者情報を更新し、新しく登録を行って下さい。"
+      delete_pro_subscription: "プロユーザーを解除"
+      edit_to_pro_subscription: "プロユーザーの設定を編集"
+      go_pro: "プロユーザーになろう！"
+      here: "ここをクリック"
+      monthly: "月額"
+      please_register_as_customer_before_become_pro: "プロユーザーのサービスを利用する前に、必ず決済者情報が登録されている事をご確認下さい。"
+      renew: "更新"
+      select_plan: "プランを選択"
+      there_are_problem_with_your_subscription: "プロユーザー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。"
+      yearly: "年額"
     user_info:
       avatar_code: "アバターコード"
       current_password: "現在のパスワード"

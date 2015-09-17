@@ -75,10 +75,12 @@ he:
     code: "קוד"
     edit_tags: 
     edit_tags_help: 
+    enable_link: 
     homepage_link: "קישור לעמוד הבית"
     list: "רשימת אמוג'ים"
     new: "אמוג'י חדש"
     r18: R-18
+    score: 
     singular: "אמוג'י"
     tags_updated: 
     update_tags: "עדכון טאג"
@@ -107,6 +109,12 @@ he:
     new_emoji_login_or_register: "חייב להיות רשום לאתר בשביל להוסיף אמוג'י. אנא כנס לחשבונך או הרשם לאתר."
   lang: "שפה"
   mailer:
+    copyright_purchase:
+      body: 
+      subject: 
+    link_purchase:
+      body: 
+      subject: 
     premium_subscription:
       body: 
       subject: 
@@ -131,6 +139,8 @@ he:
     flash:
       copyright_failure: "רכישת זכיות יוצרים נכשלה. תבדוקו את פרטי הלקוח שלך."
       copyright_success: "זכיות יוצרים נרכשה בהצלחה!"
+      link_purchase_failure: 
+      link_purchase_success: 
     last_name: "שם משפחה"
     name_help: "השם שלך כפי שהוא רשום על הכרטיס."
     phone: "מספר טלפון"
@@ -173,6 +183,22 @@ he:
       select_plan: "תבחור תוכנית"
       there_are_problem_with_your_subscription: 
       yearly: "שנתי"
+    pro_subscription:
+      are_you_sure: 
+      become_pro_user: 
+      change_pro_plan_to_monthly: 
+      change_pro_plan_to_yearly: 
+      change_your_customer_information: 
+      delete_pro_subscription: 
+      edit_to_pro_subscription: 
+      go_pro: 
+      here: 
+      monthly: 
+      please_register_as_customer_before_become_pro: 
+      renew: 
+      select_plan: 
+      there_are_problem_with_your_subscription: 
+      yearly: 
     user_info:
       avatar_code: 
       current_password: "סיסמא נוכחית"
