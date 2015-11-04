@@ -73,6 +73,7 @@ bg:
   edit: 
   emoji:
     code: 
+    drop_file_or_click_here: 
     edit_tags: 
     edit_tags_help: 
     enable_link: "Добави линк"
@@ -175,6 +176,13 @@ bg:
       change_your_customer_information: 
       delete_premium_subscription: 
       edit_to_premium_subscription: 
+      flash:
+        changed: 
+        check_credentials: 
+        destroyed: 
+        not_destroyed: 
+        resumed: 
+        you_are_premium: 
       go_premium: 
       here: 
       monthly: 
@@ -191,6 +199,13 @@ bg:
       change_your_customer_information: 
       delete_pro_subscription: 
       edit_to_pro_subscription: 
+      flash:
+        changed: 
+        check_credentials: 
+        destroyed: 
+        not_destroyed: 
+        resumed: 
+        you_are_pro: 
       go_pro: 
       here: 
       monthly: 

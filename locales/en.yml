@@ -73,6 +73,7 @@ en:
   edit: Edit
   emoji:
     code: Code
+    drop_file_or_click_here: Drop image file or click here
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
     enable_link: Enable link
@@ -174,15 +175,22 @@ en:
       change_premium_plan_to_yearly: Change Premium Plan to Yearly Billing
       change_your_customer_information: or change your customer information and create new subscription
       delete_premium_subscription: Delete Premium Subscription
-      edit_to_premium_subscription: Edit to Premium Subscription
+      edit_to_premium_subscription: Edit Premium Subscription
+      flash:
+        changed: Your premium subscription has been changed
+        check_credentials: There appears to be a problem with your customer details. Please check them <a href=%{path}>here</a>.
+        destroyed: Your premium subscription is destroyed
+        not_destroyed: Your premium subscription was not deleted
+        resumed: Your premium subscription has been resumed
+        you_are_premium: You are premium user
       go_premium: Go Premium!
       here: Here
-      monthly: Monthly
+      monthly: Monthly Plan
       please_register_as_customer_before_become_premium: You must register your customer details before signing up for Premium service
       renew: Renew
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
-      yearly: Yearly
+      yearly: Yearly Plan
     pro_subscription:
       are_you_sure: Are you sure?
       become_pro_user: Become a Professional User
@@ -191,14 +199,21 @@ en:
       change_your_customer_information: or change your customer information and create new subscription
       delete_pro_subscription: Delete Professional Subscription
       edit_to_pro_subscription: Edit Professional Subscription
+      flash:
+        changed: Your professional subscription has been changed
+        check_credentials: There appears to be a problem with your customer details. Please check them <a href=%{path}>here</a>.
+        destroyed: Your professional subscription is destroyed
+        not_destroyed: Your pro subscription was not deleted
+        resumed: Your professional subscription has been resumed
+        you_are_pro: You are professional user
       go_pro: Go Professional!
-      here: Click Here
-      monthly: Monthly
+      here: Here
+      monthly: Monthly Plan
       please_register_as_customer_before_become_pro: You must register your customer details before signing up for Professional service
       renew: Renew
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There has been a problem with your subscription. Please check your card details and make sure your card can be billed.
-      yearly: Yearly
+      yearly: Yearly Plan
     user_info:
       avatar_code: Avatar code
       current_password: Current password

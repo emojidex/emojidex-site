@@ -56,7 +56,7 @@ he:
   created_at: "נוצר"
   customer:
     card_declined: "כרטיס לא אושר"
-    create: "ייצירת לקוח"
+    create: "ייצירת לקוחa"
     created: "הרשמת לקוח נוצרה בהצלחה"
     edit: 
     failed: "הרשמת לקוח נכשלה!"
@@ -73,6 +73,7 @@ he:
   edit: "ערוך"
   emoji:
     code: "קוד"
+    drop_file_or_click_here: 
     edit_tags: 
     edit_tags_help: 
     enable_link: 
@@ -175,6 +176,13 @@ he:
       change_your_customer_information: "או תשנה את מידת הלקוח שלך ותיצור המנוי חדש"
       delete_premium_subscription: "להסיר את המנוי פרמיום"
       edit_to_premium_subscription: 
+      flash:
+        changed: 
+        check_credentials: 
+        destroyed: 
+        not_destroyed: 
+        resumed: 
+        you_are_premium: 
       go_premium: "התחל פרמיום!"
       here: "כאן"
       monthly: "חודשי"
@@ -191,6 +199,13 @@ he:
       change_your_customer_information: 
       delete_pro_subscription: 
       edit_to_pro_subscription: 
+      flash:
+        changed: 
+        check_credentials: 
+        destroyed: 
+        not_destroyed: 
+        resumed: 
+        you_are_pro: 
       go_pro: 
       here: 
       monthly: 

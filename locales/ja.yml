@@ -73,6 +73,7 @@ ja:
   edit: "編集"
   emoji:
     code: "コード"
+    drop_file_or_click_here: "ここに画像ファイルをドロップするか、クリックして下さい。"
     edit_tags: "%{emoji}のタグを編集"
     edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
     enable_link: "有効化"
@@ -172,15 +173,22 @@ ja:
         プレミアムユーザーを解除しようとしています。
         よろしいですか？
       become_premium_user: "プレミアムユーザーの登録はこちらから"
-      change_premium_plan_to_monthly: "月額プランに変更"
-      change_premium_plan_to_yearly: "年額プランに変更"
+      change_premium_plan_to_monthly: "プレミアム月額プランに変更"
+      change_premium_plan_to_yearly: "プレミアム年額プランに変更"
       change_your_customer_information: "または、決済者情報を更新し、新しく登録を行って下さい。"
       delete_premium_subscription: "プレミアムユーザーを解除"
       edit_to_premium_subscription: "プレミアムユーザー設定の編集"
+      flash:
+        changed: "あなたのプレミアムユーザー登録が変更されました"
+        check_credentials: "あなたの決済者情報に問題がある可能性があります。<a href=%{path}>こちら</a>からご確認ください。"
+        destroyed: "あなたのプレミアムユーザー登録は解除されました"
+        not_destroyed: "あなたのプレミアムユーザー登録は解除されませんでした"
+        resumed: "あなたのプレミアムユーザー登録が再開されました"
+        you_are_premium: "あなたはプレミアムユーザーです"
       go_premium: "プレミアムユーザーになる"
       here: "こちら"
       monthly: "月額プラン"
-      please_register_as_customer_before_become_premium: "プレミアムユーザー登録を行うには利用者情報の登録が必要です。"
+      please_register_as_customer_before_become_premium: "プレミアムユーザー登録を行うには決済者情報の登録が必要です。"
       renew: "プレミアムユーザーになる"
       select_plan: "プランを選択してください"
       there_are_problem_with_your_subscription: "プレミアムユーザー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。"
@@ -188,19 +196,26 @@ ja:
     pro_subscription:
       are_you_sure: "本当によろしいですか？"
       become_pro_user: "プロユーザーになるにはこちらから"
-      change_pro_plan_to_monthly: "プロユーザー月額プランに変更"
-      change_pro_plan_to_yearly: "プロユーザー年額プランに変更"
+      change_pro_plan_to_monthly: "プロ月額プランに変更"
+      change_pro_plan_to_yearly: "プロ年額プランに変更"
       change_your_customer_information: "または、決済者情報を更新し、新しく登録を行って下さい。"
       delete_pro_subscription: "プロユーザーを解除"
       edit_to_pro_subscription: "プロユーザーの設定を編集"
+      flash:
+        changed: "あなたのプロユーザー登録が変更されました"
+        check_credentials: "あなたの決済者情報に問題がある可能性があります。<a href=%{path}>こちら</a>からご確認ください。"
+        destroyed: "あなたのプロユーザー登録は解除されました"
+        not_destroyed: "あなたのプロユーザー登録は解除されませんでした"
+        resumed: "あなたのプロユーザー登録が再開されました"
+        you_are_pro: "あなたはプロユーザーです"
       go_pro: "プロユーザーになろう！"
       here: "ここをクリック"
-      monthly: "月額"
+      monthly: "月額プラン"
       please_register_as_customer_before_become_pro: "プロユーザーのサービスを利用する前に、必ず決済者情報が登録されている事をご確認下さい。"
       renew: "更新"
       select_plan: "プランを選択"
       there_are_problem_with_your_subscription: "プロユーザー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。"
-      yearly: "年額"
+      yearly: "年額プラン"
     user_info:
       avatar_code: "アバターコード"
       current_password: "現在のパスワード"
@@ -210,7 +225,7 @@ ja:
       password: "新しいパスワード"
       password_confirmation: "新しいパスワード（確認用）"
       title: "ユーザー情報"
-      view_r18: R-18コンテンツを有効にする
+      view_r18: R-18コンテンツを表示
   role:
     singular: "役割"
   search: "検索"
