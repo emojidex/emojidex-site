@@ -78,9 +78,12 @@ de:
     edit_tags_help: 
     enable_link: 
     homepage_link: 
+    invalid_file_type: 
     list: 
+    max_files_exceeded: 
     new: 
     r18: 
+    remove_image: 
     score: 
     singular: 
     tags_updated: 

@@ -78,9 +78,12 @@ ja:
     edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
     enable_link: "有効化"
     homepage_link: "ホームページへのリンク"
+    invalid_file_type: "このファイル形式はアップロード出来ません。"
     list: "絵文字表"
+    max_files_exceeded: "これ以上ファイルをアップロード出来ません。"
     new: "絵文字登録"
     r18: R-18
+    remove_image: "画像を削除"
     score: "スコア"
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"

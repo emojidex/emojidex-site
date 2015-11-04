@@ -78,9 +78,12 @@ en:
     edit_tags_help: You can add multiple tags by separating them with commas.
     enable_link: Enable link
     homepage_link: Homepage Link
+    invalid_file_type: You can't upload files of this type.
     list: emoji list
+    max_files_exceeded: You can not upload any more files.
     new: New emoji
     r18: R-18
+    remove_image: Remove image
     score: Score
     singular: emoji
     tags_updated: Emoji tags are successfully updated!

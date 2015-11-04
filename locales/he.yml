@@ -78,9 +78,12 @@ he:
     edit_tags_help: 
     enable_link: 
     homepage_link: "קישור לעמוד הבית"
+    invalid_file_type: 
     list: "רשימת אמוג'ים"
+    max_files_exceeded: 
     new: "אמוג'י חדש"
     r18: R-18
+    remove_image: 
     score: 
     singular: "אמוג'י"
     tags_updated: 
