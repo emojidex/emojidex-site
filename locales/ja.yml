@@ -85,6 +85,8 @@ ja:
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"
     update_tags: "タグを更新"
+    upload_error: "エラーが発生しました"
+    upload_success: "アップロードに成功しました"
   errors:
     attributes:
       image:

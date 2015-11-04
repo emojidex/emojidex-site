@@ -85,6 +85,8 @@ en:
     singular: emoji
     tags_updated: Emoji tags are successfully updated!
     update_tags: Update tags
+    upload_error: Error
+    upload_success: Success
   errors:
     attributes:
       image:

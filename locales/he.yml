@@ -85,6 +85,8 @@ he:
     singular: "אמוג'י"
     tags_updated: 
     update_tags: "עדכון טאג"
+    upload_error: 
+    upload_success: 
   errors:
     attributes:
       image:
