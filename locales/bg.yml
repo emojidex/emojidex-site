@@ -78,6 +78,7 @@ bg:
     edit_tags_help: 
     enable_link: "Добави линк"
     help:
+      can_not_change: 
       code: 
       image: 
       r18: 

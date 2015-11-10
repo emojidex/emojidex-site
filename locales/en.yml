@@ -78,6 +78,7 @@ en:
     edit_tags_help: You can add multiple tags by separating them with commas.
     enable_link: Enable link
     help:
+      can_not_change: 
       code: 
       image: 
       r18: 
