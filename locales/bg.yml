@@ -77,6 +77,11 @@ bg:
     edit_tags: 
     edit_tags_help: 
     enable_link: "Добави линк"
+    help:
+      code: 
+      image: 
+      r18: 
+      tag: 
     homepage_link: 
     invalid_file_type: 
     list: 

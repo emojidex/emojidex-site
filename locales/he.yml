@@ -77,6 +77,11 @@ he:
     edit_tags: 
     edit_tags_help: 
     enable_link: 
+    help:
+      code: 
+      image: 
+      r18: 
+      tag: 
     homepage_link: "קישור לעמוד הבית"
     invalid_file_type: 
     list: "רשימת אמוג'ים"

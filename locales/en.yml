@@ -77,6 +77,11 @@ en:
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
     enable_link: Enable link
+    help:
+      code: 
+      image: 
+      r18: 
+      tag: 
     homepage_link: Homepage Link
     invalid_file_type: You can't upload files of this type.
     list: emoji list
