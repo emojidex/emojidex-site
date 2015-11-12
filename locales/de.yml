@@ -88,6 +88,11 @@ de:
     list: 
     max_files_exceeded: 
     new: 
+    preview:
+      seal: 
+      sizes: 
+      with_text: 
+      with_text_sample: 
     r18: 
     remove_image: 
     score: 

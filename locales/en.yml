@@ -88,6 +88,11 @@ en:
     list: emoji list
     max_files_exceeded: You can not upload any more files.
     new: New emoji
+    preview:
+      seal: 
+      sizes: 
+      with_text: 
+      with_text_sample: 
     r18: R-18
     remove_image: Remove image
     score: Score

@@ -88,6 +88,11 @@ he:
     list: "רשימת אמוג'ים"
     max_files_exceeded: 
     new: "אמוג'י חדש"
+    preview:
+      seal: 
+      sizes: 
+      with_text: 
+      with_text_sample: 
     r18: R-18
     remove_image: 
     score: 
