@@ -76,31 +76,31 @@ en:
     drop_file_or_click_here: Drop image file or click here
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
-    enable_link: Enable link
+    enable_link: Enable Link
     help:
-      can_not_change: 
-      code: 
-      image: 
-      r18: 
-      tag: 
+      can_not_change: This field can not be changed later.
+      code: 'The code is the name of your emoji and how it will appear in plain text. It will appear as :registered code: in plain text. You can set your emoji to be a variation of another emoji by denoting how the emoji is different in parenthesis. For example "smile(wh)" and "smile(br)" are white and brown skin tones of the base "smile" emoji and will appear as variants in apps and on this site.'
+      image: Image
+      r18: R-18 [Adult]
+      tag: Tags
     homepage_link: Homepage Link
     invalid_file_type: You can't upload files of this type.
     list: emoji list
     max_files_exceeded: You can not upload any more files.
     new: New emoji
     preview:
-      seal: 
-      sizes: 
-      with_text: 
-      with_text_sample: 
-    r18: R-18
-    remove_image: Remove image
+      seal: Seal
+      sizes: Sizes
+      with_text: Preview in a line of text
+      with_text_sample: 'In a line of text this emoji will look like :%{emoji_shortcode}: as plain text and will be rendered like :%{emoji_image}: as an image when emojidex is supported.'
+    r18: R-18 (Adult)
+    remove_image: Remove Image
     score: Score
     singular: emoji
-    tags_updated: Emoji tags are successfully updated!
+    tags_updated: emoji tags were successfully updated!
     update_tags: Update tags
-    upload_error: Error
-    upload_success: Success
+    upload_error: Upload Error
+    upload_success: Upload Success
   errors:
     attributes:
       image:
