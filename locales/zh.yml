@@ -77,6 +77,13 @@ zh:
     edit_tags: 
     edit_tags_help: 
     enable_link: 
+    errors:
+      empty_parenthesis: 
+      invalid_characters: 
+      invalid_variant_format: 
+      multiple_bases: 
+      only_variant: 
+      open_parenthesis: 
     help:
       can_not_change: 
       code: 

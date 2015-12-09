@@ -77,6 +77,13 @@ en:
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
     enable_link: Enable Link
+    errors:
+      empty_parenthesis: Code contains a set of parenthesis without contents. Parenthesis specify a variant and must contain a variant specifier.
+      invalid_characters: Code contains invalid characters
+      invalid_variant_format: Code contains a variant with an invalid format.
+      multiple_bases: Emoji is a variant that maps to multiple bases. Please simplify your variant specifiers or move your variant specifiers to the beginning or end of the code.
+      only_variant: Code is only a variant specifier. Do not encase your code with parenthesis
+      open_parenthesis: Code contains un-closed parenthesis. You must have a closed set of parenthesis to specify a variant.
     help:
       can_not_change: This field can not be changed later.
       code: 'The code is the name of your emoji and how it will appear in plain text. It will appear as :registered code: in plain text. You can set your emoji to be a variation of another emoji by denoting how the emoji is different in parenthesis. For example "smile(wh)" and "smile(br)" are white and brown skin tones of the base "smile" emoji and will appear as variants in apps and on this site.'

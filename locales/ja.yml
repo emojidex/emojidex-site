@@ -77,6 +77,13 @@ ja:
     edit_tags: "%{emoji}のタグを編集"
     edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
     enable_link: "リンクを有効化"
+    errors:
+      empty_parenthesis: 
+      invalid_characters: 
+      invalid_variant_format: 
+      multiple_bases: 
+      only_variant: 
+      open_parenthesis: 
     help:
       can_not_change: "この項目は後から変更する事が出来ません。"
       code: |-
@@ -94,7 +101,7 @@ ja:
     max_files_exceeded: "これ以上ファイルをアップロード出来ません。"
     new: "絵文字登録"
     preview:
-      seal: "シールで使わる画像のプレビュー"
+      seal: "シール"
       sizes: "サイズ毎のプレビュー"
       with_text: "テキスト中のプレビュー"
       with_text_sample: |-
