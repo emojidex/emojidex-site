@@ -70,6 +70,17 @@ de:
     singular: 
     update: 
     updated: 
+  devise:
+    sessions:
+      didnt_receive_confirmation_instructions: 
+      didnt_receive_unlock_instructions: 
+      forgot your_password: 
+      password: 
+      remember_me: 
+      sign_in: 
+      sign_in_with: 
+      sign_up: 
+      username_or_email: 
   edit: 
   emoji:
     code: 

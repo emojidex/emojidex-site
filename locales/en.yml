@@ -70,6 +70,17 @@ en:
     singular: Customer
     update: Update customer
     updated: Customer registration successfully updated!
+  devise:
+    sessions:
+      didnt_receive_confirmation_instructions: Didn't receive confirmation instructions?
+      didnt_receive_unlock_instructions: Didn't receive unlock instructions?
+      forgot your_password: Forgot your password?
+      password: Password
+      remember_me: Remember me
+      sign_in: Sign In
+      sign_in_with: Sign In with %{provider}
+      sign_up: Sign Up
+      username_or_email: Username or email
   edit: Edit
   emoji:
     code: Code
