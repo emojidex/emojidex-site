@@ -74,7 +74,7 @@ ja:
     sessions:
       didnt_receive_confirmation_instructions: "確認のメールが届きませんでしたか？"
       didnt_receive_unlock_instructions: "ロック解除のメールが届きませんでしたか？"
-      forgot your_password: 
+      forgot_your_password: 
       password: "パスワード"
       remember_me: "ログイン情報を保存"
       sign_in: "ログイン"

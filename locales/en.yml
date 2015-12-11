@@ -74,7 +74,7 @@ en:
     sessions:
       didnt_receive_confirmation_instructions: Didn't receive confirmation instructions?
       didnt_receive_unlock_instructions: Didn't receive unlock instructions?
-      forgot your_password: Forgot your password?
+      forgot_your_password: Forgot your password?
       password: Password
       remember_me: Remember me
       sign_in: Sign In
