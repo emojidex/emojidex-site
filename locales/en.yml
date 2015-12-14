@@ -13,7 +13,6 @@ en:
     services: Services
     sources: Source Code
     terms_of_service: Terms of Service
-  accept_terms_of_service: I agree to the terms of service
   ago: "%{date} ago"
   auth_token:
     clear: Clear auth token
@@ -71,16 +70,21 @@ en:
     update: Update customer
     updated: Customer registration successfully updated!
   devise:
+    accept_terms_of_service: I agree to the terms of service
+    display_language: Display language
+    email: Email
+    password: Password
+    password_confirmation: Password confirmation
     sessions:
       didnt_receive_confirmation_instructions: Didn't receive confirmation instructions?
       didnt_receive_unlock_instructions: Didn't receive unlock instructions?
       forgot_your_password: Forgot your password?
-      password: Password
       remember_me: Remember me
       sign_in: Sign In
       sign_in_with: Sign In with %{provider}
-      sign_up: Sign Up
       username_or_email: Username or email
+    sign_up: Sign Up
+    username: Username
   edit: Edit
   emoji:
     code: Code
