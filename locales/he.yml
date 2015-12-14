@@ -296,6 +296,7 @@ he:
     plural: "תגים"
     singular: "תג"
   terms_of_service: 
+  updated_at: 
   user:
     avatar_not_found: 
     display_language: 

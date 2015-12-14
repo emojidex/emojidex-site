@@ -306,6 +306,7 @@ ja:
     plural: "タグ"
     singular: "タグ"
   terms_of_service: "サービス利用規約"
+  updated_at: "更新日時"
   user:
     avatar_not_found: "アバターコードが見付かりませんでした"
     display_language: "表示言語"

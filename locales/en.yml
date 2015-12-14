@@ -297,6 +297,7 @@ en:
     plural: Tags
     singular: Tag
   terms_of_service: Terms of Service
+  updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
     display_language: Display language
