@@ -70,13 +70,15 @@ ja:
     update: "決済者情報を更新"
     updated: "決済者情報の更新に成功しました。"
   devise:
-    accept_terms_of_service: "サービス利用規約に同意します。"
-    display_language: "表示言語"
     email: "メールアドレス"
-    login_to_add: "他サービスを使ったアカウント"
     password: "パスワード"
     password_confirmation: "パスワード（確認用）"
-    select_display_language: "表示言語を選択して下さい"
+    registrations:
+      accept_terms_of_service: "サービス利用規約に同意します。"
+      display_language: "表示言語"
+      login_to_add: "他サービスを使ったアカウント"
+      select_display_language: "表示言語を選択して下さい"
+      setup: "セットアップ"
     sessions:
       didnt_receive_confirmation_instructions: "確認のメールが届きませんでしたか？"
       didnt_receive_unlock_instructions: "ロック解除のメールが届きませんでしたか？"
@@ -85,7 +87,6 @@ ja:
       sign_in: "ログイン"
       sign_in_with: "%{provider}でログイン"
       username_or_email: "ユーザー名またはメールアドレス"
-    setup: "セットアップ"
     sign_up: "サインアップ"
     username: "ユーザー名"
   edit: "編集"

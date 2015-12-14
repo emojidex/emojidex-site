@@ -70,13 +70,15 @@ he:
     update: "עידכון הלקוח"
     updated: "הרשמת הלקוח עודכן בהצלחה!"
   devise:
-    accept_terms_of_service: "אני מסכים לתנאי שירות"
-    display_language: 
     email: 
-    login_to_add: 
     password: 
     password_confirmation: 
-    select_display_language: 
+    registrations:
+      accept_terms_of_service: "אני מסכים לתנאי שירות"
+      display_language: 
+      login_to_add: 
+      select_display_language: 
+      setup: 
     sessions:
       didnt_receive_confirmation_instructions: 
       didnt_receive_unlock_instructions: 
@@ -85,7 +87,6 @@ he:
       sign_in: 
       sign_in_with: 
       username_or_email: 
-    setup: 
     sign_up: 
     username: 
   edit: "ערוך"
