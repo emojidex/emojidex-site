@@ -73,6 +73,7 @@ ja:
     accept_terms_of_service: "サービス利用規約に同意します。"
     display_language: "表示言語"
     email: "メールアドレス"
+    login_to_add: "他サービスを使ったアカウント"
     password: "パスワード"
     password_confirmation: "パスワード（確認用）"
     sessions:
@@ -83,6 +84,7 @@ ja:
       sign_in: "ログイン"
       sign_in_with: "%{provider}でログイン"
       username_or_email: "ユーザー名またはメールアドレス"
+    setup: "セットアップ"
     sign_up: "サインアップ"
     username: "ユーザー名"
   edit: "編集"
@@ -313,7 +315,6 @@ ja:
   updated_at: "更新日時"
   user:
     avatar_not_found: "アバターコードが見付かりませんでした"
-    display_language: "表示言語"
     login: "ユーザ名またはメールアドレス"
     not_authorized: "このページにアクセスする権限がありません"
     select_display_language: "表示言語を選択して下さい"

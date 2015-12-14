@@ -73,6 +73,7 @@ en:
     accept_terms_of_service: I agree to the terms of service
     display_language: Display language
     email: Email
+    login_to_add: Login to add
     password: Password
     password_confirmation: Password confirmation
     sessions:
@@ -83,6 +84,7 @@ en:
       sign_in: Sign In
       sign_in_with: Sign In with %{provider}
       username_or_email: Username or email
+    setup: Setup
     sign_up: Sign Up
     username: Username
   edit: Edit
@@ -304,7 +306,6 @@ en:
   updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
-    display_language: Display language
     login: Username or email
     not_authorized: You are not authorized to access this page
     select_display_language: Select display language

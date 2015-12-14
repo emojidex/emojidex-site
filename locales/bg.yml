@@ -71,8 +71,9 @@ bg:
     updated: 
   devise:
     accept_terms_of_service: 
-    display_language: 
+    display_language: "Език"
     email: 
+    login_to_add: 
     password: 
     password_confirmation: 
     sessions:
@@ -83,6 +84,7 @@ bg:
       sign_in: 
       sign_in_with: 
       username_or_email: 
+    setup: 
     sign_up: 
     username: 
   edit: 
@@ -303,7 +305,6 @@ bg:
   updated_at: 
   user:
     avatar_not_found: 
-    display_language: "Език"
     login: 
     not_authorized: 
     select_display_language: 
