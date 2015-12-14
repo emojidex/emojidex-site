@@ -76,6 +76,7 @@ en:
     login_to_add: Login to add
     password: Password
     password_confirmation: Password confirmation
+    select_display_language: Select display language
     sessions:
       didnt_receive_confirmation_instructions: Didn't receive confirmation instructions?
       didnt_receive_unlock_instructions: Didn't receive unlock instructions?
@@ -306,8 +307,5 @@ en:
   updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
-    login: Username or email
     not_authorized: You are not authorized to access this page
-    select_display_language: Select display language
-    username: Username
   user_emoji: My emoji

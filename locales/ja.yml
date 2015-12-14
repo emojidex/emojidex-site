@@ -76,6 +76,7 @@ ja:
     login_to_add: "他サービスを使ったアカウント"
     password: "パスワード"
     password_confirmation: "パスワード（確認用）"
+    select_display_language: "表示言語を選択して下さい"
     sessions:
       didnt_receive_confirmation_instructions: "確認のメールが届きませんでしたか？"
       didnt_receive_unlock_instructions: "ロック解除のメールが届きませんでしたか？"
@@ -315,8 +316,5 @@ ja:
   updated_at: "更新日時"
   user:
     avatar_not_found: "アバターコードが見付かりませんでした"
-    login: "ユーザ名またはメールアドレス"
     not_authorized: "このページにアクセスする権限がありません"
-    select_display_language: "表示言語を選択して下さい"
-    username: "ユーザ名"
   user_emoji: My emoji

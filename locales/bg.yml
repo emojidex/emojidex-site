@@ -76,6 +76,7 @@ bg:
     login_to_add: 
     password: 
     password_confirmation: 
+    select_display_language: 
     sessions:
       didnt_receive_confirmation_instructions: 
       didnt_receive_unlock_instructions: 
@@ -305,8 +306,5 @@ bg:
   updated_at: 
   user:
     avatar_not_found: 
-    login: 
     not_authorized: 
-    select_display_language: 
-    username: 
   user_emoji: 
