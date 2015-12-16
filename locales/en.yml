@@ -70,12 +70,15 @@ en:
     update: Update customer
     updated: Customer registration successfully updated!
   devise:
-    accept_terms_of_service: I agree to the terms of service
-    display_language: Display language
     email: Email
-    login_to_add: Login to add
     password: Password
     password_confirmation: Password confirmation
+    registrations:
+      accept_terms_of_service: I agree to the terms of service
+      display_language: Display language
+      login_to_add: Login to add
+      select_display_language: Select display language
+      setup: Setup
     sessions:
       didnt_receive_confirmation_instructions: Didn't receive confirmation instructions?
       didnt_receive_unlock_instructions: Didn't receive unlock instructions?
@@ -84,7 +87,6 @@ en:
       sign_in: Sign In
       sign_in_with: Sign In with %{provider}
       username_or_email: Username or email
-    setup: Setup
     sign_up: Sign Up
     username: Username
   edit: Edit
@@ -108,8 +110,10 @@ en:
       r18: R-18 [Adult]
       tag: Tags
     homepage_link: Homepage Link
+    image_url: Image URL
     invalid_file_type: You can't upload files of this type.
     list: emoji list
+    markdown: Markdown
     max_files_exceeded: You can not upload any more files.
     new: New emoji
     preview:
@@ -120,11 +124,13 @@ en:
     r18: R-18 (Adult)
     remove_image: Remove Image
     score: Score
+    select_image_size: Select image size
     singular: emoji
     tags_updated: emoji tags were successfully updated!
     update_tags: Update tags
     upload_error: Upload Error
     upload_success: Upload Success
+    variants: Variants
   errors:
     attributes:
       image:
@@ -306,8 +312,5 @@ en:
   updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
-    login: Username or email
     not_authorized: You are not authorized to access this page
-    select_display_language: Select display language
-    username: Username
   user_emoji: My emoji

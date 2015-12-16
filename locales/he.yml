@@ -70,12 +70,15 @@ he:
     update: "עידכון הלקוח"
     updated: "הרשמת הלקוח עודכן בהצלחה!"
   devise:
-    accept_terms_of_service: "אני מסכים לתנאי שירות"
-    display_language: 
     email: 
-    login_to_add: 
     password: 
     password_confirmation: 
+    registrations:
+      accept_terms_of_service: "אני מסכים לתנאי שירות"
+      display_language: 
+      login_to_add: 
+      select_display_language: 
+      setup: 
     sessions:
       didnt_receive_confirmation_instructions: 
       didnt_receive_unlock_instructions: 
@@ -84,7 +87,6 @@ he:
       sign_in: 
       sign_in_with: 
       username_or_email: 
-    setup: 
     sign_up: 
     username: 
   edit: "ערוך"
@@ -108,8 +110,10 @@ he:
       r18: 
       tag: 
     homepage_link: "קישור לעמוד הבית"
+    image_url: 
     invalid_file_type: 
     list: "רשימת אמוג'ים"
+    markdown: 
     max_files_exceeded: 
     new: "אמוג'י חדש"
     preview:
@@ -120,11 +124,13 @@ he:
     r18: R-18
     remove_image: 
     score: 
+    select_image_size: 
     singular: "אמוג'י"
     tags_updated: 
     update_tags: "עדכון טאג"
     upload_error: 
     upload_success: 
+    variants: 
   errors:
     attributes:
       image:
@@ -305,8 +311,5 @@ he:
   updated_at: 
   user:
     avatar_not_found: 
-    login: "שם משתמש או אימייל"
     not_authorized: 
-    select_display_language: 
-    username: "שם משתמש"
   user_emoji: 
