@@ -92,6 +92,7 @@ he:
   edit: "ערוך"
   emoji:
     code: "קוד"
+    description: 
     drop_file_or_click_here: 
     edit_tags: 
     edit_tags_help: 
@@ -112,6 +113,7 @@ he:
     homepage_link: "קישור לעמוד הבית"
     image_url: 
     invalid_file_type: 
+    link: 
     list: "רשימת אמוג'ים"
     markdown: 
     max_files_exceeded: 

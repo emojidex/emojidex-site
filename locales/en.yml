@@ -92,6 +92,7 @@ en:
   edit: Edit
   emoji:
     code: Code
+    description: Description
     drop_file_or_click_here: Drop image file or click here
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
@@ -112,6 +113,7 @@ en:
     homepage_link: Homepage Link
     image_url: Image URL
     invalid_file_type: You can't upload files of this type.
+    link: link
     list: emoji list
     markdown: Markdown
     max_files_exceeded: You can not upload any more files.

@@ -92,6 +92,7 @@ ja:
   edit: "編集"
   emoji:
     code: "コード"
+    description: "説明"
     drop_file_or_click_here: "ここに画像ファイルをドロップするか、クリックして下さい。"
     edit_tags: "%{emoji}のタグを編集"
     edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
@@ -117,6 +118,7 @@ ja:
     homepage_link: "ホームページへのリンク"
     image_url: "画像URL"
     invalid_file_type: "このファイル形式はアップロード出来ません。"
+    link: "リンク"
     list: "絵文字表"
     markdown: "マークダウン"
     max_files_exceeded: "これ以上ファイルをアップロード出来ません。"
