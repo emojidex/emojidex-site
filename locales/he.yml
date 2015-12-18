@@ -110,8 +110,10 @@ he:
       r18: 
       tag: 
     homepage_link: "קישור לעמוד הבית"
+    image_url: 
     invalid_file_type: 
     list: "רשימת אמוג'ים"
+    markdown: 
     max_files_exceeded: 
     new: "אמוג'י חדש"
     preview:
@@ -122,11 +124,13 @@ he:
     r18: R-18
     remove_image: 
     score: 
+    select_image_size: 
     singular: "אמוג'י"
     tags_updated: 
     update_tags: "עדכון טאג"
     upload_error: 
     upload_success: 
+    variants: 
   errors:
     attributes:
       image:

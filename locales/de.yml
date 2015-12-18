@@ -110,8 +110,10 @@ de:
       r18: 
       tag: 
     homepage_link: 
+    image_url: 
     invalid_file_type: 
     list: 
+    markdown: 
     max_files_exceeded: 
     new: 
     preview:
@@ -122,11 +124,13 @@ de:
     r18: 
     remove_image: 
     score: 
+    select_image_size: 
     singular: 
     tags_updated: 
     update_tags: 
     upload_error: 
     upload_success: 
+    variants: 
   errors:
     attributes:
       image:

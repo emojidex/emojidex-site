@@ -110,8 +110,10 @@ en:
       r18: R-18 [Adult]
       tag: Tags
     homepage_link: Homepage Link
+    image_url: Image URL
     invalid_file_type: You can't upload files of this type.
     list: emoji list
+    markdown: Markdown
     max_files_exceeded: You can not upload any more files.
     new: New emoji
     preview:
@@ -122,11 +124,13 @@ en:
     r18: R-18 (Adult)
     remove_image: Remove Image
     score: Score
+    select_image_size: Select image size
     singular: emoji
     tags_updated: emoji tags were successfully updated!
     update_tags: Update tags
     upload_error: Upload Error
     upload_success: Upload Success
+    variants: Variants
   errors:
     attributes:
       image:

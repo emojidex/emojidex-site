@@ -115,8 +115,10 @@ ja:
       r18: "アダルトな要素や、グロテスクな物を含む画像の場合はこのチェックを入れて下さい。"
       tag: "絵文字にタグを設定する事が出来ます。また「猫, シマシマ, 可愛い」の様に「,（コンマ）」で区切る事で同時に複数のタグを登録出来ます。"
     homepage_link: "ホームページへのリンク"
+    image_url: "画像URL"
     invalid_file_type: "このファイル形式はアップロード出来ません。"
     list: "絵文字表"
+    markdown: "マークダウン"
     max_files_exceeded: "これ以上ファイルをアップロード出来ません。"
     new: "絵文字登録"
     preview:
@@ -129,11 +131,13 @@ ja:
     r18: R-18
     remove_image: "画像を削除"
     score: "スコア"
+    select_image_size: "画像サイズ選択"
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"
     update_tags: "タグを更新"
     upload_error: "エラーが発生しました"
     upload_success: "アップロードに成功しました"
+    variants: "差分"
   errors:
     attributes:
       image:
