@@ -92,6 +92,7 @@ en:
   edit: Edit
   emoji:
     code: Code
+    copyright: Copyright
     description: Description
     drop_file_or_click_here: Drop image file or click here
     edit_tags: Edit %{emoji} tags
@@ -119,10 +120,11 @@ en:
     max_files_exceeded: You can not upload any more files.
     new: New emoji
     preview:
+      hanko: Hanko
       seal: Seal
       sizes: Sizes
       with_text: Preview in a line of text
-      with_text_sample: 'In a line of text this emoji will look like :%{emoji_shortcode}: as plain text and will be rendered like :%{emoji_image}: as an image when emojidex is supported.'
+      with_text_sample: 'In a line of text this emoji will look like :%{emoji_shortcode}: as plain text and will be rendered like %{emoji_image} as an image when emojidex is supported.'
     r18: R-18 (Adult)
     remove_image: Remove Image
     score: Score

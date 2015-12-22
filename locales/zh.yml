@@ -92,6 +92,7 @@ zh:
   edit: 
   emoji:
     code: 
+    copyright: 
     description: 
     drop_file_or_click_here: 
     edit_tags: 
@@ -119,6 +120,7 @@ zh:
     max_files_exceeded: 
     new: 
     preview:
+      hanko: 
       seal: 
       sizes: 
       with_text: 

@@ -92,6 +92,7 @@ he:
   edit: "ערוך"
   emoji:
     code: "קוד"
+    copyright: 
     description: 
     drop_file_or_click_here: 
     edit_tags: 
@@ -119,6 +120,7 @@ he:
     max_files_exceeded: 
     new: "אמוג'י חדש"
     preview:
+      hanko: 
       seal: 
       sizes: 
       with_text: 

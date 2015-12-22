@@ -92,6 +92,7 @@ ja:
   edit: "編集"
   emoji:
     code: "コード"
+    copyright: "著作権"
     description: "説明"
     drop_file_or_click_here: "ここに画像ファイルをドロップするか、クリックして下さい。"
     edit_tags: "%{emoji}のタグを編集"
@@ -124,6 +125,7 @@ ja:
     max_files_exceeded: "これ以上ファイルをアップロード出来ません。"
     new: "絵文字登録"
     preview:
+      hanko: "はんこ"
       seal: "シール"
       sizes: "サイズ毎のプレビュー"
       with_text: "テキスト中のプレビュー"
