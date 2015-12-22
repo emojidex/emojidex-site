@@ -136,6 +136,7 @@ ja:
     remove_image: "画像を削除"
     score: "スコア"
     select_image_size: "画像サイズ選択"
+    share: "共有"
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"
     update_tags: "タグを更新"
