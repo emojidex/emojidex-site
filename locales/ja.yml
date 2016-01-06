@@ -84,7 +84,7 @@ ja:
       didnt_receive_unlock_instructions: "ロック解除のメールが届きませんでしたか？"
       forgot_your_password: "パスワードをお忘れですか？"
       remember_me: "ログイン情報を保存"
-      send_reset_password_instructions: "パスワードリセットの手順を送信"
+      send_reset_password_instructions: "パスワードのリセットをリクエスト"
       sign_in: "ログイン"
       sign_in_with: "%{provider}でログイン"
       username_or_email: "ユーザー名またはメールアドレス"
@@ -100,12 +100,12 @@ ja:
     edit_tags_help: "「,」でタグを区切る事で、複数のタグを同時に登録できます。"
     enable_link: "リンクを有効化"
     errors:
-      empty_parenthesis: 
-      invalid_characters: 
-      invalid_variant_format: 
-      multiple_bases: 
-      only_variant: 
-      open_parenthesis: 
+      empty_parenthesis: "括弧の中身がありません。括弧内の文字は差分を示す物で、必ず設定する必要があります。"
+      invalid_characters: "不正な文字がコードに含まれています。"
+      invalid_variant_format: "差分のフォーマットが間違っています。"
+      multiple_bases: "複数のベース絵文字を指定しています。始めか終わりに一つだけ指定してください。"
+      only_variant: "コードが差分のみになっています。コードを括弧でくくらないでください。"
+      open_parenthesis: "差分を指定する括弧が閉じられていません。"
     help:
       can_not_change: "この項目は後から変更する事が出来ません。"
       code: |-
@@ -140,7 +140,7 @@ ja:
     share: "共有"
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"
-    unicode_only: 
+    unicode_only: Unicodeのみ
     update_tags: "タグを更新"
     upload_error: "エラーが発生しました"
     upload_success: "アップロードに成功しました"
@@ -329,6 +329,6 @@ ja:
   user:
     avatar_not_found: "アバターコードが見付かりませんでした"
     not_authorized: "このページにアクセスする権限がありません"
-    not_subscriber: 
-    r18_error: 
+    not_subscriber: "絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。"
+    r18_error: "成人向けコンテンツを閲覧するにはアカウントのR-18設定を有効化する必要があります。"
   user_emoji: My emoji
