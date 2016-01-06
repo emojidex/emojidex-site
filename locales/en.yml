@@ -84,6 +84,7 @@ en:
       didnt_receive_unlock_instructions: Didn't receive unlock instructions?
       forgot_your_password: Forgot your password?
       remember_me: Remember me
+      send_reset_password_instructions: Send me reset password instructions
       sign_in: Sign In
       sign_in_with: Sign In with %{provider}
       username_or_email: Username or email
@@ -132,6 +133,7 @@ en:
     share: Share
     singular: emoji
     tags_updated: emoji tags were successfully updated!
+    unicode_only: Unicode Only
     update_tags: Update tags
     upload_error: Upload Error
     upload_success: Upload Success
@@ -318,4 +320,6 @@ en:
   user:
     avatar_not_found: Avatar code not found
     not_authorized: You are not authorized to access this page
+    not_subscriber: You must be a Premium or Pro user to access the Newest or Popular indexes
+    r18_error: You must enable R-18 on your account to view mature content.
   user_emoji: My emoji

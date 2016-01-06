@@ -84,6 +84,7 @@ he:
       didnt_receive_unlock_instructions: 
       forgot_your_password: 
       remember_me: 
+      send_reset_password_instructions: 
       sign_in: 
       sign_in_with: 
       username_or_email: 
@@ -132,6 +133,7 @@ he:
     share: 
     singular: "אמוג'י"
     tags_updated: 
+    unicode_only: 
     update_tags: "עדכון טאג"
     upload_error: 
     upload_success: 
@@ -317,4 +319,6 @@ he:
   user:
     avatar_not_found: 
     not_authorized: 
+    not_subscriber: 
+    r18_error: 
   user_emoji: 

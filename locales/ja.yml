@@ -84,6 +84,7 @@ ja:
       didnt_receive_unlock_instructions: "ロック解除のメールが届きませんでしたか？"
       forgot_your_password: "パスワードをお忘れですか？"
       remember_me: "ログイン情報を保存"
+      send_reset_password_instructions: "パスワードリセットの手順を送信"
       sign_in: "ログイン"
       sign_in_with: "%{provider}でログイン"
       username_or_email: "ユーザー名またはメールアドレス"
@@ -139,6 +140,7 @@ ja:
     share: "共有"
     singular: "絵文字"
     tags_updated: "絵文字のタグを更新しました。"
+    unicode_only: 
     update_tags: "タグを更新"
     upload_error: "エラーが発生しました"
     upload_success: "アップロードに成功しました"
@@ -327,4 +329,6 @@ ja:
   user:
     avatar_not_found: "アバターコードが見付かりませんでした"
     not_authorized: "このページにアクセスする権限がありません"
+    not_subscriber: 
+    r18_error: 
   user_emoji: My emoji
