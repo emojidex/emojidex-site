@@ -280,6 +280,7 @@ hi:
   role:
     singular: 
   search: 
+  search_options: 
   seo:
     description: 
     tags: 

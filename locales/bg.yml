@@ -22,19 +22,19 @@ bg:
   authentication:
     alert: 
   categories:
-    abstract: "Абстрактни"
-    all: "Всички"
-    cosmos: "Космос"
-    faces: "Лица"
-    food: "Храна"
-    gestures: "Жестове"
-    nature: "Природа"
-    objects: "Обекти"
-    people: "Хора"
-    places: "Места"
-    symbols: "Символи"
-    tools: "Инструменти"
-    transportation: "Транспорт"
+    abstract: Абстрактни
+    all: Всички
+    cosmos: Космос
+    faces: Лица
+    food: Храна
+    gestures: Жестове
+    nature: Природа
+    objects: Обекти
+    people: Хора
+    places: Места
+    symbols: Символи
+    tools: Инструменти
+    transportation: Транспорт
   category:
     list: 
     plural: 
@@ -75,7 +75,7 @@ bg:
     password_confirmation: 
     registrations:
       accept_terms_of_service: 
-      display_language: "Език"
+      display_language: Език
       login_to_add: 
       select_display_language: 
       setup: 
@@ -98,7 +98,7 @@ bg:
     drop_file_or_click_here: 
     edit_tags: 
     edit_tags_help: 
-    enable_link: "Добави линк"
+    enable_link: Добави линк
     errors:
       empty_parenthesis: 
       invalid_characters: 
@@ -159,7 +159,7 @@ bg:
     singular: 
   inline_install: 
   interface:
-    login: "Вход"
+    login: Вход
     new_emoji_login_or_register: 
   lang: 
   mailer:
@@ -222,7 +222,7 @@ bg:
   registrations:
     connected_account: 
     premium_subscription:
-      are_you_sure: "Сигурни ли сте?"
+      are_you_sure: Сигурни ли сте?
       become_premium_user: 
       change_premium_plan_to_monthly: 
       change_premium_plan_to_yearly: 
@@ -280,6 +280,7 @@ bg:
   role:
     singular: 
   search: 
+  search_options: 
   seo:
     description: 
     tags: 

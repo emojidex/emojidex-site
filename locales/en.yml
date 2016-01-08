@@ -280,10 +280,12 @@ en:
   role:
     singular: Role
   search: Search
+  search_options: Search Options
   seo:
     description: Original emoji you can use anywhere! Register your own custom emoji or use emoji from other users online and in apps.
-    tags: |
-      emoji, free emoji, stamps, free stamps, UTF emoji, original emoji, Android emoji, emoji app, Chrome emoji, custom emoji, emoji registration
+    tags: 'emoji, free emoji, stamps, free stamps, UTF emoji, original emoji, Android emoji, emoji app, Chrome emoji, custom emoji, emoji registration
+
+'
     title: emojidex - custom emoji service and apps
   sidebar:
     all: All
