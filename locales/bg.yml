@@ -73,6 +73,7 @@ bg:
     email: 
     password: 
     password_confirmation: 
+    referrer: 
     registrations:
       accept_terms_of_service: 
       display_language: Език
@@ -132,8 +133,8 @@ bg:
     select_image_size: 
     share: 
     singular: 
+    standard_emoji_only: 
     tags_updated: 
-    unicode_only: 
     update_tags: 
     upload_error: 
     upload_success: 
@@ -319,6 +320,7 @@ bg:
   updated_at: 
   user:
     avatar_not_found: 
+    missing_referrer: 
     not_authorized: 
     not_subscriber: 
     r18_error: 

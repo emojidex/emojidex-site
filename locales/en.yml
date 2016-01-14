@@ -73,6 +73,7 @@ en:
     email: Email
     password: Password
     password_confirmation: Password confirmation
+    referrer: Referrer
     registrations:
       accept_terms_of_service: I agree to the terms of service
       display_language: Display language
@@ -132,8 +133,8 @@ en:
     select_image_size: Select image size
     share: Share
     singular: emoji
+    standard_emoji_only: Standard emoji Only
     tags_updated: emoji tags were successfully updated!
-    unicode_only: Unicode Only
     update_tags: Update tags
     upload_error: Upload Error
     upload_success: Upload Success
@@ -321,6 +322,7 @@ en:
   updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
+    missing_referrer: Referrer username not found
     not_authorized: You are not authorized to access this page
     not_subscriber: You must be a Premium or Pro user to access the Newest or Popular indexes
     r18_error: You must enable R-18 on your account to view mature content.

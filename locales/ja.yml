@@ -73,6 +73,7 @@ ja:
     email: メールアドレス
     password: パスワード
     password_confirmation: パスワード（確認用）
+    referrer: 
     registrations:
       accept_terms_of_service: サービス利用規約に同意します。
       display_language: 表示言語
@@ -139,8 +140,8 @@ ja:
     select_image_size: 画像サイズ選択
     share: 共有
     singular: 絵文字
+    standard_emoji_only: 標準絵文字のみ検索
     tags_updated: 絵文字のタグを更新しました。
-    unicode_only: Unicodeのみ
     update_tags: タグを更新
     upload_error: エラーが発生しました
     upload_success: アップロードに成功しました
@@ -330,6 +331,7 @@ ja:
   updated_at: 更新日時
   user:
     avatar_not_found: アバターコードが見付かりませんでした
+    missing_referrer: 
     not_authorized: このページにアクセスする権限がありません
     not_subscriber: 絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。
     r18_error: 成人向けコンテンツを閲覧するにはアカウントのR-18設定を有効化する必要があります。
