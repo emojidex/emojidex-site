@@ -73,7 +73,7 @@ ja:
     email: メールアドレス
     password: パスワード
     password_confirmation: パスワード（確認用）
-    referrer: 
+    referrer: 紹介/支持ユーザー
     registrations:
       accept_terms_of_service: サービス利用規約に同意します。
       display_language: 表示言語
@@ -338,5 +338,4 @@ ja:
     not_authorized: このページにアクセスする権限がありません
     not_subscriber: 絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。
     r18_error: 成人向けコンテンツを閲覧するにはアカウントのR-18設定を有効化する必要があります。
-    referrer: 紹介/支持ユーザー
   user_emoji: My emoji
