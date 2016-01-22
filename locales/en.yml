@@ -163,6 +163,8 @@ en:
     login: Login
     new_emoji_login_or_register: You must be signed in to register an emoji. Please sign in or register an account.
   lang: Language
+  legal_attribution:
+    google_play_badge: Android, Google Play and the Google Play logo are trademarks of Google Inc.
   mailer:
     copyright_purchase:
       body: Your card has been charged for copyright purchase for %{emoji} emoji with %{price} yen
@@ -271,6 +273,7 @@ en:
     user_info:
       avatar_code: Avatar code
       current_password: Current password
+      description: Description
       email: Email
       help_current_password: "(we need your current password to confirm your changes)"
       help_password: "(leave blank if you don't want to change it)"
@@ -326,4 +329,5 @@ en:
     not_authorized: You are not authorized to access this page
     not_subscriber: You must be a Premium or Pro user to access the Newest or Popular indexes
     r18_error: You must enable R-18 on your account to view mature content.
+    referrer: Referrer
   user_emoji: My emoji

@@ -163,6 +163,8 @@ bg:
     login: Вход
     new_emoji_login_or_register: 
   lang: 
+  legal_attribution:
+    google_play_badge: 
   mailer:
     copyright_purchase:
       body: 
@@ -271,6 +273,7 @@ bg:
     user_info:
       avatar_code: 
       current_password: 
+      description: 
       email: 
       help_current_password: 
       help_password: 
@@ -324,4 +327,5 @@ bg:
     not_authorized: 
     not_subscriber: 
     r18_error: 
+    referrer: 
   user_emoji: 

@@ -163,6 +163,8 @@ es:
     login: 
     new_emoji_login_or_register: 
   lang: 
+  legal_attribution:
+    google_play_badge: Android, Google Play y el logotipo de Google Play son marcas comerciales de Google Inc.
   mailer:
     copyright_purchase:
       body: 
@@ -271,6 +273,7 @@ es:
     user_info:
       avatar_code: 
       current_password: 
+      description: 
       email: 
       help_current_password: 
       help_password: 
@@ -324,4 +327,5 @@ es:
     not_authorized: 
     not_subscriber: 
     r18_error: 
+    referrer: 
   user_emoji: 

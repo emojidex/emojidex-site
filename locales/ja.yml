@@ -170,6 +170,8 @@ ja:
     login: ログイン
     new_emoji_login_or_register: 新しい絵文字を追加するには、ユーザー登録かログインを行って下さい。
   lang: 言語選択
+  legal_attribution:
+    google_play_badge: Android、Google Play、Google Play ロゴは、Google Inc. の商標です。
   mailer:
     copyright_purchase:
       body: 絵文字「%{emoji}」の著作権購入費用として、「%{price}円」が、あなたのカードから支払われました。
@@ -280,6 +282,7 @@ ja:
     user_info:
       avatar_code: アバターコード
       current_password: 現在のパスワード
+      description: 
       email: メールアドレス
       help_current_password: "（ユーザー情報を変更するには現在のパスワードが必要です）"
       help_password: "（変更しない場合は空欄のままにして下さい）"
@@ -335,4 +338,5 @@ ja:
     not_authorized: このページにアクセスする権限がありません
     not_subscriber: 絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。
     r18_error: 成人向けコンテンツを閲覧するにはアカウントのR-18設定を有効化する必要があります。
+    referrer: 紹介/支持ユーザー
   user_emoji: My emoji
