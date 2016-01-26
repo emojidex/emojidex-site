@@ -280,7 +280,7 @@ ja:
       there_are_problem_with_your_subscription: プロユーザー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。
       yearly: 年額プラン
     user_info:
-      avatar_code: アバターコード
+      avatar_code: アバター絵文字コード
       current_password: 現在のパスワード
       description: 自己紹介
       email: メールアドレス
@@ -333,7 +333,7 @@ ja:
   terms_of_service: サービス利用規約
   updated_at: 更新日時
   user:
-    avatar_not_found: アバターコードが見付かりませんでした
+    avatar_not_found: アバター絵文字コードが見付かりませんでした
     missing_referrer: 紹介/支持ユーザーに指定したユーザーが見付かりませんでした
     not_authorized: このページにアクセスする権限がありません
     not_subscriber: 絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。
