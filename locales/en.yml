@@ -325,7 +325,7 @@ en:
   updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
-    missing_referrer: Referrer username not found
+    missing_referrer: Referrer not found. Please make sure you correctly entered the user name of your referrer.
     not_authorized: You are not authorized to access this page
     not_subscriber: You must be a Premium or Pro user to access the Newest or Popular indexes
     r18_error: You must enable R-18 on your account to view mature content.
