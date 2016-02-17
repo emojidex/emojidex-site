@@ -93,6 +93,7 @@ de:
     username: 
   edit: 
   emoji:
+    attribution: 
     code: 
     copyright: 
     description: 
@@ -108,6 +109,7 @@ de:
       only_variant: 
       open_parenthesis: 
     help:
+      attribution: 
       can_not_change: 
       code: 
       image: 
@@ -323,8 +325,10 @@ de:
   updated_at: 
   user:
     avatar_not_found: 
+    follow: 
     missing_referrer: 
     not_authorized: 
     not_subscriber: 
     r18_error: 
+    unfollow: 
   user_emoji: 

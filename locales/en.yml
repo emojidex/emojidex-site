@@ -93,6 +93,7 @@ en:
     username: Username
   edit: Edit
   emoji:
+    attribution: Attribution
     code: Code
     copyright: Copyright
     description: Description
@@ -108,6 +109,7 @@ en:
       only_variant: Code is only a variant specifier. Do not encase your code with parenthesis
       open_parenthesis: Code contains un-closed parenthesis. You must have a closed set of parenthesis to specify a variant.
     help:
+      attribution: Attribution help here
       can_not_change: This field can not be changed later.
       code: 'The code is the name of your emoji and how it will appear in plain text. It will appear as :registered code: in plain text. You can set your emoji to be a variation of another emoji by denoting how the emoji is different in parenthesis. For example "smile(wh)" and "smile(br)" are white and brown skin tones of the base "smile" emoji and will appear as variants in apps and on this site.'
       image: Image
@@ -325,8 +327,10 @@ en:
   updated_at: Updated
   user:
     avatar_not_found: Avatar code not found
+    follow: Follow
     missing_referrer: Referrer not found. Please make sure you correctly entered the user name of your referrer.
     not_authorized: You are not authorized to access this page
     not_subscriber: You must be a Premium or Pro user to access the Newest or Popular indexes
     r18_error: You must enable R-18 on your account to view mature content.
+    unfollow: Unfollow
   user_emoji: My emoji

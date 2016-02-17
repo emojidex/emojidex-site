@@ -93,6 +93,7 @@ ja:
     username: ユーザー名
   edit: 編集
   emoji:
+    attribution: 
     code: コード
     copyright: 著作権
     description: 説明
@@ -108,6 +109,7 @@ ja:
       only_variant: コードが差分のみになっています。コードを括弧でくくらないでください。
       open_parenthesis: 差分を指定する括弧が閉じられていません。
     help:
+      attribution: 
       can_not_change: この項目は後から変更する事が出来ません。
       code: |-
         あなたの絵文字に設定される専用のコードです。使用する際には「:」で囲んで「登録した絵文字は:登録したコード:です」の様に使用します。
@@ -334,8 +336,10 @@ ja:
   updated_at: 更新日時
   user:
     avatar_not_found: アバター絵文字コードが見付かりませんでした
+    follow: フォロー
     missing_referrer: 紹介/支持ユーザーに指定したユーザーが見付かりませんでした
     not_authorized: このページにアクセスする権限がありません
     not_subscriber: 絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。
     r18_error: 成人向けコンテンツを閲覧するにはアカウントのR-18設定を有効化する必要があります。
+    unfollow: フォロー解除
   user_emoji: My emoji
