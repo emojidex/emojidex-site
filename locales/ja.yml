@@ -93,7 +93,7 @@ ja:
     username: ユーザー名
   edit: 編集
   emoji:
-    attribution: 
+    attribution: 著作元
     code: コード
     copyright: 著作権
     description: 説明
@@ -109,7 +109,7 @@ ja:
       only_variant: コードが差分のみになっています。コードを括弧でくくらないでください。
       open_parenthesis: 差分を指定する括弧が閉じられていません。
     help:
-      attribution: 
+      attribution: 著作元に関する情報があれば入力して下さい。
       can_not_change: この項目は後から変更する事が出来ません。
       code: |-
         あなたの絵文字に設定される専用のコードです。使用する際には「:」で囲んで「登録した絵文字は:登録したコード:です」の様に使用します。
