@@ -109,7 +109,7 @@ en:
       only_variant: Code is only a variant specifier. Do not encase your code with parenthesis
       open_parenthesis: Code contains un-closed parenthesis. You must have a closed set of parenthesis to specify a variant.
     help:
-      attribution: Attribution help here
+      attribution: Insert the name of the author(s), copyright holder(s), or rights holder(s) here. If you are the author/rights holder simply leave this field blank.
       can_not_change: This field can not be changed later.
       code: 'The code is the name of your emoji and how it will appear in plain text. It will appear as :registered code: in plain text. You can set your emoji to be a variation of another emoji by denoting how the emoji is different in parenthesis. For example "smile(wh)" and "smile(br)" are white and brown skin tones of the base "smile" emoji and will appear as variants in apps and on this site.'
       image: Image
