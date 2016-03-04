@@ -143,6 +143,7 @@ ja:
     share: 共有
     singular: 絵文字
     sort_by:
+      label: 並び順
       liked: お気に入りが多い順
       newest: 作成日時が新しい順
       oldest: 作成日時が古い順

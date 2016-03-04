@@ -136,6 +136,7 @@ en:
     share: Share
     singular: emoji
     sort_by:
+      label: Sort by
       liked: liked
       newest: newest
       oldest: oldest
