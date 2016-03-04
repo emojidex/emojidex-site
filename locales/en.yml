@@ -135,7 +135,19 @@ en:
     select_image_size: Select image size
     share: Share
     singular: emoji
+    sort_by:
+      liked: liked
+      newest: newest
+      oldest: oldest
+      score: score
+      shortest: shortest
+      unliked: unliked
+      unpopular: unpopular
     standard_emoji_only: Standard emoji Only
+    tabs:
+      newest: Newest
+      popular: Popular
+      score: Score
     tags_updated: emoji tags were successfully updated!
     update_tags: Update tags
     upload_error: Upload Error

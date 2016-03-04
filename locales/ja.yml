@@ -142,7 +142,19 @@ ja:
     select_image_size: 画像サイズ選択
     share: 共有
     singular: 絵文字
+    sort_by:
+      liked: お気に入りが多い順
+      newest: 作成日時が新しい順
+      oldest: 作成日時が古い順
+      score: スコアが高い順
+      shortest: コードが短い順
+      unliked: お気に入りが少ない順
+      unpopular: スコアが低い順
     standard_emoji_only: 標準絵文字のみ検索
+    tabs:
+      newest: 新着順
+      popular: 人気順
+      score: スコア順
     tags_updated: 絵文字のタグを更新しました。
     update_tags: タグを更新
     upload_error: エラーが発生しました

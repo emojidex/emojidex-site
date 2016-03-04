@@ -135,7 +135,19 @@ es:
     select_image_size: 
     share: 
     singular: 
+    sort_by:
+      liked: 
+      newest: 
+      oldest: 
+      score: 
+      shortest: 
+      unliked: 
+      unpopular: 
     standard_emoji_only: 
+    tabs:
+      newest: 
+      popular: 
+      score: 
     tags_updated: 
     update_tags: 
     upload_error: 
