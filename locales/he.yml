@@ -13,11 +13,11 @@ he:
     services: שירותים
     sources: קוד מקור
     terms_of_service: תנאי שירות
-  ago: 
+  ago: "%{date} לפני"
   auth_token:
-    clear: 
+    clear: " למחיקת מפתח"
     cleared: אסימון הושלם בהצלחה
-    generate: 
+    generate: ליצור מפתח
     generated: אסימון נוצר בהצלחה!
   authentication:
     alert: שגיאת אימות. בבקשה תנסה שוב.
@@ -44,116 +44,116 @@ he:
     amount: כמות
     card_last_4digits: 4 מספרים האחרונים של האשראי
     confirm: אישור רכישה
-    copyright: 
+    copyright: איתות זכויות יוצרים
     date: תאריך
     emoji_code: קוד אמוג'י
-    plural: 
+    plural: קניית איתות זכיות יוצרים
     price_in_yen: מחיר ביין
     price_in_yen_with_tax: מחיר ביין עם מס
     purchase_type: סוג רכישה
-    singular: 
+    singular: קניית איתות זכיות יוצרים
   created_at: נוצר
   customer:
     card_declined: כרטיס לא אושר
     create: ייצירת לקוחa
     created: הרשמת לקוח נוצרה בהצלחה
-    edit: 
+    edit: עריכת מידעת לקוח
     failed: הרשמת לקוח נכשלה!
-    incorrect_cvc: 
-    incorrect_expiry: 
+    incorrect_cvc: 'קוד זהוי כרטיס שגוי '
+    incorrect_expiry: פג תוקף שגוי
     incorrect_number: מספר שגוי
     info: מידעת לקוח
-    invalid_expiry_date: 
+    invalid_expiry_date: פג תוקף פסול
     last_credit_card_numbers: מספרים האחרונים של האשראי
     processing_error: שגיעת עיבוד
     singular: לקוח
     update: עידכון הלקוח
     updated: הרשמת הלקוח עודכן בהצלחה!
   devise:
-    email: 
-    password: 
-    password_confirmation: 
-    referrer: 
+    email: אימייל
+    password: סיסמא
+    password_confirmation: סימסא אושרה
+    referrer: המפנה
     registrations:
       accept_terms_of_service: אני מסכים לתנאי שירות
-      display_language: 
-      login_to_add: 
-      select_display_language: 
-      setup: 
+      display_language: הצג שפה
+      login_to_add: כנס לחשבון להוסיף
+      select_display_language: לבחור שפה
+      setup: להקים
     sessions:
-      didnt_receive_confirmation_instructions: 
-      didnt_receive_unlock_instructions: 
-      forgot_your_password: 
-      remember_me: 
-      send_reset_password_instructions: 
-      sign_in: 
-      sign_in_with: 
-      username_or_email: 
-    sign_up: 
-    username: 
+      didnt_receive_confirmation_instructions: האם לא קיבלת אישור הוראות?
+      didnt_receive_unlock_instructions: האם לא קיבלת ביטול הוראות נעילה?
+      forgot_your_password: האם שכחת את הסיסמא?
+      remember_me: זכור אותי.
+      send_reset_password_instructions: שלח לי הוראות איתחול סיסמא.
+      sign_in: כנס לחשבון
+      sign_in_with: כנס לחשבון אם %{provider}
+      username_or_email: שם משתמש או אמייל
+    sign_up: להרשם
+    username: שם משתמש
   edit: ערוך
   emoji:
-    attribution: 
+    attribution: יחוס
     code: קוד
-    copyright: 
-    description: 
-    drop_file_or_click_here: 
-    edit_tags: 
-    edit_tags_help: 
-    enable_link: 
+    copyright: זכויות יוצרים
+    description: תיאור
+    drop_file_or_click_here: הכנס תמונה כאן או תלחץ פה
+    edit_tags: ערוך %{emoji} תיוגים
+    edit_tags_help: אתה יכול להוסיף עוד תיוגים עם פסיק.
+    enable_link: לאפשר קישור
     errors:
-      empty_parenthesis: 
-      invalid_characters: 
-      invalid_variant_format: 
-      multiple_bases: 
-      only_variant: 
-      open_parenthesis: 
+      empty_parenthesis: 'חסר לקוד תוכנן בתוך הסוגריים.סוגריים מסמן שוני וחייב תוכן.  '
+      invalid_characters: הקוד מכיל תכונה לא שימושי.
+      invalid_variant_format: הקוד מכיל תכונה גרסה לא שימושית.
+      multiple_bases: 'אי אפשר שיהיה בקוד אמוג''י עם סוגריים באמצע. נא להזיז את הסוגריים להתחלה או לסוף של הקוד.   '
+      only_variant: שהקוד כולו לא יהיה בתוך סוגריים
+      open_parenthesis: לא הוספת סוגריים לסוף הקוד
     help:
-      attribution: 
-      can_not_change: 
-      code: 
-      image: 
-      r18: 
-      tag: 
+      attribution: הכנס שם הכותב, מחזיק זכיות יוצר, או מחזיק זכויות כאן. האם את\ה מחזיק זכויות תשאיר את זה ריק.
+      can_not_change: לא יהיה אפשרי לשנות אחרי זה.
+      code: 'הקוד זה שם של האמוג''י שלך ואיך זה יראה בטקסט רגיל. זה יראה כמו :קוד רשום: בטקסט רגיל. את\ה יכול לעדכן את האמוג''י להיות שונה מאמוג''י אחר עם אתה מוסיף מה שונה בו בסוגריים. למשל "חיוך(לבן)" וחיוך(חום) זה אומר שלבן וחום שיהיה הצבע מכוון לאמוג''י של חיוך וזה יראה בפינת שוני של אפלקציה של האתר.'
+      image: תמונות
+      r18: מעל גיל 18
+      tag: תיוג
     homepage_link: קישור לעמוד הבית
-    image_url: 
-    invalid_file_type: 
-    link: 
+    image_url: תמונת קישור
+    invalid_file_type: את\ה לא יכול\ה לעלות סוג תקייה הזאת.
+    link: קישור
     list: רשימת אמוג'ים
-    markdown: 
-    max_files_exceeded: 
+    markdown: Markdown
+    max_files_exceeded: אתה לא יכול לעלות עוד תקיות
     new: אמוג'י חדש
     preview:
-      hanko: 
-      seal: 
-      sizes: 
-      with_text: 
-      with_text_sample: 
+      hanko: האנקו
+      seal: מדבקה
+      sizes: גדלים
+      with_text: הצג לפני בתור משפט
+      with_text_sample: 'בשורת טקסט האמוג''י הזה יראה :%{emoji_shortcode}: כטקסט פשוט ויהיה רנדר כמו %{emoji_image} כמו תמונה שאמוג''ידקס תומך.'
     r18: R-18
-    remove_image: 
-    score: 
-    select_image_size: 
-    share: 
+    remove_image: הסר תמונה
+    score: נקודות
+    select_image_size: kjlkjlk
+    share: שיתוף
     singular: אמוג'י
     sort_by:
-      label: 
-      liked: 
-      newest: 
-      oldest: 
-      score: 
-      shortest: 
-      unliked: 
-      unpopular: 
-    standard_emoji_only: 
+      label: מיין לפי
+      liked: אהוב
+      newest: הכי חדש
+      oldest: הכי ישן
+      score: נקודות
+      shortest: הכי קצר
+      unliked: לא אהוב
+      unpopular: לא פופולרי
+    standard_emoji_only: אמוג'י סטנדרטי בלבד
     tabs:
-      newest: 
-      popular: 
-      score: 
-    tags_updated: 
+      newest: הכי חדש
+      popular: פופולרי
+      score: נקודות
+    tags_updated: תיוג אמוג'י עבר בהצלחה!
     update_tags: עדכון טאג
-    upload_error: 
-    upload_success: 
-    variants: 
+    upload_error: העליה נכשלה
+    upload_success: עלייה עבר בהצלחה
+    variants: גרסה
   errors:
     attributes:
       image:
@@ -163,9 +163,9 @@ he:
     singular: מעודף
     unfavorite: לא מועדף
   flash:
-    create: 
-    destroy: 
-    update: 
+    create: "%{resource} נברא בהצלחה "
+    destroy: "%{resource} הושמד בהצלחה."
+    update: "%{resource} עיכדון עבר בהצלחה."
   form:
     save_changes: שמור שינויים
     update: עדכון
@@ -179,17 +179,17 @@ he:
     new_emoji_login_or_register: חייב להיות רשום לאתר בשביל להוסיף אמוג'י. אנא כנס לחשבונך או הרשם לאתר.
   lang: שפה
   legal_attribution:
-    google_play_badge: 
+    google_play_badge: אנדרואיד, גוגל פליי וגוגל פליי לוגו הם סימן מסחרי של  Google Inc.
   mailer:
     copyright_purchase:
-      body: 
-      subject: 
+      body: הכרטיס שלך חוייב על קנית זכות יוצר בשביל %{emoji} אמוג'י עם %{price} יין
+      subject: אמוג'ידקס - קבלת זוכיות יוצרים
     link_purchase:
-      body: 
-      subject: 
+      body: הכרטיס שלך חוייב על קנית קישור בשביל %{emoji} אמוג'י עם %{price} יין
+      subject: אמוג'ידקס - קבלת קישור
     premium_subscription:
-      body: 
-      subject: 
+      body: הכרטיס שלך חוייב על הרשמת פרמיום עם %{price} יין
+      subject: 'אמוג''ידקס - קבלת הרשמת פרימיום '
   modal:
     cancel: ביטול
     confirm_password: תאשר את הסיסמא
@@ -211,8 +211,8 @@ he:
     flash:
       copyright_failure: רכישת זכיות יוצרים נכשלה. תבדוקו את פרטי הלקוח שלך.
       copyright_success: זכיות יוצרים נרכשה בהצלחה!
-      link_purchase_failure: 
-      link_purchase_success: 
+      link_purchase_failure: 'חיוב קישור נכשלה. נא בדוק את הפרטים של הרשמת שירות לקוחות. '
+      link_purchase_success: קישור חוייב בהצלחה
     last_name: שם משפחה
     name_help: השם שלך כפי שהוא רשום על הכרטיס.
     phone: מספר טלפון
@@ -225,14 +225,14 @@ he:
     purchase_copyright: רכישת זכויות יוצרים
     state: אזור מדינה
     zip: מיקוד
-  privacy_policy: 
+  privacy_policy: מדיניות פרטיות
   recaptcha:
     errors:
-      incorrect: 
-      incorrect_captcha_sol: 
-      recaptcha_unavailable: 
+      incorrect: היה שיגאה עם reCAPTCHA קוד למטה. נא הכנס את הקוד שוב.
+      incorrect_captcha_sol: שגיאה עם reCAPTCHA!
+      recaptcha_unavailable: reCAPTCHA לא אפשרי, הטען מחדש.
   registration_info:
-    business_name: 
+    business_name: שם העסק
     edit: עדכן רישום מידע
     name: שם
     singular: רישום מידע
@@ -246,64 +246,66 @@ he:
       change_premium_plan_to_yearly: תשנה את התוכנית פרמיום לחיוב שנתי
       change_your_customer_information: או תשנה את מידת הלקוח שלך ותיצור המנוי חדש
       delete_premium_subscription: להסיר את המנוי פרמיום
-      edit_to_premium_subscription: 
+      edit_to_premium_subscription: ערוך את הרשמת הפרימיום
       flash:
-        changed: 
-        check_credentials: 
-        destroyed: 
-        not_destroyed: 
-        resumed: 
-        you_are_premium: 
+        changed: הרשמת הפרמין שלך הישתנה
+        check_credentials: נראה שיש שגיאה עם פרטי הלקוח שלך. נא תבדוק אותם <a href=%{path}>here</a>.
+        destroyed: ההרשמת הפרמיום שלך הושמדה
+        not_destroyed: ההרשמת הפרמיום שלך לא נמחקה
+        resumed: החשבון הפרמיום שלך ממשיך
+        you_are_premium: אתה משתמש פרמיום
       go_premium: התחל פרמיום!
       here: כאן
       monthly: חודשי
       please_register_as_customer_before_become_premium: חייב להרשם לפרטי הלקוח לפני שאתה נרשם לשירות פרמיום.
       renew: לחדש
       select_plan: תבחור תוכנית
-      there_are_problem_with_your_subscription: 
+      there_are_problem_with_your_subscription: היה בעיה עם הרשמה. נא בתבדוק את יתרת החשבון בבנק ותנסה לחדש את הרשמה.
       yearly: שנתי
     pro_subscription:
-      are_you_sure: 
-      become_pro_user: 
-      change_pro_plan_to_monthly: 
-      change_pro_plan_to_yearly: 
-      change_your_customer_information: 
-      delete_pro_subscription: 
-      edit_to_pro_subscription: 
+      are_you_sure: אתה בטוח?
+      become_pro_user: תהפוך למשתמש מקצועי
+      change_pro_plan_to_monthly: תשנה את התוכנית המקצועי לתשלום חודשי
+      change_pro_plan_to_yearly: |2
+
+        תשנה את התוכנית המקצועי לתשלום שנתי
+      change_your_customer_information: או תשנה את המידעת לקוח ותחדש את ההרשמה
+      delete_pro_subscription: תמחוק את המנוי המקצועי
+      edit_to_pro_subscription: תערוך את המנוי המקצועי
       flash:
-        changed: 
-        check_credentials: 
-        destroyed: 
-        not_destroyed: 
-        resumed: 
-        you_are_pro: 
-      go_pro: 
-      here: 
-      monthly: 
-      please_register_as_customer_before_become_pro: 
-      renew: 
-      select_plan: 
-      there_are_problem_with_your_subscription: 
-      yearly: 
+        changed: המנוי המקוצעי השתנה
+        check_credentials: יש בעיה עם פרטי הלקוח שלך. נא תבדוק אותם <a href=%{path}>here</a>.
+        destroyed: הרשמה המקצועית שלך הושמדה
+        not_destroyed: הרשמת הפרו שלך לא נמחקה
+        resumed: הרשמת המקצועי שלך התחיל שוב
+        you_are_pro: אתה משתמש מקצועי עכשיו
+      go_pro: תהפוך למקצועני!
+      here: כאן
+      monthly: תוכנית חודשית
+      please_register_as_customer_before_become_pro: אתה חייב להרשם את פרטי הלקוח לפני להרשמה השירות מקצועי
+      renew: לחדש
+      select_plan: תבחר תוכנית
+      there_are_problem_with_your_subscription: היה בעיה עם ההרשמה. נא תבדוק את הפרטים של הכרטיס האשראי שלך ותבדוק שאתה יכול לחייב.
+      yearly: תוכנית שנתית
     user_info:
-      avatar_code: 
+      avatar_code: קוד אווטר
       current_password: סיסמא נוכחית
-      description: 
+      description: תיאור
       email: אימייל
-      help_current_password: 
-      help_password: 
+      help_current_password: "(אנחנו צריכים את הסיסמא המעודכנת בכדי לאשר שינוים)"
+      help_password: "(תאשיר ריק אם אתה לא רוצה לעשות שינויים)"
       password: סיסמא
       password_confirmation: אישור סיסמא
       title: מידעת המשתמש
-      view_r18: 
+      view_r18: 'לאפשר תוכן מעל גיל 18 '
   role:
     singular: תפקיד
   search: חיפוש
-  search_options: 
+  search_options: אופציית חיפוש
   seo:
-    description: 
-    tags: 
-    title: 
+    description: את האמוג'י המקורי אתה יכול להשתמש בכל מקום. הירשם את שגרת אימוג'י שלך או הישתמש אומוג'ים של אנשים אחרים אונליין ובאפלקציה.
+    tags: אמוג'י, אמוג'י חינם, מדבקות, UTF אמוג'י, מדבקות בחינם, אומוג'י מקורי, אנדרואיד אמוג'י, אפלקייצת אמוג'י, קרום אמוג'י, שגרת אמוג'י, הרשמת אמוג'י.
+    title: אמוג'ידקס- שגרת שירות אמוג'י ואפליקצייה
   sidebar:
     all: הכל
   sign_in: הרשם
@@ -311,7 +313,7 @@ he:
   sign_up: תיצור חשבון
   simple_form:
     error_notification:
-      default_message: 
+      default_message: 'נא בדוק את הבעיה למטה:'
     hints:
       user:
         edit:
@@ -323,25 +325,25 @@ he:
         name: שם
         password: סיסמא
         password_confirmation: אישור סיסמא
-        remember_me: 
+        remember_me: זכור אותי
     'no': לא
     required:
-      mark: 
+      mark: "*"
       message: הודעה
       text: נדרש
     'yes': כן
-  submit: 
+  submit: להגיש
   tag:
     plural: תגים
     singular: תג
-  terms_of_service: 
-  updated_at: 
+  terms_of_service: תנאי שירות
+  updated_at: עידכון
   user:
-    avatar_not_found: 
-    follow: 
-    missing_referrer: 
-    not_authorized: 
-    not_subscriber: 
-    r18_error: 
-    unfollow: 
-  user_emoji: 
+    avatar_not_found: קוד אווטר לא נמצא
+    follow: עקוב
+    missing_referrer: המפנה לא נמצא. נא תבדוק שרשמת את השם הנכון.
+    not_authorized: אתה מורשה להכנס לדף הזה
+    not_subscriber: אתה חייב להיות משתמש פרמיום או פרו בכדי להכנס אינדקס החדשים והפופולרים
+    r18_error: אתה חייב להיות מעל גיל 18 בשביל להכנס לחשבון של תוכן מבוגרים
+    unfollow: ביטול עיקוב
+  user_emoji: אמוג'י שלי

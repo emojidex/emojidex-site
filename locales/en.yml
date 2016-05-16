@@ -104,8 +104,8 @@ en:
     errors:
       empty_parenthesis: Code contains a set of parenthesis without contents. Parenthesis specify a variant and must contain a variant specifier.
       invalid_characters: Code contains invalid characters
-      invalid_variant_format: Code contains a variant with an invalid format.
-      multiple_bases: Emoji is a variant that maps to multiple bases. Please simplify your variant specifiers or move your variant specifiers to the beginning or end of the code.
+      invalid_variant_format: " Code contains a variant with an invalid format."
+      multiple_bases: emoji codes can't contain variants/parenthesis in the middle. Please move your variant/parenthesis to the beginning or end of the code.
       only_variant: Code is only a variant specifier. Do not encase your code with parenthesis
       open_parenthesis: Code contains un-closed parenthesis. You must have a closed set of parenthesis to specify a variant.
     help:
