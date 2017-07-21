@@ -1,24 +1,60 @@
 en:
   about:
     api: API Docs
+    brand_book: Brand Book
+    brand_book_link: http://assets.emojidex.com/files/emojidex_brand_book.pdf
     company_information: Corporate Information
     developers: For Developers
     emojidex: About emojidex
     emojidex_emoji_license: emojidex™ emoji License
     general_license_terms_and_conditions: General License Terms & Conditions
     licenses: Licenses
+    monthly_membership: Monthly Membership
+    monthly_membership_in_currency: Montly Membership in %{currency}
     open_license: Open License
     prices: Prices
+    prices_in_currency: Prices in %{currency}
+    prices_per_month: Prices per month
+    prices_per_month_in_currency: Prices per month in %{currency}
     privacy_policy: Privacy Policy
     services: Services
     sources: Source Code
     terms_of_service: Terms of Service
+    yearly_membership: Yearly Membership
+    yearly_membership_in_currency: Yearly Membership in %{currency}
   ago: "%{date} ago"
+  analytics:
+    analytics: Analytics
+    emoji:
+      analytics_for: 'Analytics for %{emoji} '
+    favorites:
+      favorite_trend: Favorites Trend
+      month: Favourites by Month
+      week: Weekly Favorites Trend
+      year: Yearly Favorites Trend
+    followers:
+      followers_trend: Followers Trend
+      month: Monthly Followers Trend
+      week: Weekly Followers Trend
+      year: Yearly Followers Trend
+    month: Month
+    usage:
+      month: Monthly Usage
+      usage_trend: Usage Trend
+      week: Weekly Usage
+      year: Yearly Usage
+    user:
+      followers: Followers
+      referrals: Referrals
+    week: Week
+    year: Year
   auth_token:
     clear: Clear auth token
     cleared: Token successfully cleared!
     generate: Generate auth token
     generated: Token successfully generated!
+    show: Show Auth Token
+    singular: Auth Token
   authentication:
     alert: Authentication Error. Please try again.
   categories:
@@ -40,6 +76,7 @@ en:
     plural: Categories
     singular: Category
   code_not_found: code not found
+  confirm: Are you sure?
   copyright_purchase:
     amount: Amount
     card_last_4digits: Card last 4 digits
@@ -65,12 +102,20 @@ en:
     info: Customer info
     invalid_expiry_date: Invalid expiry date
     last_credit_card_numbers: Last digits of credit card number
+    new: Create Customer Record
     processing_error: Procession error
     singular: Customer
     update: Update customer
     updated: Customer registration successfully updated!
   devise:
     email: Email
+    mailer:
+      reset_password_instructions:
+        action: Change my password
+        greeting: Hello %{recipient}!
+        instruction: Someone has requested a link to change your password, and you can do this through the link below.
+        instruction_2: If you didn't request this, please ignore this email.
+        instruction_3: Your password won't change until you access the link above and create a new one.
     password: Password
     password_confirmation: Password confirmation
     referrer: Referrer
@@ -104,8 +149,10 @@ en:
     errors:
       empty_parenthesis: Code contains a set of parenthesis without contents. Parenthesis specify a variant and must contain a variant specifier.
       invalid_characters: Code contains invalid characters
+      invalid_image: The image you selected is invalid or contains errors. Please re-save the image or select a different image and try again.
       invalid_variant_format: " Code contains a variant with an invalid format."
       multiple_bases: emoji codes can't contain variants/parenthesis in the middle. Please move your variant/parenthesis to the beginning or end of the code.
+      not_found: '"%{code}" isn''t registered yet!'
       only_variant: Code is only a variant specifier. Do not encase your code with parenthesis
       open_parenthesis: Code contains un-closed parenthesis. You must have a closed set of parenthesis to specify a variant.
     help:
@@ -120,6 +167,7 @@ en:
     invalid_file_type: You can't upload files of this type.
     link: link
     list: emoji list
+    loading: Loading...
     markdown: Markdown
     max_files_exceeded: You can not upload any more files.
     new: New emoji
@@ -136,14 +184,14 @@ en:
     share: Share
     singular: emoji
     sort_by:
-      label: Sort by
-      liked: liked
-      newest: newest
-      oldest: oldest
-      score: score
-      shortest: shortest
-      unliked: unliked
-      unpopular: unpopular
+      label: 'Sort by:'
+      liked: Most Liked
+      newest: Newest
+      oldest: Oldest
+      score: Score
+      shortest: Shortest Code
+      unliked: Least Liked
+      unpopular: Lowest Score
     standard_emoji_only: Standard emoji Only
     tabs:
       newest: Newest
@@ -154,17 +202,20 @@ en:
     upload_error: Upload Error
     upload_success: Upload Success
     variants: Variants
+  emoji_purchase:
+    singular: Purchase this emoji
   errors:
     attributes:
       image:
         blank: A valid image file must be attached
+    r18: You must be logged in and have R-18 [Adult] Content enabled to view this emoji. Log in or sign up and enable R-18 [Adult] Content in your user settings before returning to this page.
   favorite:
     plural: Favorites
     singular: Favorite
     unfavorite: Unfavorite
   flash:
     create: "%{resource} was successfully created."
-    destroy: "%{resource} was successfully destroyed."
+    destroy: was successfully destroyed.
     update: "%{resource} was successfully updated."
   form:
     save_changes: Save changes
@@ -180,19 +231,50 @@ en:
   lang: Language
   legal_attribution:
     google_play_badge: Android, Google Play and the Google Play logo are trademarks of Google Inc.
+  link_purchase:
+    singular: Enable Link
+  lock_purchase:
+    singular: Lock this emoji
   mailer:
     copyright_purchase:
       body: Your card has been charged for copyright purchase for %{emoji} emoji with %{price} yen
       subject: emojidex - Copyright purchase receipt
+    emoji_purchase:
+      subject: emojidex - Receipt for emoji Purchase
     link_purchase:
-      body: Your card has been charged for link purchase for %{emoji} emoji with %{price} yen
+      body: Your card has been charged for copyright purchase for %{emoji} emoji with %{price} yen
       subject: emojidex - Link purchase receipt
+    lock_purchase:
+      body: Your card has been charged for a Lock on the %{emoji} emoji for the price of ￥%{price} JPY.
+      subject: emojidex - Receipt for Lock Purchase
     premium_subscription:
       body: Your card has been charged for premium subscription with %{price} yen
       subject: emojidex - Premium purchase receipt
+    pro_subscription:
+      body: Your card has been charged for pro subscription with %{price} yen
+      subject: emojidex - Pro purchase receipt
   modal:
     cancel: Cancel
     confirm_password: Confirm password
+  mongoid:
+    attributes:
+      emoji:
+        code: Code
+        image: Image
+        image_content_type: Image content type
+  months:
+    april: April
+    august: August
+    december: December
+    february: February
+    january: January
+    july: July
+    june: June
+    march: " March"
+    may: May
+    november: November
+    october: October
+    september: September
   payment:
     address1: Address
     address2: Address Continued
@@ -211,8 +293,12 @@ en:
     flash:
       copyright_failure: Copyright Purchase failed. Check your customer registration details.
       copyright_success: Copyright Purchase Successful
+      emoji_purchase_failure: emoji Purchase failed. Please check your customer registration details.
+      emoji_purchase_success: You have successfully purchased this emoji.
       link_purchase_failure: Link purchase failed. Check your customer registration details.
       link_purchase_success: Link purchase successful
+      lock_purchase_failure: Lock purchase failed. Please check your customer registration details.
+      lock_purchase_success: Lock purchase successful
     last_name: Last Name
     name_help: Your name as it appears on the card
     phone: Phone Number
@@ -238,15 +324,28 @@ en:
     singular: Registration Info
     surname: Surname
   registrations:
+    become_premium: Become a Premium member to edit your emoji any time, as much as you want.
     connected_account: Connected Account
+    plan:
+      choose: Choose plan
+      names:
+        premium:
+          month: Premium Month
+          year: Premium Year
+        pro:
+          month: Pro Month
+          year: Pro Year
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
     premium_subscription:
-      are_you_sure: Are you sure?
-      become_premium_user: Become a Premium User
+      are_you_sure: Are you sure you want to cancel your Premium subscription?
+      become_premium_user: Premium Account
       change_premium_plan_to_monthly: Change Premium Plan to Monthly Billing
       change_premium_plan_to_yearly: Change Premium Plan to Yearly Billing
       change_your_customer_information: or change your customer information and create new subscription
       delete_premium_subscription: Delete Premium Subscription
       edit_to_premium_subscription: Edit Premium Subscription
+      end: Your Premium subscription expires in %{diff}
       flash:
         changed: Your premium subscription has been changed
         check_credentials: There appears to be a problem with your customer details. Please check them <a href=%{path}>here</a>.
@@ -254,22 +353,28 @@ en:
         not_destroyed: Your premium subscription was not deleted
         resumed: Your premium subscription has been resumed
         you_are_premium: You are premium user
-      go_premium: Go Premium!
+      go_premium: Go Premium
       here: Here
       monthly: Monthly Plan
+      monthly_price_in_yen: Montly price in yen
+      monthly_price_in_yen_plus_tax: Montly price in yen plus tax
+      next_billing: Your next auto-bill will occur on %{date}
       please_register_as_customer_before_become_premium: You must register your customer details before signing up for Premium service
       renew: Renew
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
       yearly: Yearly Plan
+      yearly_price_in_yen: Yearly price in yen
+      yearly_price_in_yen_plus_tax: Yearly price in yen plus tax
     pro_subscription:
       are_you_sure: Are you sure?
-      become_pro_user: Become a Professional User
+      become_pro_user: Pro Subscription
       change_pro_plan_to_monthly: Change Professional Plan to Monthly Billing
       change_pro_plan_to_yearly: Change Professional Plan to Yearly Billing
       change_your_customer_information: or change your customer information and create new subscription
       delete_pro_subscription: Delete Professional Subscription
       edit_to_pro_subscription: Edit Professional Subscription
+      end: Your Pro subscription expires in %{diff}
       flash:
         changed: Your professional subscription has been changed
         check_credentials: There appears to be a problem with your customer details. Please check them <a href=%{path}>here</a>.
@@ -280,22 +385,38 @@ en:
       go_pro: Go Professional!
       here: Here
       monthly: Monthly Plan
+      next_billing: Your next auto-bill will occur on %{date}
       please_register_as_customer_before_become_pro: You must register your customer details before signing up for Professional service
       renew: Renew
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There has been a problem with your subscription. Please check your card details and make sure your card can be billed.
       yearly: Yearly Plan
+    processing_payment: Processing transaction... Try refreshing the page in a minute if you see this message.
     user_info:
       avatar_code: Avatar code
+      change_password: Change Password
+      currency: Currency
       current_password: Current password
+      day:
+        one: day
+        other: days
       description: Description
       email: Email
       help_current_password: "(we need your current password to confirm your changes)"
       help_password: "(leave blank if you don't want to change it)"
+      month:
+        one: month
+        other: months
       password: Password
       password_confirmation: Password confirmation
+      password_updated: Your Password has been updated successfully!
+      select_currency: Select Currency
+      submit_password: Submit New Password
       title: User Info
       view_r18: Enable R-18 [Adult] Content
+      year:
+        one: year
+        other: years
   role:
     singular: Role
   search: Search
@@ -332,6 +453,7 @@ en:
       message: Message
       text: required
     'yes': 'Yes'
+  singular: 
   submit: Submit
   tag:
     plural: Tags
@@ -344,6 +466,8 @@ en:
     missing_referrer: Referrer not found. Please make sure you correctly entered the user name of your referrer.
     not_authorized: You are not authorized to access this page
     not_subscriber: You must be a Premium or Pro user to access the Newest or Popular indexes
+    plural: Users
     r18_error: You must enable R-18 on your account to view mature content.
+    singular: User
     unfollow: Unfollow
   user_emoji: My emoji

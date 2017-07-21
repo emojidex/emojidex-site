@@ -1,24 +1,60 @@
 zh:
   about:
     api: 
+    brand_book: 
+    brand_book_link: 
     company_information: 
     developers: 
     emojidex: 
     emojidex_emoji_license: 
     general_license_terms_and_conditions: 
     licenses: 
+    monthly_membership: 
+    monthly_membership_in_currency: 
     open_license: 
     prices: 
+    prices_in_currency: 
+    prices_per_month: 
+    prices_per_month_in_currency: 
     privacy_policy: 
     services: 
     sources: 
     terms_of_service: 
+    yearly_membership: 
+    yearly_membership_in_currency: 
   ago: 
+  analytics:
+    analytics: 
+    emoji:
+      analytics_for: 
+    favorites:
+      favorite_trend: 
+      month: 
+      week: 
+      year: 
+    followers:
+      followers_trend: 
+      month: 
+      week: 
+      year: 
+    month: 
+    usage:
+      month: 
+      usage_trend: 
+      week: 
+      year: 
+    user:
+      followers: 
+      referrals: 
+    week: 
+    year: 
   auth_token:
     clear: 
     cleared: 
     generate: 
     generated: 
+    show: 
+    singular: 
   authentication:
     alert: 
   categories:
@@ -40,6 +76,7 @@ zh:
     plural: 
     singular: 
   code_not_found: 
+  confirm: 
   copyright_purchase:
     amount: 
     card_last_4digits: 
@@ -65,12 +102,20 @@ zh:
     info: 
     invalid_expiry_date: 
     last_credit_card_numbers: 
+    new: 
     processing_error: 
     singular: 
     update: 
     updated: 
   devise:
     email: 
+    mailer:
+      reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
     password: 
     password_confirmation: 
     referrer: 
@@ -104,8 +149,10 @@ zh:
     errors:
       empty_parenthesis: 
       invalid_characters: 
+      invalid_image: 
       invalid_variant_format: 
       multiple_bases: 
+      not_found: 
       only_variant: 
       open_parenthesis: 
     help:
@@ -120,6 +167,7 @@ zh:
     invalid_file_type: 
     link: 
     list: 
+    loading: 
     markdown: 
     max_files_exceeded: 
     new: 
@@ -154,10 +202,13 @@ zh:
     upload_error: 
     upload_success: 
     variants: 
+  emoji_purchase:
+    singular: 
   errors:
     attributes:
       image:
         blank: 
+    r18: 
   favorite:
     plural: 
     singular: 
@@ -180,19 +231,50 @@ zh:
   lang: 
   legal_attribution:
     google_play_badge: Android、Google Play 和 Google Play 徽标是 Google Inc. 的商标。
+  link_purchase:
+    singular: 
+  lock_purchase:
+    singular: 
   mailer:
     copyright_purchase:
       body: 
       subject: 
+    emoji_purchase:
+      subject: 
     link_purchase:
+      body: 
+      subject: 
+    lock_purchase:
       body: 
       subject: 
     premium_subscription:
       body: 
       subject: 
+    pro_subscription:
+      body: 
+      subject: 
   modal:
     cancel: 
     confirm_password: 
+  mongoid:
+    attributes:
+      emoji:
+        code: 
+        image: 
+        image_content_type: 
+  months:
+    april: 
+    august: 
+    december: 
+    february: 
+    january: 
+    july: 
+    june: 
+    march: 
+    may: 
+    november: 
+    october: 
+    september: 
   payment:
     address1: 
     address2: 
@@ -211,8 +293,12 @@ zh:
     flash:
       copyright_failure: 
       copyright_success: 
+      emoji_purchase_failure: 
+      emoji_purchase_success: 
       link_purchase_failure: 
       link_purchase_success: 
+      lock_purchase_failure: 
+      lock_purchase_success: 
     last_name: 
     name_help: 
     phone: 
@@ -238,7 +324,19 @@ zh:
     singular: 
     surname: 
   registrations:
+    become_premium: 
     connected_account: 
+    plan:
+      choose: 
+      names:
+        premium:
+          month: 
+          year: 
+        pro:
+          month: 
+          year: 
+      subscribe: 
+      unsubscribe: 
     premium_subscription:
       are_you_sure: 
       become_premium_user: 
@@ -247,6 +345,7 @@ zh:
       change_your_customer_information: 
       delete_premium_subscription: 
       edit_to_premium_subscription: 
+      end: 
       flash:
         changed: 
         check_credentials: 
@@ -257,11 +356,16 @@ zh:
       go_premium: 
       here: 
       monthly: 
+      monthly_price_in_yen: 
+      monthly_price_in_yen_plus_tax: 
+      next_billing: 
       please_register_as_customer_before_become_premium: 
       renew: 
       select_plan: 
       there_are_problem_with_your_subscription: 
       yearly: 
+      yearly_price_in_yen: 
+      yearly_price_in_yen_plus_tax: 
     pro_subscription:
       are_you_sure: 
       become_pro_user: 
@@ -270,6 +374,7 @@ zh:
       change_your_customer_information: 
       delete_pro_subscription: 
       edit_to_pro_subscription: 
+      end: 
       flash:
         changed: 
         check_credentials: 
@@ -280,22 +385,32 @@ zh:
       go_pro: 
       here: 
       monthly: 
+      next_billing: 
       please_register_as_customer_before_become_pro: 
       renew: 
       select_plan: 
       there_are_problem_with_your_subscription: 
       yearly: 
+    processing_payment: 
     user_info:
       avatar_code: 
+      change_password: 
+      currency: 
       current_password: 
+      day: 
       description: 
       email: 
       help_current_password: 
       help_password: 
+      month: 
       password: 
       password_confirmation: 
+      password_updated: 
+      select_currency: 
+      submit_password: 
       title: 
       view_r18: 
+      year: 
   role:
     singular: 
   search: 
@@ -330,6 +445,7 @@ zh:
       message: 
       text: 
     'yes': 
+  singular: 
   submit: 
   tag:
     plural: 
@@ -342,6 +458,8 @@ zh:
     missing_referrer: 
     not_authorized: 
     not_subscriber: 
+    plural: 
     r18_error: 
+    singular: 
     unfollow: 
   user_emoji: 

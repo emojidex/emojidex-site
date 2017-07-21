@@ -1,24 +1,60 @@
 ja:
   about:
     api: APIドキュメント
+    brand_book: ブランド・ブック
+    brand_book_link: http://assets.emojidex.com/files/emojidex_brand_book_ja.pdf
     company_information: 特定商取引法に基づく表記
     developers: 開発資料
     emojidex: emojidexについて
     emojidex_emoji_license: emojidex™ emoji ライセンス
     general_license_terms_and_conditions: 一般使用許諾条件
     licenses: ライセンス
+    monthly_membership: 
+    monthly_membership_in_currency: 
     open_license: オープンライセンス
     prices: サービス・料金表
+    prices_in_currency: 
+    prices_per_month: 
+    prices_per_month_in_currency: 
     privacy_policy: プライバシーポリシー
     services: サービス
     sources: ソースコード
     terms_of_service: 利用規約
+    yearly_membership: 
+    yearly_membership_in_currency: 
   ago: "%{date}前"
+  analytics:
+    analytics: アナリティクス
+    emoji:
+      analytics_for: "%{emoji}に対するアナリティクス"
+    favorites:
+      favorite_trend: お気に入りのトレンド
+      month: 月間お気に入り数
+      week: 週間お気に入り数
+      year: 年間お気に入り数
+    followers:
+      followers_trend: フォロワーのトレンド
+      month: 月間フォロワー数
+      week: 週間フォロワー数
+      year: 年間フォロワー数
+    month: 月
+    usage:
+      month: 月間使用回数
+      usage_trend: 使用トレンド
+      week: 週間使用回数
+      year: 年間使用回数
+    user:
+      followers: フォロワー
+      referrals: 支持ユーザー
+    week: 週
+    year: 年
   auth_token:
     clear: 認証トークンを削除する
     cleared: 認証トークンを削除しました。
     generate: 認証トークンを作成する
     generated: 認証トークンを作成しました。
+    show: 認証トークンの表示
+    singular: 認証トークン
   authentication:
     alert: 認証が失敗しました。もう一度試して下さい。
   categories:
@@ -40,6 +76,7 @@ ja:
     plural: カテゴリー
     singular: カテゴリー
   code_not_found: コードが見付かりませんでした
+  confirm: 
   copyright_purchase:
     amount: 価格
     card_last_4digits: カード下4桁
@@ -65,12 +102,20 @@ ja:
     info: 決済者情報
     invalid_expiry_date: 無効な有効期限です。
     last_credit_card_numbers: クレジットカードの最後の番号
+    new: お客さん情報の登録
     processing_error: 処理中にエラーが発生しました。
     singular: 決済者
     update: 決済者情報を更新
     updated: 決済者情報の更新に成功しました。
   devise:
     email: メールアドレス
+    mailer:
+      reset_password_instructions:
+        action: パスワード変更
+        greeting: こんにちは、%{recipient}さん!
+        instruction: 誰かがパスワードの再設定を希望しました。次のリンクでパスワードの再設定が出来ます。
+        instruction_2: あなたが希望したのではないのなら、このメールは無視してください。
+        instruction_3: 上のリンクにアクセスして新しいパスワードを設定するまで、パスワードは変更されません。
     password: パスワード
     password_confirmation: パスワード（確認用）
     referrer: 紹介/支持ユーザー
@@ -104,8 +149,10 @@ ja:
     errors:
       empty_parenthesis: 括弧の中身がありません。括弧内の文字は差分を示す物で、必ず設定する必要があります。
       invalid_characters: 不正な文字がコードに含まれています。
+      invalid_image: 選択された画像データに問題が見付かりました。保存し直すか、別の画像データを選択して下さい。
       invalid_variant_format: 差分のフォーマットが間違っています。
       multiple_bases: 複数のベース絵文字を指定しています。始めか終わりに一つだけ指定してください。
+      not_found: "「%{code}」が未登録です!"
       only_variant: コードが差分のみになっています。コードを括弧でくくらないでください。
       open_parenthesis: 差分を指定する括弧が閉じられていません。
     help:
@@ -125,6 +172,7 @@ ja:
     invalid_file_type: このファイル形式はアップロード出来ません。
     link: リンク
     list: 絵文字表
+    loading: 読み込み中
     markdown: マークダウン
     max_files_exceeded: これ以上ファイルをアップロード出来ません。
     new: 絵文字登録
@@ -143,7 +191,7 @@ ja:
     share: 共有
     singular: 絵文字
     sort_by:
-      label: 並び順
+      label: '並び順:'
       liked: お気に入りが多い順
       newest: 作成日時が新しい順
       oldest: 作成日時が古い順
@@ -161,10 +209,13 @@ ja:
     upload_error: エラーが発生しました
     upload_success: アップロードに成功しました
     variants: 差分
+  emoji_purchase:
+    singular: 
   errors:
     attributes:
       image:
-        blank: 画像ファイルを添付する必要があります
+        blank: ファイルを添付する必要があります
+    r18: この絵文字を表示するにはR-18コンテンツ表示を許可したアカウントでログインしている必要があります。ログインもしくはユーザー登録をし、ユーザー設定でR-18コンテンツの表示を許可した後にこのページに戻って下さい。
   favorite:
     plural: お気に入り
     singular: お気に入り
@@ -187,19 +238,50 @@ ja:
   lang: 言語選択
   legal_attribution:
     google_play_badge: Android、Google Play、Google Play ロゴは、Google Inc. の商標です。
+  link_purchase:
+    singular: リンクの有効化
+  lock_purchase:
+    singular: この絵文字にロックをかける
   mailer:
     copyright_purchase:
       body: 絵文字「%{emoji}」の著作権購入費用として、「%{price}円」が、あなたのカードから支払われました。
       subject: emojidex - 著作権購入のお支払いについて
+    emoji_purchase:
+      subject: emojidex - 絵文字の購入の領収書
     link_purchase:
       body: 絵文字「%{emoji}」のリンク購入費用として、「%{price}円」が、あなたのカードから支払われました。
       subject: emojidex - リンク購入のお支払いについて
+    lock_purchase:
+      body: "「%{emoji}」絵文字ロックの購入(%{price}円)のカード決済が成功しました。"
+      subject: emojidex - ロック有効化の領収書
     premium_subscription:
       body: あなたのカードから、プレミアムユーザーの料金「%{price}円」が支払われました。
       subject: emojidex - プレミアムユーザー登録のお支払いについて
+    pro_subscription:
+      body: 
+      subject: 
   modal:
     cancel: キャンセル
     confirm_password: パスワードの確認
+  mongoid:
+    attributes:
+      emoji:
+        code: コード
+        image: 画像
+        image_content_type: 画像コンテンツタイプ
+  months:
+    april: 4月
+    august: 8月
+    december: 12月
+    february: 2月
+    january: 1月
+    july: 7月
+    june: 6月
+    march: 3月
+    may: 5月
+    november: 11月
+    october: 10月
+    september: 9月
   payment:
     address1: 住所
     address2: 住所 (マンション・アパート名・部屋番号)
@@ -218,8 +300,12 @@ ja:
     flash:
       copyright_failure: 著作権フラグの購入に失敗しました、決済者情報を確認して下さい。
       copyright_success: 著作権フラグの購入が成功しました。
+      emoji_purchase_failure: 絵文字の購入が失敗しました。お客様の登録情報が正しいかどうかを確認して下さい。
+      emoji_purchase_success: この絵文字の購入が成立しました。
       link_purchase_failure: リンクのご購入に失敗しました。決済者情報の登録内容を一度ご確認ください。
       link_purchase_success: リンクの購入に成功しました
+      lock_purchase_failure: ロックの購入が失敗しました。お客様の登録情報が正しいかどうかを確認して下さい。
+      lock_purchase_success: ロックの購入が成功しました
     last_name: クレジットカード名義人：姓
     name_help: クレジットカードの表示通りに入力して下さい。
     phone: 電話番号
@@ -245,66 +331,95 @@ ja:
     singular: 登記情報
     surname: 名字
   registrations:
+    become_premium: プレミアムメンバーならいつでも何回でも絵文字の編集が出来ます。
     connected_account: 接続済みアカウント
+    plan:
+      choose: プランを選択
+      names:
+        premium:
+          month: プレミアムメンバー（月額）
+          year: プレミアムメンバー（年額）
+        pro:
+          month: プロメンバー（月額）
+          year: プロメンバー（年額）
+      subscribe: このプランに申し込む
+      unsubscribe: このプランを解約する
     premium_subscription:
       are_you_sure: |-
-        プレミアムユーザーを解除しようとしています。
+        プレミアムメンバーを解除しようとしています。
         よろしいですか？
-      become_premium_user: プレミアムユーザーの登録はこちらから
-      change_premium_plan_to_monthly: プレミアム月額プランに変更
-      change_premium_plan_to_yearly: プレミアム年額プランに変更
+      become_premium_user: プレミアムメンバー
+      change_premium_plan_to_monthly: プレミアムメンバー月額プランに変更
+      change_premium_plan_to_yearly: プレミアムメンバー年額プランに変更
       change_your_customer_information: または、決済者情報を更新し、新しく登録を行って下さい。
-      delete_premium_subscription: プレミアムユーザーを解除
-      edit_to_premium_subscription: プレミアムユーザー設定の編集
+      delete_premium_subscription: プレミアムメンバーを解除
+      edit_to_premium_subscription: プレミアムメンバー設定の編集
+      end: 後%{diff}でプレミアムメンバープランの有効期限が切れます。
       flash:
-        changed: あなたのプレミアムユーザー登録が変更されました
+        changed: あなたのプレミアムメンバー登録が変更されました
         check_credentials: あなたの決済者情報に問題がある可能性があります。<a href=%{path}>こちら</a>からご確認ください。
-        destroyed: あなたのプレミアムユーザー登録は解除されました
+        destroyed: あなたのプレミアムメンバー登録は解除されました
         not_destroyed: あなたのプレミアムユーザー登録は解除されませんでした
         resumed: あなたのプレミアムユーザー登録が再開されました
         you_are_premium: あなたはプレミアムユーザーです
-      go_premium: プレミアムユーザーになる
+      go_premium: プレミアムメンバーになる!
       here: こちら
       monthly: 月額プラン
-      please_register_as_customer_before_become_premium: プレミアムユーザー登録を行うには決済者情報の登録が必要です。
-      renew: プレミアムユーザーになる
+      monthly_price_in_yen: 
+      monthly_price_in_yen_plus_tax: 
+      next_billing: 次回の自動決済が%{date}に実行されます。
+      please_register_as_customer_before_become_premium: プレミアムメンバー登録を行うには決済者情報の登録が必要です。
+      renew: プレミアムメンバープランを更新する
       select_plan: プランを選択してください
-      there_are_problem_with_your_subscription: プレミアムユーザー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。
+      there_are_problem_with_your_subscription: プレミアムメンバー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。
       yearly: 年額プラン
+      yearly_price_in_yen: 
+      yearly_price_in_yen_plus_tax: 
     pro_subscription:
       are_you_sure: 本当によろしいですか？
-      become_pro_user: プロユーザーになるにはこちらから
+      become_pro_user: プロメンバー
       change_pro_plan_to_monthly: プロ月額プランに変更
       change_pro_plan_to_yearly: プロ年額プランに変更
       change_your_customer_information: または、決済者情報を更新し、新しく登録を行って下さい。
-      delete_pro_subscription: プロユーザーを解除
-      edit_to_pro_subscription: プロユーザーの設定を編集
+      delete_pro_subscription: プロメンバーを解除
+      edit_to_pro_subscription: プロメンバーの設定を編集
+      end: 後%{diff}でプロメンバープランの有効期限が切れます。
       flash:
-        changed: あなたのプロユーザー登録が変更されました
+        changed: あなたのプロメンバー登録内容が変更されました
         check_credentials: あなたの決済者情報に問題がある可能性があります。<a href=%{path}>こちら</a>からご確認ください。
-        destroyed: あなたのプロユーザー登録は解除されました
+        destroyed: あなたのプロメンバー登録は解除されました
         not_destroyed: あなたのプロユーザー登録は解除されませんでした
         resumed: あなたのプロユーザー登録が再開されました
         you_are_pro: あなたはプロユーザーです
-      go_pro: プロユーザーになろう！
+      go_pro: プロメンバーになろう！
       here: ここをクリック
       monthly: 月額プラン
-      please_register_as_customer_before_become_pro: プロユーザーのサービスを利用する前に、必ず決済者情報が登録されている事をご確認下さい。
+      next_billing: 次回の自動決済が%{date}に実行されます。
+      please_register_as_customer_before_become_pro: プロメンバーのサービスを利用する前に、必ず決済者情報が登録されている事をご確認下さい。
       renew: 更新
       select_plan: プランを選択
-      there_are_problem_with_your_subscription: プロユーザー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。
+      there_are_problem_with_your_subscription: プロメンバー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。
       yearly: 年額プラン
+    processing_payment: 決済処理中・・・ 数分待ってたらページを更新して下さい。
     user_info:
       avatar_code: アバター絵文字コード
+      change_password: パスワードの変更
+      currency: 通貨
       current_password: 現在のパスワード
+      day: 日
       description: 自己紹介
       email: メールアドレス
       help_current_password: "（ユーザー情報を変更するには現在のパスワードが必要です）"
       help_password: "（変更しない場合は空欄のままにして下さい）"
+      month: 月
       password: 新しいパスワード
       password_confirmation: 新しいパスワード（確認用）
+      password_updated: パスワードの変更が成功しました!
+      select_currency: 通貨の選択
+      submit_password: 新しいパスワードを設定
       title: ユーザー情報
       view_r18: R-18コンテンツを表示
+      year: 年
   role:
     singular: 役割
   search: 検索
@@ -341,6 +456,7 @@ ja:
       message: 印のついている項目は入力が必須です。
       text: 必須
     'yes': はい
+  singular: 
   submit: 送信
   tag:
     plural: タグ
@@ -353,6 +469,8 @@ ja:
     missing_referrer: 紹介/支持ユーザーに指定したユーザーが見付かりませんでした
     not_authorized: このページにアクセスする権限がありません
     not_subscriber: 絵文字の新規登録順、人気順を閲覧するにはプレミアムかプロユーザーになる必要があります。
+    plural: ユーザー
     r18_error: 成人向けコンテンツを閲覧するにはアカウントのR-18設定を有効化する必要があります。
+    singular: ユーザー
     unfollow: フォロー解除
   user_emoji: My emoji

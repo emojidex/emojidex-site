@@ -1,24 +1,60 @@
 he:
   about:
     api: API Docs
+    brand_book: Brand Book
+    brand_book_link: 
     company_information: חברת מידע
     developers: למפתחים
     emojidex: לגבי אמוג'ידקס
     emojidex_emoji_license: " זכויות רשיון שייכות לאמוג'י ™emojidex"
     general_license_terms_and_conditions: כללי רשיון ותנאים
     licenses: רשיון
+    monthly_membership: 
+    monthly_membership_in_currency: 
     open_license: רשיון פתוח
     prices: מחירים
+    prices_in_currency: 
+    prices_per_month: 
+    prices_per_month_in_currency: 
     privacy_policy: תקנון פרטיות
     services: שירותים
     sources: קוד מקור
     terms_of_service: תנאי שירות
+    yearly_membership: 
+    yearly_membership_in_currency: 
   ago: "%{date} לפני"
+  analytics:
+    analytics: 
+    emoji:
+      analytics_for: 
+    favorites:
+      favorite_trend: 
+      month: 
+      week: 
+      year: 
+    followers:
+      followers_trend: 
+      month: 
+      week: 
+      year: 
+    month: 
+    usage:
+      month: 
+      usage_trend: 
+      week: 
+      year: 
+    user:
+      followers: 
+      referrals: 
+    week: 
+    year: 
   auth_token:
     clear: " למחיקת מפתח"
     cleared: אסימון הושלם בהצלחה
     generate: ליצור מפתח
     generated: אסימון נוצר בהצלחה!
+    show: 
+    singular: 
   authentication:
     alert: שגיאת אימות. בבקשה תנסה שוב.
   categories:
@@ -40,6 +76,7 @@ he:
     plural: קטגוריות
     singular: קטגוריה
   code_not_found: קוד לא נמצא
+  confirm: 
   copyright_purchase:
     amount: כמות
     card_last_4digits: 4 מספרים האחרונים של האשראי
@@ -65,12 +102,20 @@ he:
     info: מידעת לקוח
     invalid_expiry_date: פג תוקף פסול
     last_credit_card_numbers: מספרים האחרונים של האשראי
+    new: 
     processing_error: שגיעת עיבוד
     singular: לקוח
     update: עידכון הלקוח
     updated: הרשמת הלקוח עודכן בהצלחה!
   devise:
     email: אימייל
+    mailer:
+      reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
     password: סיסמא
     password_confirmation: סימסא אושרה
     referrer: המפנה
@@ -104,8 +149,10 @@ he:
     errors:
       empty_parenthesis: 'חסר לקוד תוכנן בתוך הסוגריים.סוגריים מסמן שוני וחייב תוכן.  '
       invalid_characters: הקוד מכיל תכונה לא שימושי.
+      invalid_image: 
       invalid_variant_format: הקוד מכיל תכונה גרסה לא שימושית.
       multiple_bases: 'אי אפשר שיהיה בקוד אמוג''י עם סוגריים באמצע. נא להזיז את הסוגריים להתחלה או לסוף של הקוד.   '
+      not_found: 
       only_variant: שהקוד כולו לא יהיה בתוך סוגריים
       open_parenthesis: לא הוספת סוגריים לסוף הקוד
     help:
@@ -120,6 +167,7 @@ he:
     invalid_file_type: את\ה לא יכול\ה לעלות סוג תקייה הזאת.
     link: קישור
     list: רשימת אמוג'ים
+    loading: 
     markdown: Markdown
     max_files_exceeded: אתה לא יכול לעלות עוד תקיות
     new: אמוג'י חדש
@@ -154,10 +202,13 @@ he:
     upload_error: העליה נכשלה
     upload_success: עלייה עבר בהצלחה
     variants: גרסה
+  emoji_purchase:
+    singular: 
   errors:
     attributes:
       image:
         blank: חייב להוסיף תמונה מעודכנת
+    r18: 
   favorite:
     plural: מעודפים
     singular: מעודף
@@ -180,19 +231,50 @@ he:
   lang: שפה
   legal_attribution:
     google_play_badge: אנדרואיד, גוגל פליי וגוגל פליי לוגו הם סימן מסחרי של  Google Inc.
+  link_purchase:
+    singular: 
+  lock_purchase:
+    singular: 
   mailer:
     copyright_purchase:
       body: הכרטיס שלך חוייב על קנית זכות יוצר בשביל %{emoji} אמוג'י עם %{price} יין
       subject: אמוג'ידקס - קבלת זוכיות יוצרים
+    emoji_purchase:
+      subject: 
     link_purchase:
       body: הכרטיס שלך חוייב על קנית קישור בשביל %{emoji} אמוג'י עם %{price} יין
       subject: אמוג'ידקס - קבלת קישור
+    lock_purchase:
+      body: 
+      subject: 
     premium_subscription:
       body: הכרטיס שלך חוייב על הרשמת פרמיום עם %{price} יין
       subject: 'אמוג''ידקס - קבלת הרשמת פרימיום '
+    pro_subscription:
+      body: 
+      subject: 
   modal:
     cancel: ביטול
     confirm_password: תאשר את הסיסמא
+  mongoid:
+    attributes:
+      emoji:
+        code: 
+        image: 
+        image_content_type: 
+  months:
+    april: 
+    august: 
+    december: 
+    february: 
+    january: 
+    july: 
+    june: 
+    march: 
+    may: 
+    november: 
+    october: 
+    september: 
   payment:
     address1: כתובת
     address2: המשך כתובת
@@ -211,8 +293,12 @@ he:
     flash:
       copyright_failure: רכישת זכיות יוצרים נכשלה. תבדוקו את פרטי הלקוח שלך.
       copyright_success: זכיות יוצרים נרכשה בהצלחה!
+      emoji_purchase_failure: 
+      emoji_purchase_success: 
       link_purchase_failure: 'חיוב קישור נכשלה. נא בדוק את הפרטים של הרשמת שירות לקוחות. '
       link_purchase_success: קישור חוייב בהצלחה
+      lock_purchase_failure: 
+      lock_purchase_success: 
     last_name: שם משפחה
     name_help: השם שלך כפי שהוא רשום על הכרטיס.
     phone: מספר טלפון
@@ -238,7 +324,19 @@ he:
     singular: רישום מידע
     surname: שם משפחה
   registrations:
+    become_premium: 
     connected_account: חשבון התחבר
+    plan:
+      choose: 
+      names:
+        premium:
+          month: 
+          year: 
+        pro:
+          month: 
+          year: 
+      subscribe: 
+      unsubscribe: 
     premium_subscription:
       are_you_sure: אתה בטוח?
       become_premium_user: תהפוך למשתמש פרמיום
@@ -247,6 +345,7 @@ he:
       change_your_customer_information: או תשנה את מידת הלקוח שלך ותיצור המנוי חדש
       delete_premium_subscription: להסיר את המנוי פרמיום
       edit_to_premium_subscription: ערוך את הרשמת הפרימיום
+      end: 
       flash:
         changed: הרשמת הפרמין שלך הישתנה
         check_credentials: נראה שיש שגיאה עם פרטי הלקוח שלך. נא תבדוק אותם <a href=%{path}>here</a>.
@@ -257,11 +356,16 @@ he:
       go_premium: התחל פרמיום!
       here: כאן
       monthly: חודשי
+      monthly_price_in_yen: 
+      monthly_price_in_yen_plus_tax: 
+      next_billing: 
       please_register_as_customer_before_become_premium: חייב להרשם לפרטי הלקוח לפני שאתה נרשם לשירות פרמיום.
       renew: לחדש
       select_plan: תבחור תוכנית
       there_are_problem_with_your_subscription: היה בעיה עם הרשמה. נא בתבדוק את יתרת החשבון בבנק ותנסה לחדש את הרשמה.
       yearly: שנתי
+      yearly_price_in_yen: 
+      yearly_price_in_yen_plus_tax: 
     pro_subscription:
       are_you_sure: אתה בטוח?
       become_pro_user: תהפוך למשתמש מקצועי
@@ -272,6 +376,7 @@ he:
       change_your_customer_information: או תשנה את המידעת לקוח ותחדש את ההרשמה
       delete_pro_subscription: תמחוק את המנוי המקצועי
       edit_to_pro_subscription: תערוך את המנוי המקצועי
+      end: 
       flash:
         changed: המנוי המקוצעי השתנה
         check_credentials: יש בעיה עם פרטי הלקוח שלך. נא תבדוק אותם <a href=%{path}>here</a>.
@@ -282,22 +387,32 @@ he:
       go_pro: תהפוך למקצועני!
       here: כאן
       monthly: תוכנית חודשית
+      next_billing: 
       please_register_as_customer_before_become_pro: אתה חייב להרשם את פרטי הלקוח לפני להרשמה השירות מקצועי
       renew: לחדש
       select_plan: תבחר תוכנית
       there_are_problem_with_your_subscription: היה בעיה עם ההרשמה. נא תבדוק את הפרטים של הכרטיס האשראי שלך ותבדוק שאתה יכול לחייב.
       yearly: תוכנית שנתית
+    processing_payment: 
     user_info:
       avatar_code: קוד אווטר
+      change_password: 
+      currency: 
       current_password: סיסמא נוכחית
+      day: 
       description: תיאור
       email: אימייל
       help_current_password: "(אנחנו צריכים את הסיסמא המעודכנת בכדי לאשר שינוים)"
       help_password: "(תאשיר ריק אם אתה לא רוצה לעשות שינויים)"
+      month: 
       password: סיסמא
       password_confirmation: אישור סיסמא
+      password_updated: 
+      select_currency: 
+      submit_password: 
       title: מידעת המשתמש
       view_r18: 'לאפשר תוכן מעל גיל 18 '
+      year: 
   role:
     singular: תפקיד
   search: חיפוש
@@ -332,6 +447,7 @@ he:
       message: הודעה
       text: נדרש
     'yes': כן
+  singular: 
   submit: להגיש
   tag:
     plural: תגים
@@ -344,6 +460,8 @@ he:
     missing_referrer: המפנה לא נמצא. נא תבדוק שרשמת את השם הנכון.
     not_authorized: אתה מורשה להכנס לדף הזה
     not_subscriber: אתה חייב להיות משתמש פרמיום או פרו בכדי להכנס אינדקס החדשים והפופולרים
+    plural: 
     r18_error: אתה חייב להיות מעל גיל 18 בשביל להכנס לחשבון של תוכן מבוגרים
+    singular: 
     unfollow: ביטול עיקוב
   user_emoji: אמוג'י שלי

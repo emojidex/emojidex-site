@@ -1,26 +1,64 @@
 bg:
   about:
-    api: 
-    company_information: 
-    developers: 
-    emojidex: 
-    emojidex_emoji_license: 
-    general_license_terms_and_conditions: 
-    licenses: 
-    open_license: 
-    prices: 
-    privacy_policy: 
-    services: 
-    sources: 
-    terms_of_service: 
-  ago: 
+    api: API документация
+    brand_book: Книга на Бранда
+    brand_book_link: http://assets.emojidex.com/files/emojidex_brand_book.pdf
+    company_information: Корпоративна информация
+    developers: За разработчици
+    emojidex: За emojidex
+    emojidex_emoji_license: emojidex™ емоджи лиценз
+    general_license_terms_and_conditions: Общи лицензиони условия
+    licenses: Лицензи
+    monthly_membership: 
+    monthly_membership_in_currency: 
+    open_license: Отворен лиценз
+    prices: Цени
+    prices_in_currency: 
+    prices_per_month: 
+    prices_per_month_in_currency: 
+    privacy_policy: 'Декларация за поверителност
+
+'
+    services: Услуги
+    sources: Програмен код
+    terms_of_service: Условия за ползване
+    yearly_membership: 
+    yearly_membership_in_currency: 
+  ago: 'преди %{date} '
+  analytics:
+    analytics: Анализи
+    emoji:
+      analytics_for: Анализи за %{emoji}
+    favorites:
+      favorite_trend: Тенденция на Любими
+      month: Месечна тенденция на Любими
+      week: Седмична тенденция на Любими
+      year: Годишна тенденция на Любими
+    followers:
+      followers_trend: Тенденция за Последователи
+      month: Месечна тенденция за Последователи
+      week: Седмична тенденция за Последователи
+      year: Годишна тенденция за Последователи
+    month: Месец
+    usage:
+      month: Месечно използване
+      usage_trend: Тенденция на Използване
+      week: Седмично използване
+      year: Годишно използване
+    user:
+      followers: Последователи
+      referrals: Реферали
+    week: Седмица
+    year: Година
   auth_token:
-    clear: 
-    cleared: 
-    generate: 
-    generated: 
+    clear: Изчисти токена за удостоверавяне
+    cleared: Токенът е успешно изчистен!
+    generate: Генерирай токен за удостоверение
+    generated: Токенът е успешно генериран!
+    show: 
+    singular: 
   authentication:
-    alert: 
+    alert: Грешка при удостоверяването. Моля, опитайте пак.
   categories:
     abstract: Абстрактни
     all: Всички
@@ -36,312 +74,404 @@ bg:
     tools: Инструменти
     transportation: Транспорт
   category:
-    list: 
-    plural: 
-    singular: 
-  code_not_found: 
+    list: Списък на категориите
+    plural: Кетегории
+    singular: Категория
+  code_not_found: кодът не е намерен
+  confirm: Сигурни ли сте?
   copyright_purchase:
-    amount: 
-    card_last_4digits: 
-    confirm: 
-    copyright: 
-    date: 
-    emoji_code: 
-    plural: 
-    price_in_yen: 
-    price_in_yen_with_tax: 
-    purchase_type: 
-    singular: 
-  created_at: 
+    amount: Сума
+    card_last_4digits: Последните 4 цифри на картата
+    confirm: Потвърди покупката
+    copyright: Флаг за авторско право
+    date: Дата
+    emoji_code: код на емоджи
+    plural: Покупки на флагове за авторско право
+    price_in_yen: Цена в йени
+    price_in_yen_with_tax: Цена в йени с данъците
+    purchase_type: Тип на поръчката
+    singular: Покупка на флаг за авторско право
+  created_at: Създаден
   customer:
-    card_declined: 
-    create: 
-    created: 
-    edit: 
-    failed: 
-    incorrect_cvc: 
-    incorrect_expiry: 
-    incorrect_number: 
-    info: 
-    invalid_expiry_date: 
-    last_credit_card_numbers: 
-    processing_error: 
-    singular: 
-    update: 
-    updated: 
+    card_declined: Картата е отхвърлена
+    create: Създай клиент
+    created: Регистрацията на клиент е успешно създадена!
+    edit: Редактирай информацията за клиента
+    failed: Регистрацията на клиент е неуспешна!
+    incorrect_cvc: Невалиден cvc код
+    incorrect_expiry: Невалидна дата на годност
+    incorrect_number: Невалиден номер
+    info: Информация за клиента
+    invalid_expiry_date: Невалидна дата на годност
+    last_credit_card_numbers: Последните цифри от номера на кредитната/дебитната карта
+    new: 
+    processing_error: грешка при обработването
+    singular: Клиент
+    update: Актуализирай клиента
+    updated: Информацията за клиента успешно актуализирана!
   devise:
-    email: 
-    password: 
-    password_confirmation: 
-    referrer: 
+    email: Емайл
+    mailer:
+      reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
+    password: Парола
+    password_confirmation: Потвърди паролата
+    referrer: Реферер
     registrations:
-      accept_terms_of_service: 
+      accept_terms_of_service: Съгласен съм с условията за ползване
       display_language: Език
-      login_to_add: 
-      select_display_language: 
-      setup: 
+      login_to_add: Влез за да добавиш
+      select_display_language: Избери език
+      setup: Настройка
     sessions:
-      didnt_receive_confirmation_instructions: 
-      didnt_receive_unlock_instructions: 
-      forgot_your_password: 
-      remember_me: 
-      send_reset_password_instructions: 
-      sign_in: 
-      sign_in_with: 
-      username_or_email: 
-    sign_up: 
-    username: 
-  edit: 
+      didnt_receive_confirmation_instructions: Не сте получили инструкции за потвърждение?
+      didnt_receive_unlock_instructions: 'Не сте получили инзтрукции за отключване?
+
+'
+      forgot_your_password: 'Забравена парола?
+
+'
+      remember_me: Запомни ме
+      send_reset_password_instructions: Изпрати ми инструкции за нулиране на парола
+      sign_in: Вход
+      sign_in_with: Вход с %{provider}
+      username_or_email: Потребителско име или емайл
+    sign_up: Регистрация
+    username: Потребителско име
+  edit: Редактирай
   emoji:
-    attribution: 
-    code: 
-    copyright: 
-    description: 
-    drop_file_or_click_here: 
-    edit_tags: 
-    edit_tags_help: 
+    attribution: Притежател на признание
+    code: Код
+    copyright: Авторско право
+    description: Описание
+    drop_file_or_click_here: Влачи изображение или натисни тук
+    edit_tags: Редактирай таговете на %{emoji}
+    edit_tags_help: Вие може да добавите повече тагове като ги разделите със запетаи.
     enable_link: Добави линк
     errors:
-      empty_parenthesis: 
-      invalid_characters: 
-      invalid_variant_format: 
-      multiple_bases: 
-      only_variant: 
-      open_parenthesis: 
+      empty_parenthesis: 'Кодът съдържа скоби без съдържанние. Скобите уточняват варианта и трябва да съдържат спецификатор на варианта. '
+      invalid_characters: Кодът съдържа невалидни знаци
+      invalid_image: 
+      invalid_variant_format: Кодът съдържа варинат с невалиден формат.
+      multiple_bases: Кодът не може да съдържа вариант/скоби в средата. Моля, преместете вариант/скобите в началото или края на кода.
+      not_found: '"%{code}" не е регистриран!'
+      only_variant: Кодът е само спецификатор на вариант. Не заграждайте вашия код със скоби
+      open_parenthesis: Кодът съдържа незатворени скоби. Вие трябва да затворите скобите за да уточните вариант
     help:
-      attribution: 
-      can_not_change: 
-      code: 
-      image: 
-      r18: 
-      tag: 
-    homepage_link: 
-    image_url: 
-    invalid_file_type: 
-    link: 
-    list: 
-    markdown: 
-    max_files_exceeded: 
-    new: 
+      attribution: Въведете името на автора, носителя на авторски права или носителя на права. Ако вие сте автора/носителя на права просто оставвете полето празно.
+      can_not_change: Това поле не може да бъде променяно.
+      code: 'Кодът е името на вашето емоджи и на това как ще се показва. Ще се показва като :регистрирания код: . Може да определите вашето емоджи като вариация на друго емоджи като обозначите как емоджито е различно в скорби. Например "smile(wh)" и "smile(br)" са бял и кавяф цвят на кожата на емоджи с база smile и ще се показва като вариант в приложенията или на този сайт. '
+      image: Изображение
+      r18: R-18 [За възрастни]
+      tag: Тагове
+    homepage_link: Връзка към страница.
+    image_url: URL на изображението
+    invalid_file_type: Вие не може да качвате файлове от този тип
+    link: връзка
+    list: списък с емоджи
+    loading: Зареждане...
+    markdown: Markdown
+    max_files_exceeded: Вие не може да качвате повече файлове
+    new: Ново емоджи
     preview:
-      hanko: 
-      seal: 
-      sizes: 
-      with_text: 
-      with_text_sample: 
-    r18: 
-    remove_image: 
-    score: 
-    select_image_size: 
-    share: 
-    singular: 
+      hanko: Печат
+      seal: Стикер
+      sizes: Размери
+      with_text: Прегледай текста
+      with_text_sample: 'Това емоджи ще излгежда  :%{emoji_shortcode}: като текст и ще се изобразява като %{emoji_image} когато emojidex се поддържа.'
+    r18: R-18 (За възрастни)
+    remove_image: Премахни изображение
+    score: Точки
+    select_image_size: Избери размер на изображението
+    share: Сподели
+    singular: емоджи
     sort_by:
-      label: 
-      liked: 
-      newest: 
-      oldest: 
-      score: 
-      shortest: 
-      unliked: 
-      unpopular: 
-    standard_emoji_only: 
+      label: 'Сортирай по:'
+      liked: Най-харесвани
+      newest: Най-нови
+      oldest: Най-стари
+      score: Точки
+      shortest: Най-къс код
+      unliked: Най-малко харесвани
+      unpopular: Най-малко точки
+    standard_emoji_only: Само стандартни емоджита
     tabs:
-      newest: 
-      popular: 
-      score: 
-    tags_updated: 
-    update_tags: 
-    upload_error: 
-    upload_success: 
-    variants: 
+      newest: Най-нови
+      popular: Популярни
+      score: Точки
+    tags_updated: Таговете на емоджито са успешно актуализирани!
+    update_tags: Актуализирай таговете.
+    upload_error: Грешка при качване
+    upload_success: Качването усшено.
+    variants: Варианти
+  emoji_purchase:
+    singular: 
   errors:
     attributes:
       image:
-        blank: 
+        blank: Трябва да бъде поставено валидно изображение.
+    r18: Вие трябва да сте влезнали и да сте разрешили R-18 [За възрастни] за да видите това емоджи. Влезте или се регистрирате и разрешете  R-18 [За възрастни] съдържание от настройките на потребителя преди да се върнете на тази страница.
   favorite:
-    plural: 
-    singular: 
-    unfavorite: 
+    plural: Любими
+    singular: Любим
+    unfavorite: Премахни от любими
   flash:
-    create: 
-    destroy: 
-    update: 
+    create: "%{resource} е успешно създаден."
+    destroy: "%{resource} е успешно премахнат."
+    update: "%{resource} е успешно актуализиран."
   form:
-    save_changes: 
-    update: 
-  help: 
+    save_changes: Запази промените
+    update: Актуализирай
+  help: Помощ
   image:
-    plural: 
-    singular: 
-  inline_install: 
+    plural: Изображания
+    singular: Изображание
+  inline_install: Инсталирай разширение
   interface:
     login: Вход
-    new_emoji_login_or_register: 
-  lang: 
+    new_emoji_login_or_register: Вие трябва да сте влезнали за да създадете емоджи. Моля, влезте или регистрирайте акаунт.
+  lang: Език.
   legal_attribution:
-    google_play_badge: 
+    google_play_badge: Android, Google Play и Google Play logo са запазени марки на Google Inc.
+  link_purchase:
+    singular: 
+  lock_purchase:
+    singular: 
   mailer:
     copyright_purchase:
-      body: 
+      body: Вашата карта е таксувана %{price} йени за покупка на авторско право за %{emoji}
+      subject: emojidex - Разписка за поръчка на авторско право.
+    emoji_purchase:
       subject: 
     link_purchase:
+      body: Вашата карта е таксувана %{price} йени за покупка на връзка за %{emoji}
+      subject: emojidex - Разписка за поръчка на връзка
+    lock_purchase:
       body: 
       subject: 
     premium_subscription:
+      body: Вашата карта е таксувана %{price} йени за покупка на Премиум абонамент.
+      subject: emojidex - Разписка за Премиум абонамент
+    pro_subscription:
       body: 
       subject: 
   modal:
-    cancel: 
-    confirm_password: 
+    cancel: Откажи
+    confirm_password: Потвърди паролата
+  mongoid:
+    attributes:
+      emoji:
+        code: Кодът
+        image: Изборажение
+        image_content_type: Съдържанието на изображение
+  months:
+    april: Април
+    august: Август
+    december: Декември
+    february: Февруари
+    january: Януари
+    july: Юли
+    june: Юни
+    march: Март
+    may: Май
+    november: Ноември
+    october: Октомври
+    september: Септември
   payment:
-    address1: 
-    address2: 
-    back: 
+    address1: Адрес
+    address2: Адрес продължение
+    back: Назад
     card_expires_on:
-      month: 
-      year: 
-    card_number: 
-    card_number_help: 
-    card_type: 
-    card_verification: 
-    card_verification_help: 
-    city: 
-    country: 
-    first_name: 
+      month: Месец на изтичане на картата
+      year: Година на изтичане на картата
+    card_number: Номер на картата
+    card_number_help: Моля, въведете без празни пространства
+    card_type: Вид на картата
+    card_verification: Верификация на картата
+    card_verification_help: 'Трицифрения код от задния край на вашата карта
+
+'
+    city: Град
+    country: Държава
+    first_name: Име
     flash:
-      copyright_failure: 
-      copyright_success: 
-      link_purchase_failure: 
-      link_purchase_success: 
-    last_name: 
-    name_help: 
-    phone: 
+      copyright_failure: Покупката на авторско право е неуспешна. Моля, проверете детайлите на вашата клиентска регистрация
+      copyright_success: Покупката на авторско право е успешна.
+      emoji_purchase_failure: 
+      emoji_purchase_success: 
+      link_purchase_failure: Покупката на връзка е неуспешна. Моля, проверете детайлите на вашата клиентска регистрация
+      link_purchase_success: Покупката на връзка е успешна.
+      lock_purchase_failure: 
+      lock_purchase_success: 
+    last_name: Фамилия
+    name_help: Вашето име както е написано на картата
+    phone: Телефонен номер
     prompt:
       card_expires_on:
-        month: 
-        year: 
-      card_type: 
-    purchase: 
-    purchase_copyright: 
-    state: 
-    zip: 
-  privacy_policy: 
+        month: Месец
+        year: Година
+      card_type: Изберете вид на картата
+    purchase: Поръчка
+    purchase_copyright: Поръчка на авторско право
+    state: Област
+    zip: Пощенски код
+  privacy_policy: 'Декларация за поверителност
+
+'
   recaptcha:
     errors:
-      incorrect: 
-      incorrect_captcha_sol: 
-      recaptcha_unavailable: 
+      incorrect: Има грешка в reCAPTCHA кода отдоло. Моля, въведете го отново.
+      incorrect_captcha_sol: Грешка в reCAPTCHA!
+      recaptcha_unavailable: reCAPTCHA не е налична, моля презаредете.
   registration_info:
-    business_name: 
-    edit: 
-    name: 
-    singular: 
-    surname: 
+    business_name: Бизнес име.
+    edit: Редактирай информация за регистрация
+    name: Име
+    singular: Информация за регистрация
+    surname: Бащино име
   registrations:
-    connected_account: 
+    become_premium: 
+    connected_account: Свързани акаунти
+    plan:
+      choose: 
+      names:
+        premium:
+          month: 
+          year: 
+        pro:
+          month: 
+          year: 
+      subscribe: 
+      unsubscribe: 
     premium_subscription:
       are_you_sure: Сигурни ли сте?
-      become_premium_user: 
-      change_premium_plan_to_monthly: 
-      change_premium_plan_to_yearly: 
-      change_your_customer_information: 
-      delete_premium_subscription: 
-      edit_to_premium_subscription: 
+      become_premium_user: Стани Премиум потребител
+      change_premium_plan_to_monthly: Промени Премиум плана към месечно плащане.
+      change_premium_plan_to_yearly: Промени Премиум плана към годишно плащане.
+      change_your_customer_information: или променете вашата информация за клиента и създаите нов абонамент
+      delete_premium_subscription: Изтрий Премиум абонамент
+      edit_to_premium_subscription: Редактирай Премиум абонамент
+      end: 
       flash:
-        changed: 
-        check_credentials: 
-        destroyed: 
-        not_destroyed: 
-        resumed: 
-        you_are_premium: 
-      go_premium: 
-      here: 
-      monthly: 
-      please_register_as_customer_before_become_premium: 
-      renew: 
-      select_plan: 
-      there_are_problem_with_your_subscription: 
-      yearly: 
+        changed: Вашия Премиум абонамент е актуализиран
+        check_credentials: Има проблем с вашата информация за клиента. Моля, проверете го <a href=%{path}>тук</a>.
+        destroyed: Вашия Премиум абонамент е изтрит
+        not_destroyed: Вашия Премиум абонамент не е изтрит
+        resumed: Вашия Премиум абонамент е подновен
+        you_are_premium: Вие сте премиум потребител
+      go_premium: Стани премиум
+      here: Тук
+      monthly: Месечен план
+      monthly_price_in_yen: 
+      monthly_price_in_yen_plus_tax: 
+      next_billing: 
+      please_register_as_customer_before_become_premium: 'Трябва да региситрирате клиент преди на използвате Премиум услуги. '
+      renew: Поднови
+      select_plan: Избери план
+      there_are_problem_with_your_subscription: Има проблем с вашия абонамент. Моля. проверете банковата си сметка и пробвайте да го подновите.
+      yearly: Годишен план.
+      yearly_price_in_yen: 
+      yearly_price_in_yen_plus_tax: 
     pro_subscription:
-      are_you_sure: 
-      become_pro_user: 
-      change_pro_plan_to_monthly: 
-      change_pro_plan_to_yearly: 
-      change_your_customer_information: 
-      delete_pro_subscription: 
-      edit_to_pro_subscription: 
+      are_you_sure: Сигурни ли сте?
+      become_pro_user: Стани Професионален потребител
+      change_pro_plan_to_monthly: Промени Професионалния план към месечно плащане
+      change_pro_plan_to_yearly: Промени Професионалния план към годишно плащане
+      change_your_customer_information: или промени вашата клиентска информация и създай нов абонамент
+      delete_pro_subscription: Изтрий Професионалния абонамент
+      edit_to_pro_subscription: Редактирай Професионалния абонамент
+      end: 
       flash:
-        changed: 
-        check_credentials: 
-        destroyed: 
-        not_destroyed: 
-        resumed: 
-        you_are_pro: 
-      go_pro: 
-      here: 
-      monthly: 
-      please_register_as_customer_before_become_pro: 
-      renew: 
-      select_plan: 
-      there_are_problem_with_your_subscription: 
-      yearly: 
+        changed: Вашия Професионалния абонамент е променен.
+        check_credentials: Има проблем с вашата клиентска информация. Моля, проверете <a href=%{path}>тук</a>.
+        destroyed: Вашия Професионален абонамент е изтрит
+        not_destroyed: Вашия Професионален абонамент не е изтрит
+        resumed: Вашия Професионален абонамент е подновен
+        you_are_pro: Вие сте професионален потребител.
+      go_pro: Стани професионален потребител.
+      here: Тук
+      monthly: Месечен план.
+      next_billing: 
+      please_register_as_customer_before_become_pro: Трябва да се регистрирате като клиент преди да използвате професионалните услуги
+      renew: Поднови
+      select_plan: Избери план
+      there_are_problem_with_your_subscription: Има проблем с вашия абонамент. Моля проверете вашата карта и се уверете, че може да бъде таксувана.
+      yearly: Годишен план
+    processing_payment: 
     user_info:
-      avatar_code: 
-      current_password: 
-      description: 
-      email: 
-      help_current_password: 
-      help_password: 
-      password: 
-      password_confirmation: 
-      title: 
-      view_r18: 
+      avatar_code: Код на аватара
+      change_password: 
+      currency: Валута
+      current_password: Текуща парола
+      day: 
+      description: Описание
+      email: Емайл
+      help_current_password: "(въведете текущата си парола за да потвърдите промените.)"
+      help_password: "(оставете празно, ако не искате да я променяте.)"
+      month: 
+      password: Парола
+      password_confirmation: Повърждение на парола
+      password_updated: 
+      select_currency: Избери валута
+      submit_password: 
+      title: Потребителска информация
+      view_r18: Активирай  R-18 [За възрастни] Съдържание
+      year: 
   role:
-    singular: 
-  search: 
-  search_options: 
+    singular: Роля
+  search: Търси
+  search_options: Опции за търсене
   seo:
-    description: 
-    tags: 
-    title: 
+    description: Оригинални емоджита, който може да използвате навсякъде. Регистрирайте собствени емоджита или използвайте от други потребители онлайн или в приложения
+    tags: emoji, free emoji, stamps, free stamps, UTF emoji, original emoji, Android emoji, emoji app, Chrome emoji, custom emoji, emoji registration
+    title: emojidex - услуга за емоджита и приложения
   sidebar:
-    all: 
-  sign_in: 
-  sign_out: 
-  sign_up: 
+    all: Всички
+  sign_in: Вход
+  sign_out: Излез
+  sign_up: Регистрирай се
   simple_form:
     error_notification:
-      default_message: 
+      default_message: 'Моля, прегледайте проблемите по доло:'
     hints:
       user:
         edit:
-          current_password: 
-          password: 
+          current_password: Текуща парола
+          password: Парола
     labels:
       user:
-        current_password: 
-        name: 
-        password: 
-        password_confirmation: 
-        remember_me: 
-    'no': 
+        current_password: Текуща парола
+        name: Име
+        password: Парола
+        password_confirmation: Потвърди парола
+        remember_me: Запомни ме
+    'no': Не
     required:
-      mark: 
-      message: 
-      text: 
-    'yes': 
-  submit: 
+      mark: "*"
+      message: Съобщение
+      text: задължително
+    'yes': Да
+  singular: 
+  submit: Изпрати
   tag:
-    plural: 
-    singular: 
-  terms_of_service: 
-  updated_at: 
+    plural: Тагове
+    singular: Таг
+  terms_of_service: 'Условия за ползване
+
+'
+  updated_at: Актуализирано
   user:
-    avatar_not_found: 
-    follow: 
-    missing_referrer: 
-    not_authorized: 
-    not_subscriber: 
-    r18_error: 
-    unfollow: 
-  user_emoji: 
+    avatar_not_found: Кода на аватара не е намерен.
+    follow: Последвай
+    missing_referrer: Реферерът не е намерен. Моля, уверете се, че правилно сте въвели потребителското име.
+    not_authorized: Вие нямата право да достъпите тази страница.
+    not_subscriber: Вие трябва да сте Премиум или Професионален потребител за да достъпите тази страница.
+    plural: Потребители
+    r18_error: Трябва да активирате R-18 във вашия акаунт за да прегледате това съдържание.
+    singular: Потребител
+    unfollow: Не следвай.
+  user_emoji: Мойте емоджита.
