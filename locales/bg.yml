@@ -321,6 +321,9 @@ bg:
       card_type: Изберете вид на картата
     purchase: Поръчка
     purchase_copyright: Поръчка на авторско право
+    purchase_emoji: 
+    purchase_link: 
+    purchase_lock: 
     state: Област
     zip: Пощенски код
   privacy_policy: 'Декларация за поверителност

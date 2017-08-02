@@ -313,6 +313,9 @@ he:
       card_type: תבחר סוג אשראי
     purchase: רכישה
     purchase_copyright: רכישת זכויות יוצרים
+    purchase_emoji: 
+    purchase_link: 
+    purchase_lock: 
     state: אזור מדינה
     zip: מיקוד
   privacy_policy: מדיניות פרטיות

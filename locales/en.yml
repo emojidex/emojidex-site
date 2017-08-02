@@ -313,6 +313,9 @@ en:
       card_type: Choose Card Type
     purchase: Purchase
     purchase_copyright: Purchase Copyright
+    purchase_emoji: Purchase Emoji
+    purchase_link: Purchase Liink
+    purchase_lock: Purchase Lock
     state: State
     zip: Zip
   privacy_policy: Privacy Policy

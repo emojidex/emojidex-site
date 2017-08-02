@@ -313,6 +313,9 @@ de:
       card_type: 
     purchase: 
     purchase_copyright: 
+    purchase_emoji: 
+    purchase_link: 
+    purchase_lock: 
     state: 
     zip: 
   privacy_policy: 

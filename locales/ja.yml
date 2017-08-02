@@ -320,6 +320,9 @@ ja:
       card_type: クレジットカード種別を選択して下さい
     purchase: 著作権フラグを購入する
     purchase_copyright: 著作権フラグを購入
+    purchase_emoji: この絵文字を購入
+    purchase_link: リンクを有効化
+    purchase_lock: この絵文字にロックをかける
     state: 都道府県
     zip: 郵便番号
   privacy_policy: プライバシーポリシー
