@@ -9,19 +9,19 @@ ja:
     emojidex_emoji_license: emojidex™ emoji ライセンス
     general_license_terms_and_conditions: 一般使用許諾条件
     licenses: ライセンス
-    monthly_membership: 
-    monthly_membership_in_currency: 
+    monthly_membership: 月額会員
+    monthly_membership_in_currency: 月額会員(%{currency})
     open_license: オープンライセンス
     prices: サービス・料金表
-    prices_in_currency: 
-    prices_per_month: 
-    prices_per_month_in_currency: 
+    prices_in_currency: 価格(%{currency})
+    prices_per_month: 月額料金
+    prices_per_month_in_currency: 月額料金(%{currency})
     privacy_policy: プライバシーポリシー
     services: サービス
     sources: ソースコード
     terms_of_service: 利用規約
-    yearly_membership: 
-    yearly_membership_in_currency: 
+    yearly_membership: 年額会員
+    yearly_membership_in_currency: 年額会員(%{currency})
   ago: "%{date}前"
   analytics:
     analytics: アナリティクス
@@ -76,7 +76,7 @@ ja:
     plural: カテゴリー
     singular: カテゴリー
   code_not_found: コードが見付かりませんでした
-  confirm: 
+  confirm: よろしいですか？
   copyright_purchase:
     amount: 価格
     card_last_4digits: カード下4桁
@@ -87,6 +87,8 @@ ja:
     plural: 著作権フラグの購入履歴
     price_in_yen: 値段[日本円]
     price_in_yen_with_tax: 税込み価格[日本円]
+    prices: 価格
+    prices_in_currency: 価格(%{currency})
     purchase_type: 購入種目
     singular: 著作権フラグの購入履歴
   created_at: 作成日時
@@ -210,7 +212,7 @@ ja:
     upload_success: アップロードに成功しました
     variants: 差分
   emoji_purchase:
-    singular: 
+    singular: この絵文字を購入
   errors:
     attributes:
       image:
@@ -258,8 +260,8 @@ ja:
       body: あなたのカードから、プレミアムユーザーの料金「%{price}円」が支払われました。
       subject: emojidex - プレミアムユーザー登録のお支払いについて
     pro_subscription:
-      body: 
-      subject: 
+      body: あなたのカードにプロ講読料として%{price}円が請求されています。
+      subject: emojidex - プロ講読料領収書
   modal:
     cancel: キャンセル
     confirm_password: パスワードの確認
@@ -365,16 +367,16 @@ ja:
       go_premium: プレミアムメンバーになる!
       here: こちら
       monthly: 月額プラン
-      monthly_price_in_yen: 
-      monthly_price_in_yen_plus_tax: 
+      monthly_price_in_yen: 月額(円)
+      monthly_price_in_yen_plus_tax: 税込み月額(円)
       next_billing: 次回の自動決済が%{date}に実行されます。
       please_register_as_customer_before_become_premium: プレミアムメンバー登録を行うには決済者情報の登録が必要です。
       renew: プレミアムメンバープランを更新する
       select_plan: プランを選択してください
       there_are_problem_with_your_subscription: プレミアムメンバー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。
       yearly: 年額プラン
-      yearly_price_in_yen: 
-      yearly_price_in_yen_plus_tax: 
+      yearly_price_in_yen: 年額(円)
+      yearly_price_in_yen_plus_tax: 税込み年額(円)
     pro_subscription:
       are_you_sure: 本当によろしいですか？
       become_pro_user: プロメンバー

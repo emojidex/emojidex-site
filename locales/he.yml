@@ -87,6 +87,8 @@ he:
     plural: קניית איתות זכיות יוצרים
     price_in_yen: מחיר ביין
     price_in_yen_with_tax: מחיר ביין עם מס
+    prices: 
+    prices_in_currency: 
     purchase_type: סוג רכישה
     singular: קניית איתות זכיות יוצרים
   created_at: נוצר

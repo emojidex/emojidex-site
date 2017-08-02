@@ -89,6 +89,8 @@ bg:
     plural: Покупки на флагове за авторско право
     price_in_yen: Цена в йени
     price_in_yen_with_tax: Цена в йени с данъците
+    prices: 
+    prices_in_currency: 
     purchase_type: Тип на поръчката
     singular: Покупка на флаг за авторско право
   created_at: Създаден

@@ -87,6 +87,8 @@ en:
     plural: Copyright Flag Purchases
     price_in_yen: Price in yen
     price_in_yen_with_tax: Price in yen with tax
+    prices: Prices
+    prices_in_currency: Prices in %{currency}
     purchase_type: Purchase type
     singular: Copyright Flag Purchase
   created_at: Created
