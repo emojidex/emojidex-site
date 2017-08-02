@@ -89,6 +89,8 @@ en:
     price_in_yen_with_tax: Price in yen with tax
     prices: Prices
     prices_in_currency: Prices in %{currency}
+    prices_per_month: Prices per month
+    prices_per_month_in_currency: Prices per month in %{currency}
     purchase_type: Purchase type
     singular: Copyright Flag Purchase
   created_at: Created

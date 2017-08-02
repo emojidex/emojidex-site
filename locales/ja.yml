@@ -89,6 +89,8 @@ ja:
     price_in_yen_with_tax: 税込み価格[日本円]
     prices: 価格
     prices_in_currency: 価格(%{currency})
+    prices_per_month: 月額料金
+    prices_per_month_in_currency: 月額料金(%{currency})
     purchase_type: 購入種目
     singular: 著作権フラグの購入履歴
   created_at: 作成日時

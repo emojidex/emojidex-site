@@ -89,6 +89,8 @@ hi:
     price_in_yen_with_tax: 
     prices: 
     prices_in_currency: 
+    prices_per_month: 
+    prices_per_month_in_currency: 
     purchase_type: 
     singular: 
   created_at: 

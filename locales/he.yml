@@ -89,6 +89,8 @@ he:
     price_in_yen_with_tax: מחיר ביין עם מס
     prices: 
     prices_in_currency: 
+    prices_per_month: 
+    prices_per_month_in_currency: 
     purchase_type: סוג רכישה
     singular: קניית איתות זכיות יוצרים
   created_at: נוצר
