@@ -84,6 +84,7 @@ ja:
     copyright: 著作権フラグ
     date: 日付
     emoji_code: 絵文字コード
+    months: 月
     plural: 著作権フラグの購入履歴
     price_in_yen: 値段[日本円]
     price_in_yen_with_tax: 税込み価格[日本円]
@@ -92,6 +93,7 @@ ja:
     prices_per_month: 月額料金
     prices_per_month_in_currency: 月額料金(%{currency})
     purchase_type: 購入種目
+    settlement_confirmation: 決済確認
     singular: 著作権フラグの購入履歴
   created_at: 作成日時
   customer:

@@ -84,6 +84,7 @@ he:
     copyright: איתות זכויות יוצרים
     date: תאריך
     emoji_code: קוד אמוג'י
+    months: 
     plural: קניית איתות זכיות יוצרים
     price_in_yen: מחיר ביין
     price_in_yen_with_tax: מחיר ביין עם מס
@@ -92,6 +93,7 @@ he:
     prices_per_month: 
     prices_per_month_in_currency: 
     purchase_type: סוג רכישה
+    settlement_confirmation: 
     singular: קניית איתות זכיות יוצרים
   created_at: נוצר
   customer:

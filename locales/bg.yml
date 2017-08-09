@@ -86,6 +86,7 @@ bg:
     copyright: Флаг за авторско право
     date: Дата
     emoji_code: код на емоджи
+    months: 
     plural: Покупки на флагове за авторско право
     price_in_yen: Цена в йени
     price_in_yen_with_tax: Цена в йени с данъците
@@ -94,6 +95,7 @@ bg:
     prices_per_month: 
     prices_per_month_in_currency: 
     purchase_type: Тип на поръчката
+    settlement_confirmation: 
     singular: Покупка на флаг за авторско право
   created_at: Създаден
   customer:

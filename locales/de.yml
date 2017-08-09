@@ -84,6 +84,7 @@ de:
     copyright: 
     date: 
     emoji_code: 
+    months: 
     plural: 
     price_in_yen: 
     price_in_yen_with_tax: 
@@ -92,6 +93,7 @@ de:
     prices_per_month: 
     prices_per_month_in_currency: 
     purchase_type: 
+    settlement_confirmation: 
     singular: 
   created_at: 
   customer:

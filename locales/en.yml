@@ -84,6 +84,7 @@ en:
     copyright: Copyright Flag
     date: Date
     emoji_code: emoji code
+    months: Months
     plural: Copyright Flag Purchases
     price_in_yen: Price in yen
     price_in_yen_with_tax: Price in yen with tax
@@ -92,12 +93,13 @@ en:
     prices_per_month: Prices per month
     prices_per_month_in_currency: Prices per month in %{currency}
     purchase_type: Purchase type
+    settlement_confirmation: Settlement confirmation
     singular: Copyright Flag Purchase
   created_at: Created
   customer:
     card_declined: Card declined
-    create: Create customer
-    created: Customer registration successfully created!
+    create: Register your customer details
+    created: You`ve successfully registered as a customer
     edit: Edit customer info
     failed: Customer registration failed!
     incorrect_cvc: Incorrect cvc
@@ -109,7 +111,7 @@ en:
     new: Create Customer Record
     processing_error: Procession error
     singular: Customer
-    update: Update customer
+    update: Update your customer details
     updated: Customer registration successfully updated!
   devise:
     email: Email
