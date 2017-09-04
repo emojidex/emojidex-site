@@ -101,6 +101,18 @@ he:
     create: ייצירת לקוחa
     created: הרשמת לקוח נוצרה בהצלחה
     edit: עריכת מידעת לקוח
+    errors:
+      card_declined: 
+      expired_card: 
+      incomplete_cvc: 
+      incomplete_expiry: 
+      incomplete_number: 
+      incorrect_cvc: 
+      incorrect_number: 
+      invalid_cvc: 
+      invalid_expiry_month_past: 
+      invalid_expiry_year: 
+      invalid_expiry_year_past: 
     failed: הרשמת לקוח נכשלה!
     incorrect_cvc: 'קוד זהוי כרטיס שגוי '
     incorrect_expiry: פג תוקף שגוי
@@ -285,15 +297,20 @@ he:
     address1: כתובת
     address2: המשך כתובת
     back: חזור
+    cancel_subscription: 
     card_expires_on:
       month: חודש תפוגת האשראי
       year: שנת תפוגת האשראי
+    card_name: 
     card_number: מספר האשראי
     card_number_help: אנא להזין ללא רווחים
     card_type: סוג האשראי
     card_verification: אימות אשראי
     card_verification_help: שלוש הספרות מימין האזור החתימה מאחורי האשראי
+    change_to_monthly: 
+    change_to_yearly: 
     city: עיר
+    company_name: 
     country: מדינה
     first_name: שם פרטי
     flash:
@@ -306,6 +323,7 @@ he:
       lock_purchase_failure: 
       lock_purchase_success: 
     last_name: שם משפחה
+    name: 
     name_help: השם שלך כפי שהוא רשום על הכרטיס.
     phone: מספר טלפון
     prompt:

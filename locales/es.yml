@@ -101,6 +101,18 @@ es:
     create: 
     created: 
     edit: 
+    errors:
+      card_declined: 
+      expired_card: 
+      incomplete_cvc: 
+      incomplete_expiry: 
+      incomplete_number: 
+      incorrect_cvc: 
+      incorrect_number: 
+      invalid_cvc: 
+      invalid_expiry_month_past: 
+      invalid_expiry_year: 
+      invalid_expiry_year_past: 
     failed: 
     incorrect_cvc: 
     incorrect_expiry: 
@@ -285,15 +297,20 @@ es:
     address1: 
     address2: 
     back: 
+    cancel_subscription: 
     card_expires_on:
       month: 
       year: 
+    card_name: 
     card_number: 
     card_number_help: 
     card_type: 
     card_verification: 
     card_verification_help: 
+    change_to_monthly: 
+    change_to_yearly: 
     city: 
+    company_name: 
     country: 
     first_name: 
     flash:
@@ -306,6 +323,7 @@ es:
       lock_purchase_failure: 
       lock_purchase_success: 
     last_name: 
+    name: 
     name_help: 
     phone: 
     prompt:

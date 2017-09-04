@@ -101,6 +101,18 @@ ja:
     create: 決済者情報を登録
     created: 決済者情報の登録に成功しました。
     edit: 決済者情報の編集
+    errors:
+      card_declined: カード情報の取得が拒否されました
+      expired_card: カードの有効期限が切れています
+      incomplete_cvc: CVCを入力してください
+      incomplete_expiry: 有効期限を入力してください
+      incomplete_number: カード番号を入力してください
+      incorrect_cvc: カードのセキュリティーコードが正しくありません
+      incorrect_number: カード番号が正しくありません
+      invalid_cvc: 無効なカード番号です
+      invalid_expiry_month_past: 過去の月は設定出来ません
+      invalid_expiry_year: 無効な年です
+      invalid_expiry_year_past: 過去の年は設定出来ません
     failed: 決済者情報の登録に失敗しました。
     incorrect_cvc: 不正なセキュリティーコードです。
     incorrect_expiry: 不正な有効期限です。
@@ -292,15 +304,20 @@ ja:
     address1: 住所
     address2: 住所 (マンション・アパート名・部屋番号)
     back: 前の画面に戻る
+    cancel_subscription: 登録解除
     card_expires_on:
       month: クレジットカード有効期限：月
       year: クレジットカード有効期限：年
+    card_name: カード名義
     card_number: クレジットカード番号
     card_number_help: スペース無しで入力して下さい。
     card_type: クレジットカード種別
     card_verification: クレジットカードセキュリティコード
     card_verification_help: クレジットカード裏面の署名欄に記載されている、クレジットカード番号の後に記載された3桁の番号です。
+    change_to_monthly: 月額プランに変更
+    change_to_yearly: 年額プランに変更
     city: 市区
+    company_name: 会社名
     country: 国
     first_name: クレジットカード名義人：名
     flash:
@@ -313,6 +330,7 @@ ja:
       lock_purchase_failure: ロックの購入が失敗しました。お客様の登録情報が正しいかどうかを確認して下さい。
       lock_purchase_success: ロックの購入が成功しました
     last_name: クレジットカード名義人：姓
+    name: お名前
     name_help: クレジットカードの表示通りに入力して下さい。
     phone: 電話番号
     prompt:
