@@ -333,7 +333,14 @@ bg:
     last_name: Фамилия
     name: 
     name_help: Вашето име както е написано на картата
+    next_billing: 
+    next_billing_amount: 
+    next_billing_date: 
+    next_billing_foreign_amount: 
+    next_billing_period: 
     phone: Телефонен номер
+    premium_days_left: 
+    pro_days_left: 
     prompt:
       card_expires_on:
         month: Месец

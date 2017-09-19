@@ -325,7 +325,14 @@ en:
     last_name: Last Name
     name: Customer name
     name_help: Your name as it appears on the card
+    next_billing: Next billing
+    next_billing_amount: 'Next billing amount: %{amount}'
+    next_billing_date: 'Next billing date: %{days} days'
+    next_billing_foreign_amount: 'Next billing amount in %{currency}: %{amount}'
+    next_billing_period: 'Next billing period: +1 [%{period}]'
     phone: Phone Number
+    premium_days_left: 'Premium time left on your account: %{days} days.'
+    pro_days_left: 'Pro time left on your account: %{days} days.'
     prompt:
       card_expires_on:
         month: Month
@@ -387,7 +394,7 @@ en:
       monthly_price_in_yen_plus_tax: Montly price in yen plus tax
       next_billing: Your next auto-bill will occur on %{date}
       please_register_as_customer_before_become_premium: You must register your customer details before signing up for Premium service
-      renew: Renew
+      renew: Re-enable Premium automatic billing
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There are problem with your subscription. Please check your bank account balance and try to renew subscription.
       yearly: Yearly Plan
@@ -414,7 +421,7 @@ en:
       monthly: Monthly Plan
       next_billing: Your next auto-bill will occur on %{date}
       please_register_as_customer_before_become_pro: You must register your customer details before signing up for Professional service
-      renew: Renew
+      renew: Re-enable Pro automatic billing
       select_plan: Select Plan
       there_are_problem_with_your_subscription: There has been a problem with your subscription. Please check your card details and make sure your card can be billed.
       yearly: Yearly Plan

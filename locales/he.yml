@@ -325,7 +325,14 @@ he:
     last_name: שם משפחה
     name: 
     name_help: השם שלך כפי שהוא רשום על הכרטיס.
+    next_billing: 
+    next_billing_amount: 
+    next_billing_date: 
+    next_billing_foreign_amount: 
+    next_billing_period: 
     phone: מספר טלפון
+    premium_days_left: 
+    pro_days_left: 
     prompt:
       card_expires_on:
         month: חודש

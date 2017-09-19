@@ -332,7 +332,14 @@ ja:
     last_name: クレジットカード名義人：姓
     name: お名前
     name_help: クレジットカードの表示通りに入力して下さい。
+    next_billing: 次のお支払い
+    next_billing_amount: '次のお支払い金額: %{amount}'
+    next_billing_date: '次のご請求日: %{days}日'
+    next_billing_foreign_amount: '次のお支払い金額: %{currency} %{amount}'
+    next_billing_period: '次のご請求期間: +1(%{period})'
     phone: 電話番号
+    premium_days_left: 'プレミアムメンバーが有効な残り日数: %{days}日'
+    pro_days_left: 'プロメンバーが有効な残り日数: %{days}日'
     prompt:
       card_expires_on:
         month: 月
@@ -396,7 +403,7 @@ ja:
       monthly_price_in_yen_plus_tax: 税込み月額(円)
       next_billing: 次回の自動決済が%{date}に実行されます。
       please_register_as_customer_before_become_premium: プレミアムメンバー登録を行うには決済者情報の登録が必要です。
-      renew: プレミアムメンバープランを更新する
+      renew: プレミアムメンバー契約の自動更新
       select_plan: プランを選択してください
       there_are_problem_with_your_subscription: プレミアムメンバー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。
       yearly: 年額プラン
@@ -423,7 +430,7 @@ ja:
       monthly: 月額プラン
       next_billing: 次回の自動決済が%{date}に実行されます。
       please_register_as_customer_before_become_pro: プロメンバーのサービスを利用する前に、必ず決済者情報が登録されている事をご確認下さい。
-      renew: 更新
+      renew: プロメンバー契約の自動更新
       select_plan: プランを選択
       there_are_problem_with_your_subscription: プロメンバー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。
       yearly: 年額プラン

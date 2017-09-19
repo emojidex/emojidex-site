@@ -325,7 +325,14 @@ zh:
     last_name: 
     name: 
     name_help: 
+    next_billing: 
+    next_billing_amount: 
+    next_billing_date: 
+    next_billing_foreign_amount: 
+    next_billing_period: 
     phone: 
+    premium_days_left: 
+    pro_days_left: 
     prompt:
       card_expires_on:
         month: 
