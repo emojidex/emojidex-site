@@ -403,7 +403,7 @@ ja:
       monthly_price_in_yen_plus_tax: 税込み月額(円)
       next_billing: 次回の自動決済が%{date}に実行されます。
       please_register_as_customer_before_become_premium: プレミアムメンバー登録を行うには決済者情報の登録が必要です。
-      renew: プレミアムメンバー契約の自動更新
+      renew: プレミアムメンバー契約（自動更新）
       select_plan: プランを選択してください
       there_are_problem_with_your_subscription: プレミアムメンバー登録中に問題が生じました。クレジットカード情報を確認して、もう一度お試し下さい。
       yearly: 年額プラン
@@ -430,7 +430,7 @@ ja:
       monthly: 月額プラン
       next_billing: 次回の自動決済が%{date}に実行されます。
       please_register_as_customer_before_become_pro: プロメンバーのサービスを利用する前に、必ず決済者情報が登録されている事をご確認下さい。
-      renew: プロメンバー契約の自動更新
+      renew: プロメンバー契約（自動更新）
       select_plan: プランを選択
       there_are_problem_with_your_subscription: プロメンバー登録に問題が発生致しました。お支払いが可能かどうか、クレジットカード情報をご確認下さい。
       yearly: 年額プラン
