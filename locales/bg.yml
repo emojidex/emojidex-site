@@ -365,6 +365,7 @@ bg:
     business_name: Бизнес име.
     edit: Редактирай информация за регистрация
     name: Име
+    new: 
     singular: Информация за регистрация
     surname: Бащино име
   registrations:

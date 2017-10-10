@@ -355,6 +355,7 @@ en:
     business_name: Business or Trade Name
     edit: Edit Registration Info
     name: Name
+    new: Add new
     singular: Registration Info
     surname: Surname
   registrations:
