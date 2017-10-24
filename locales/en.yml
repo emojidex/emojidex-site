@@ -258,6 +258,7 @@ en:
       body: Your card has been charged for copyright purchase for %{emoji} emoji with %{price} yen
       subject: emojidex - Copyright purchase receipt
     emoji_purchase:
+      body: Your card has been charged for the %{emoji} emoji for the price of ￥%{price} JPY.
       subject: emojidex - Receipt for emoji Purchase
     link_purchase:
       body: Your card has been charged for copyright purchase for %{emoji} emoji with %{price} yen

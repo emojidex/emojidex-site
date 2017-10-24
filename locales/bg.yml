@@ -264,6 +264,7 @@ bg:
       body: Вашата карта е таксувана %{price} йени за покупка на авторско право за %{emoji}
       subject: emojidex - Разписка за поръчка на авторско право.
     emoji_purchase:
+      body: 
       subject: 
     link_purchase:
       body: Вашата карта е таксувана %{price} йени за покупка на връзка за %{emoji}

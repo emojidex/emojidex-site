@@ -258,6 +258,7 @@ he:
       body: הכרטיס שלך חוייב על קנית זכות יוצר בשביל %{emoji} אמוג'י עם %{price} יין
       subject: אמוג'ידקס - קבלת זוכיות יוצרים
     emoji_purchase:
+      body: 
       subject: 
     link_purchase:
       body: הכרטיס שלך חוייב על קנית קישור בשביל %{emoji} אמוג'י עם %{price} יין

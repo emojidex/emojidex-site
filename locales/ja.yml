@@ -265,6 +265,7 @@ ja:
       body: 絵文字「%{emoji}」の著作権購入費用として、「%{price}円」が、あなたのカードから支払われました。
       subject: emojidex - 著作権購入のお支払いについて
     emoji_purchase:
+      body: "「%{emoji}」絵文字購入(%{price}円)のカード決済が成功しました。"
       subject: emojidex - 絵文字の購入の領収書
     link_purchase:
       body: 絵文字「%{emoji}」のリンク購入費用として、「%{price}円」が、あなたのカードから支払われました。
