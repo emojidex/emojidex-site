@@ -268,7 +268,7 @@ en:
       subject: emojidex - Receipt for Lock Purchase
     premium_subscription:
       body: Your card has been charged for premium subscription with %{price} yen
-      subject: emojidex - Premium purchase receipt
+      subject: " emojidex - Premium purchase receipt"
     pro_subscription:
       body: Your card has been charged for pro subscription with %{price} yen
       subject: emojidex - Pro purchase receipt

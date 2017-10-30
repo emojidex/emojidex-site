@@ -262,29 +262,29 @@ ja:
     singular: この絵文字にロックをかける
   mailer:
     copyright_purchase:
-      body: 絵文字「%{emoji}」の著作権購入費用として、「%{price}円」が、あなたのカードから支払われました。
-      subject: emojidex - 著作権購入のお支払いについて
+      body: 絵文字「%{emoji}」の著作権購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      subject: emojidex - 著作権購入代金のご請求について
     emoji_purchase:
-      body: "「%{emoji}」絵文字購入(%{price}円)のカード決済が成功しました。"
-      subject: emojidex - 絵文字の購入の領収書
+      body: 絵文字「%{emoji}」の購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      subject: emojidex - 絵文字購入代金のご請求について
     link_purchase:
-      body: 絵文字「%{emoji}」のリンク購入費用として、「%{price}円」が、あなたのカードから支払われました。
-      subject: emojidex - リンク購入のお支払いについて
+      body: 絵文字「%{emoji}」のリンク購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      subject: emojidex - リンク購入代金のご請求について
     lock_purchase:
-      body: "「%{emoji}」絵文字ロックの購入(%{price}円)のカード決済が成功しました。"
-      subject: emojidex - ロック有効化の領収書
+      body: 絵文字「%{emoji}」のロック購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      subject: emojidex - ロック購入代金のご請求について
     premium_subscription:
-      body: あなたのカードから、プレミアムユーザーの料金「%{price}円」が支払われました。
-      subject: emojidex - プレミアムユーザー登録のお支払いについて
+      body: プレミアムユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
+      subject: emojidex - プレミアムユーザー料金のご請求について
     pro_subscription:
-      body: あなたのカードにプロ講読料として%{price}円が請求されています。
-      subject: emojidex - プロ講読料領収書
+      body: プロユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
+      subject: emojidex - プロユーザー料金のご請求について
     shared:
       receipt:
         label: レシート
         order_number: 注文番号
         price_without_tax: 税抜き価格
-        purchase_date: 支払日
+        purchase_date: 購入日
         tax: 税
         total: 合計
   modal:
