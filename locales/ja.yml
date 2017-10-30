@@ -279,6 +279,14 @@ ja:
     pro_subscription:
       body: あなたのカードにプロ講読料として%{price}円が請求されています。
       subject: emojidex - プロ講読料領収書
+    shared:
+      receipt:
+        label: レシート
+        order_number: 注文番号
+        price_without_tax: 税抜き価格
+        purchase_date: 支払日
+        tax: 税
+        total: 合計
   modal:
     cancel: キャンセル
     confirm_password: パスワードの確認

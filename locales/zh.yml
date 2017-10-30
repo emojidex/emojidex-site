@@ -272,6 +272,14 @@ zh:
     pro_subscription:
       body: 
       subject: 
+    shared:
+      receipt:
+        label: 
+        order_number: 
+        price_without_tax: 
+        purchase_date: 
+        tax: 
+        total: 
   modal:
     cancel: 
     confirm_password: 

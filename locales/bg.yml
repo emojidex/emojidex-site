@@ -278,6 +278,14 @@ bg:
     pro_subscription:
       body: 
       subject: 
+    shared:
+      receipt:
+        label: 
+        order_number: 
+        price_without_tax: 
+        purchase_date: 
+        tax: 
+        total: 
   modal:
     cancel: Откажи
     confirm_password: Потвърди паролата
