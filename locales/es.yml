@@ -273,6 +273,8 @@ es:
       body: 
       subject: 
     shared:
+      common:
+        dear: 
       receipt:
         label: 
         order_number: 

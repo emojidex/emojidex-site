@@ -273,6 +273,8 @@ en:
       body: Your card has been charged for pro subscription with %{price} yen
       subject: emojidex - Pro purchase receipt
     shared:
+      common:
+        dear: Dear %{name}
       receipt:
         label: Receipt
         order_number: Order number

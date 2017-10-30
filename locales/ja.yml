@@ -280,6 +280,8 @@ ja:
       body: プロユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
       subject: emojidex - プロユーザー料金のご請求について
     shared:
+      common:
+        dear: "%{name} 様"
       receipt:
         label: レシート
         order_number: 注文番号
