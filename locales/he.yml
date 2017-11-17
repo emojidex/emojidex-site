@@ -356,6 +356,9 @@ he:
     purchase_lock: 
     state: אזור מדינה
     zip: מיקוד
+  prices:
+    shared:
+      price_with_tax: 
   privacy_policy: מדיניות פרטיות
   recaptcha:
     errors:

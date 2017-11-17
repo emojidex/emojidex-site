@@ -363,6 +363,9 @@ ja:
     purchase_lock: この絵文字にロックをかける
     state: 都道府県
     zip: 郵便番号
+  prices:
+    shared:
+      price_with_tax: "（税込み %{price}）"
   privacy_policy: プライバシーポリシー
   recaptcha:
     errors:

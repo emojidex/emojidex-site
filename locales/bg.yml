@@ -364,6 +364,9 @@ bg:
     purchase_lock: 
     state: Област
     zip: Пощенски код
+  prices:
+    shared:
+      price_with_tax: 
   privacy_policy: 'Декларация за поверителност
 
 '

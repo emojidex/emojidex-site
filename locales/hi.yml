@@ -356,6 +356,9 @@ hi:
     purchase_lock: 
     state: 
     zip: 
+  prices:
+    shared:
+      price_with_tax: 
   privacy_policy: 
   recaptcha:
     errors:
