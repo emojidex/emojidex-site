@@ -163,6 +163,7 @@ en:
     drop_file_or_click_here: Drop image file or click here
     edit_tags: Edit %{emoji} tags
     edit_tags_help: You can add multiple tags by separating them with commas.
+    enable_copyright_flag: Enable Copyright Flag
     enable_link: Enable Link
     errors:
       empty_parenthesis: Code contains a set of parenthesis without contents. Parenthesis specify a variant and must contain a variant specifier.
@@ -177,6 +178,7 @@ en:
       attribution: Insert the name of the author(s), copyright holder(s), or rights holder(s) here. If you are the author/rights holder simply leave this field blank.
       can_not_change: This field can not be changed later.
       code: 'The code is the name of your emoji and how it will appear in plain text. It will appear as :registered code: in plain text. You can set your emoji to be a variation of another emoji by denoting how the emoji is different in parenthesis. For example "smile(wh)" and "smile(br)" are white and brown skin tones of the base "smile" emoji and will appear as variants in apps and on this site.'
+      enable_copyright_flag: Enable or Disable the Copyright Flag/Lock on this emoji. By disabling it you are allowing usage in commercial or closed source products or services without a separate license.
       image: Image
       r18: R-18 [Adult]
       tag: Tags
@@ -243,6 +245,23 @@ en:
     plural: Images
     singular: Image
   inline_install: Install Extension
+  integrations:
+    slack:
+      authorize:
+        authorize: Authorize
+        cancel: Cancel
+      command:
+        attachments_text: Please visit the link to authorize Slack to use your account.
+        attachments_title: Authorize with emojidex
+        text: Authorization required
+      confirm:
+        header: You authorized Slack to use your account
+        message_1: You can post all emoji from emojidex.com.
+        message_2: And you can post emoji from your favorites.
+        message_3: If you need more help, please type `/emojidex --help`.
+        notice: You already authorized slack to use your account for this team.
+      unauthorized:
+        header: Your token is not valid.
   interface:
     login: Login
     new_emoji_login_or_register: You must be signed in to register an emoji. Please sign in or register an account.

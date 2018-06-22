@@ -163,6 +163,7 @@ hi:
     drop_file_or_click_here: 
     edit_tags: 
     edit_tags_help: 
+    enable_copyright_flag: 
     enable_link: 
     errors:
       empty_parenthesis: 
@@ -177,6 +178,7 @@ hi:
       attribution: 
       can_not_change: 
       code: 
+      enable_copyright_flag: 
       image: 
       r18: 
       tag: 
@@ -243,6 +245,23 @@ hi:
     plural: 
     singular: 
   inline_install: 
+  integrations:
+    slack:
+      authorize:
+        authorize: 
+        cancel: 
+      command:
+        attachments_text: 
+        attachments_title: 
+        text: 
+      confirm:
+        header: 
+        message_1: 
+        message_2: 
+        message_3: 
+        notice: 
+      unauthorized:
+        header: 
   interface:
     login: 
     new_emoji_login_or_register: 

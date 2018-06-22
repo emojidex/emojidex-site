@@ -163,6 +163,7 @@ he:
     drop_file_or_click_here: הכנס תמונה כאן או תלחץ פה
     edit_tags: ערוך %{emoji} תיוגים
     edit_tags_help: אתה יכול להוסיף עוד תיוגים עם פסיק.
+    enable_copyright_flag: 
     enable_link: לאפשר קישור
     errors:
       empty_parenthesis: 'חסר לקוד תוכנן בתוך הסוגריים.סוגריים מסמן שוני וחייב תוכן.  '
@@ -177,6 +178,7 @@ he:
       attribution: הכנס שם הכותב, מחזיק זכיות יוצר, או מחזיק זכויות כאן. האם את\ה מחזיק זכויות תשאיר את זה ריק.
       can_not_change: לא יהיה אפשרי לשנות אחרי זה.
       code: 'הקוד זה שם של האמוג''י שלך ואיך זה יראה בטקסט רגיל. זה יראה כמו :קוד רשום: בטקסט רגיל. את\ה יכול לעדכן את האמוג''י להיות שונה מאמוג''י אחר עם אתה מוסיף מה שונה בו בסוגריים. למשל "חיוך(לבן)" וחיוך(חום) זה אומר שלבן וחום שיהיה הצבע מכוון לאמוג''י של חיוך וזה יראה בפינת שוני של אפלקציה של האתר.'
+      enable_copyright_flag: 
       image: תמונות
       r18: מעל גיל 18
       tag: תיוג
@@ -243,6 +245,23 @@ he:
     plural: תמונות
     singular: תמונה
   inline_install: התקנת הרווחה
+  integrations:
+    slack:
+      authorize:
+        authorize: 
+        cancel: 
+      command:
+        attachments_text: 
+        attachments_title: 
+        text: 
+      confirm:
+        header: 
+        message_1: 
+        message_2: 
+        message_3: 
+        notice: 
+      unauthorized:
+        header: 
   interface:
     login: התחבר
     new_emoji_login_or_register: חייב להיות רשום לאתר בשביל להוסיף אמוג'י. אנא כנס לחשבונך או הרשם לאתר.
