@@ -281,19 +281,19 @@ bg:
   mailer:
     copyright_purchase:
       body: Вашата карта е таксувана %{price} йени за покупка на авторско право за %{emoji}
-      subject: emojidex - Разписка за поръчка на авторско право.
+      subject: Разписка за поръчка на авторско право.
     emoji_purchase:
       body: 
       subject: 
     link_purchase:
       body: Вашата карта е таксувана %{price} йени за покупка на връзка за %{emoji}
-      subject: emojidex - Разписка за поръчка на връзка
+      subject: Разписка за поръчка на връзка
     lock_purchase:
       body: 
       subject: 
     premium_subscription:
       body: Вашата карта е таксувана %{price} йени за покупка на Премиум абонамент.
-      subject: emojidex - Разписка за Премиум абонамент
+      subject: Разписка за Премиум абонамент
     pro_subscription:
       body: 
       subject: 

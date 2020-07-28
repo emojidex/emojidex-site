@@ -282,22 +282,22 @@ ja:
   mailer:
     copyright_purchase:
       body: 絵文字「%{emoji}」の著作権購入代金として、「%{price}円」をあなたのカードへご請求致しました。
-      subject: emojidex - 著作権購入代金のご請求について
+      subject: 著作権購入代金のご請求について
     emoji_purchase:
       body: 絵文字「%{emoji}」の購入代金として、「%{price}円」をあなたのカードへご請求致しました。
-      subject: emojidex - 絵文字購入代金のご請求について
+      subject: 絵文字購入代金のご請求について
     link_purchase:
       body: 絵文字「%{emoji}」のリンク購入代金として、「%{price}円」をあなたのカードへご請求致しました。
-      subject: emojidex - リンク購入代金のご請求について
+      subject: リンク購入代金のご請求について
     lock_purchase:
       body: 絵文字「%{emoji}」のロック購入代金として、「%{price}円」をあなたのカードへご請求致しました。
-      subject: emojidex - ロック購入代金のご請求について
+      subject: ロック購入代金のご請求について
     premium_subscription:
       body: プレミアムユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
-      subject: emojidex - プレミアムユーザー料金のご請求について
+      subject: プレミアムユーザー料金のご請求について
     pro_subscription:
       body: プロユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
-      subject: emojidex - プロユーザー料金のご請求について
+      subject: プロユーザー料金のご請求について
     shared:
       common:
         dear: "%{name} 様"
@@ -497,7 +497,7 @@ ja:
     tags: '絵文字, 無料絵文字, スタンプ, 無料スタンプ, UTF絵文字, オリジナル絵文字, Android絵文字, 世界共通絵文字, 絵文字アプリ, Chrome絵文字, カスタム絵文字, 絵文字投稿
 
 '
-    title: emojidex - 絵文字デックス - カスタム絵文字サービスとアプリ
+    title: emojidex - カスタム絵文字サービスとアプリ
   sidebar:
     all: 全て
   sign_in: ログイン
@@ -524,7 +524,7 @@ ja:
       message: 印のついている項目は入力が必須です。
       text: 必須
     'yes': はい
-  singular: 
+  singular: "''"
   submit: 送信
   tag:
     plural: タグ

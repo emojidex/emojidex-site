@@ -275,19 +275,19 @@ he:
   mailer:
     copyright_purchase:
       body: הכרטיס שלך חוייב על קנית זכות יוצר בשביל %{emoji} אמוג'י עם %{price} יין
-      subject: אמוג'ידקס - קבלת זוכיות יוצרים
+      subject: קבלת זוכיות יוצרים
     emoji_purchase:
       body: 
       subject: 
     link_purchase:
       body: הכרטיס שלך חוייב על קנית קישור בשביל %{emoji} אמוג'י עם %{price} יין
-      subject: אמוג'ידקס - קבלת קישור
+      subject: קבלת קישור
     lock_purchase:
       body: 
       subject: 
     premium_subscription:
       body: הכרטיס שלך חוייב על הרשמת פרמיום עם %{price} יין
-      subject: 'אמוג''ידקס - קבלת הרשמת פרימיום '
+      subject: קבלת הרשמת פרימיום
     pro_subscription:
       body: 
       subject: 

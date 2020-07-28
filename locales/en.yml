@@ -275,22 +275,22 @@ en:
   mailer:
     copyright_purchase:
       body: Your card has been charged ￥%{price} Yen for a Copyright Lock on the %{emoji} emoji.
-      subject: emojidex - Receipt for Copyright Lock Purchase
+      subject: Receipt for Copyright Lock Purchase
     emoji_purchase:
       body: Your card has been charged ￥%{price} Yen for the purchase of the %{emoji} emoji.
-      subject: emojidex - Receipt for emoji Purchase
+      subject: Receipt for emoji Purchase
     link_purchase:
       body: Your card has been charged ￥%{price} Yen for to unlock the Link feature on the %{emoji} emoji.
-      subject: emojidex - Receipt for Link Purchase
+      subject: Receipt for Link Purchase
     lock_purchase:
       body: Your card has been charged ￥%{price} Yen for a Lock on the %{emoji} emoji.
-      subject: emojidex - Receipt for Lock Purchase
+      subject: Receipt for Lock Purchase
     premium_subscription:
       body: Your card has been charged ￥%{price} Yen for an emojidex Premium Subscription.
-      subject: emojidex - Receipt for Premium Account Purchase
+      subject: Receipt for Premium Account Purchase
     pro_subscription:
       body: Your card has been charged ￥%{price} Yen for an emojidex Pro Subscription.
-      subject: emojidex - Receipt for Pro Account Purchase
+      subject: Receipt for Pro Account Purchase
     shared:
       common:
         dear: Dear %{name}
@@ -521,7 +521,7 @@ en:
       message: Message
       text: required
     'yes': 'Yes'
-  singular: 
+  singular: "''"
   submit: Submit
   tag:
     plural: Tags
