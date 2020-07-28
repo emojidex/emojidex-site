@@ -281,22 +281,22 @@ ja:
     singular: この絵文字にロックをかける
   mailer:
     copyright_purchase:
-      body: 絵文字「%{emoji}」の著作権購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      body: 絵文字「%{emoji}」の著作権購入代金として「%{price}」をあなたのカードへご請求致しました。
       subject: 著作権購入代金のご請求について
     emoji_purchase:
-      body: 絵文字「%{emoji}」の購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      body: 絵文字「%{emoji}」の購入代金として「%{price}」をあなたのカードへご請求致しました。
       subject: 絵文字購入代金のご請求について
     link_purchase:
-      body: 絵文字「%{emoji}」のリンク購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      body: 絵文字「%{emoji}」のリンク購入代金として「%{price}」をあなたのカードへご請求致しました。
       subject: リンク購入代金のご請求について
     lock_purchase:
-      body: 絵文字「%{emoji}」のロック購入代金として、「%{price}円」をあなたのカードへご請求致しました。
+      body: 絵文字「%{emoji}」のロック購入代金として「%{price}」をあなたのカードへご請求致しました。
       subject: ロック購入代金のご請求について
     premium_subscription:
-      body: プレミアムユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
+      body: プレミアムユーザーの料金として「%{price}」をあなたのカードへご請求致しました。
       subject: プレミアムユーザー料金のご請求について
     pro_subscription:
-      body: プロユーザーの料金として「%{price}円」をあなたのカードへご請求致しました。
+      body: プロユーザーの料金として「%{price}」をあなたのカードへご請求致しました。
       subject: プロユーザー料金のご請求について
     shared:
       common:

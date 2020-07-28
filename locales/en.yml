@@ -274,22 +274,22 @@ en:
     singular: Lock this emoji
   mailer:
     copyright_purchase:
-      body: Your card has been charged ￥%{price} Yen for a Copyright Lock on the %{emoji} emoji.
+      body: Your card has been charged %{price} for a Copyright Lock on the %{emoji} emoji.
       subject: Receipt for Copyright Lock Purchase
     emoji_purchase:
-      body: Your card has been charged ￥%{price} Yen for the purchase of the %{emoji} emoji.
+      body: Your card has been charged %{price} for the purchase of the %{emoji} emoji.
       subject: Receipt for emoji Purchase
     link_purchase:
-      body: Your card has been charged ￥%{price} Yen for to unlock the Link feature on the %{emoji} emoji.
+      body: Your card has been charged %{price} for to unlock the Link feature on the %{emoji} emoji.
       subject: Receipt for Link Purchase
     lock_purchase:
-      body: Your card has been charged ￥%{price} Yen for a Lock on the %{emoji} emoji.
+      body: Your card has been charged %{price} for a Lock on the %{emoji} emoji.
       subject: Receipt for Lock Purchase
     premium_subscription:
-      body: Your card has been charged ￥%{price} Yen for an emojidex Premium Subscription.
+      body: Your card has been charged %{price} for an emojidex Premium Subscription.
       subject: Receipt for Premium Account Purchase
     pro_subscription:
-      body: Your card has been charged ￥%{price} Yen for an emojidex Pro Subscription.
+      body: Your card has been charged %{price} for an emojidex Pro Subscription.
       subject: Receipt for Pro Account Purchase
     shared:
       common:

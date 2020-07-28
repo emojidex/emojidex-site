@@ -274,19 +274,19 @@ he:
     singular: 
   mailer:
     copyright_purchase:
-      body: הכרטיס שלך חוייב על קנית זכות יוצר בשביל %{emoji} אמוג'י עם %{price} יין
+      body: הכרטיס שלך חוייב על קנית זכות יוצר בשביל %{emoji} אמוג'י עם %{price}
       subject: קבלת זוכיות יוצרים
     emoji_purchase:
       body: 
       subject: 
     link_purchase:
-      body: הכרטיס שלך חוייב על קנית קישור בשביל %{emoji} אמוג'י עם %{price} יין
+      body: הכרטיס שלך חוייב על קנית קישור בשביל %{emoji} אמוג'י עם %{price}
       subject: קבלת קישור
     lock_purchase:
       body: 
       subject: 
     premium_subscription:
-      body: הכרטיס שלך חוייב על הרשמת פרמיום עם %{price} יין
+      body: הכרטיס שלך חוייב על הרשמת פרמיום עם %{price}
       subject: קבלת הרשמת פרימיום
     pro_subscription:
       body: 

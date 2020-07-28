@@ -280,19 +280,19 @@ bg:
     singular: 
   mailer:
     copyright_purchase:
-      body: Вашата карта е таксувана %{price} йени за покупка на авторско право за %{emoji}
+      body: Вашата карта е таксувана %{price} за покупка на авторско право за %{emoji}
       subject: Разписка за поръчка на авторско право.
     emoji_purchase:
       body: 
       subject: 
     link_purchase:
-      body: Вашата карта е таксувана %{price} йени за покупка на връзка за %{emoji}
+      body: Вашата карта е таксувана %{price} за покупка на връзка за %{emoji}
       subject: Разписка за поръчка на връзка
     lock_purchase:
       body: 
       subject: 
     premium_subscription:
-      body: Вашата карта е таксувана %{price} йени за покупка на Премиум абонамент.
+      body: Вашата карта е таксувана %{price} за покупка на Премиум абонамент.
       subject: Разписка за Премиум абонамент
     pro_subscription:
       body: 
